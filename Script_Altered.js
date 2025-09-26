@@ -8,10 +8,10 @@ async function modifyJsonFile(inputFilePath, outputFilePath, result, isLast) {
 
         jsonObject.forEach((c) => {
             const cardId = c.reference;
-            const cardType = c.cardType.reference;
+            const cardType = c.cardType.name
             const image = c.imagePath
             const cost = Number(c.elements.MAIN_COST.replace(/\D/g, ""));
-            let cardName = c.name;
+            const cardName = c.name;
 
             let newCard = {
                 id: cardId,
@@ -25,7 +25,8 @@ async function modifyJsonFile(inputFilePath, outputFilePath, result, isLast) {
                 },
                 name: cardName,
                 type: cardType,
-                cost: cost
+                cost: cost,
+                isToken: c.cardType.reference === "TOKEN"
             };
 
             result[cardId] = newCard;
