@@ -1,0 +1,61 @@
+const fs = require('fs').promises;
+
+// Fonction pour lire et modifier le fichier JSON
+async function modifyJsonFile(inputFilePath, outputFilePath, result, isLast) {
+    try {
+        const data = await fs.readFile("Sets/" + inputFilePath, 'utf8');
+        const jsonObject = JSON.parse(data);
+
+        jsonObject.forEach((c) => {
+            const cardId = c.reference;
+            const cardType = c.cardType.reference;
+            const image = c.imagePath
+            const cost = Number(c.elements.MAIN_COST.replace(/\D/g, ""));
+            let cardName = c.name;
+
+            let newCard = {
+                id: cardId,
+                face: {
+                    front: {
+                        name: cardName,
+                        type: cardType,
+                        cost: cost,
+                        image: image
+                    }
+                },
+                name: cardName,
+                type: cardType,
+                cost: cost
+            };
+
+            result[cardId] = newCard;
+        });
+
+        console.log("File now has " + Object.keys(result).length + " cards");
+
+        if (isLast) {
+            await fs.writeFile(outputFilePath, JSON.stringify(result, null, 2), 'utf8');
+            console.log('✅ Le fichier JSON final a été sauvegardé sous', outputFilePath);
+            console.log("Cards total: " + Object.keys(result).length);
+        }
+    } catch (err) {
+        console.error("Erreur :", err);
+    }
+}
+
+async function run() {
+    const outputFilePath = 'AlteredCards.json';
+
+    // Add tokens manually as they are not in the .json
+    let res = {}
+
+    const files = ["CORE_EN.json", "BISE_EN.json", "ALIZE_EN.json", "CYCLONE_EN.json"];
+
+    // Exécution séquentielle
+    for (let i = 0; i < files.length; i++) {
+        const isLast = i === files.length - 1;
+        await modifyJsonFile(files[i], outputFilePath, res, isLast);
+    }
+}
+
+run();
