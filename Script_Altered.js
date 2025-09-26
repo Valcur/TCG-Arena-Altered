@@ -26,7 +26,14 @@ async function modifyJsonFile(inputFilePath, outputFilePath, result, isLast) {
                 name: cardName,
                 type: cardType,
                 cost: cost,
-                isToken: c.cardType.reference === "TOKEN"
+                isToken: c.cardType.reference === "TOKEN",
+                faction: c.mainFaction.name,
+                rarity: c.rarity.name,
+                "Main Cost": c.elements.MAIN_COST ? Number(c.elements.MAIN_COST.replace(/\D/g, "")) : undefined,
+                "Recall Cost": c.elements.RECALL_COST ? Number(c.elements.RECALL_COST.replace(/\D/g, "")) : undefined,
+                "Ocean Power": c.elements.OCEAN_POWER ? Number(c.elements.OCEAN_POWER.replace(/\D/g, "")) : undefined,
+                "Forest Power": c.elements.FOREST_POWER ? Number(c.elements.FOREST_POWER.replace(/\D/g, "")) : undefined,
+                "Mountain Power": c.elements.MOUNTAIN_POWER ? Number(c.elements.MOUNTAIN_POWER.replace(/\D/g, "")) : undefined,
             };
 
             result[cardId] = newCard;
