@@ -11,7 +11,7 @@ async function modifyJsonFile(inputFilePath, outputFilePath, result, isLast) {
             const cardType = c.cardType.name
             const image = c.imagePath
             const cost = Number(c.elements.MAIN_COST.replace(/\D/g, ""));
-            const cardName = c.name;
+            const cardName = c.name + (c.rarity.reference === "RARE" ? " " + c.mainFaction.reference : "");
 
             let newCard = {
                 id: cardId,
