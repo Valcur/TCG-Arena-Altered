@@ -1,0 +1,206 @@
+{
+  "name": "Altered",
+  "menuBackgroundImage": "https://valcur.github.io/TCG-Arena-Altered/Images/background.jpeg",
+  "deckBuilding": {
+      "mainFilters": [
+          "type",
+          "faction",
+          "rarity"
+      ],
+      "formats": [
+          {
+              "title": "Classic",
+              "gameplay": "Classic"
+          }
+      ]
+  },
+  "gameplay": {
+      "Classic": {
+          "mulligan": {
+              "startingHandSize": 6
+          },
+          "newTurn": {
+              "drawOnStart": false,
+              "sharedTurn": true,
+              "firstPlayerTokenName": "First player",
+              "drawPerTurn": 2
+          },
+          "tokens": [
+              {
+                  "name": "First player",
+                  "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/first-player.png",
+                  "isUnique": true,
+                  "leavesAtEndOfTurn": false
+              }
+          ],
+          "countersStartingValues": [0],
+          "draggableTokens": [
+              {
+                  id: "Anchored",
+                  name: "Anchored",
+                  image: "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/anchored.png"
+              },
+              {
+                  id: "Asleep",
+                  name: "Asleep",
+                  image: "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/asleep.png"
+              },
+              {
+                  id: "Fleeting",
+                  name: "Fleeting",
+                  image: "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/fleeting.png"
+              },
+          ],
+          "sections": {
+              "customSections": [
+                  "Hero",
+                  "HeroExpedition",
+                  "CompanionExpedition",
+                  "Mana",
+                  "Reserve",
+                  "Landmark"
+              ],
+              "layout": {
+                  "direction": "column",
+                  "content": [
+                      {
+                          "direction": "row",
+                          "isSymetricalForOpponents": true,
+                          "content": [
+                              {
+                                  "section": "HeroExpedition",
+                                  "style": {
+                                      "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
+                                  }
+                              },
+                              {
+                                  "section": "Hero",
+                                  "style": {
+                                      "width": "14vh",
+                                      "marginRight": "2vh",
+                                      "marginLeft": "2vh",
+                                      "background": "no-repeat url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/HeroBackground.png')",
+                                      "backgroundSize": "98% 98%",
+                                      "backgroundPosition": "center",
+                                      "marginTop": "auto",
+                                      "marginBottom": "auto"
+                                  }
+                              },
+                              {
+                                  "section": "CompanionExpedition",
+                                  "style": {
+                                      "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "direction": "row",
+                          "isSymetricalForOpponents": true,
+                          "content": [
+                              {
+                                  "section": "Mana"
+                              },
+                              {
+                                  "section": "Reserve",
+                                  "style": {
+                                      "width": "50vh",
+                                      "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
+                                  }
+                              },
+                              {
+                                  "section": "Landmark",
+                                  "style": {
+                                      "width": "30vh",
+                                      "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
+                                  }
+                              }
+                          ]
+                      }
+                  ]
+              },
+              "categoriesAlreadyOnBoard": ["Hero"],
+              "autoPlayFromHand": {
+                  "Mana": "Mana",
+                  "Landmark Permanent": "Landmark",
+              },
+              "autoPlayFromStack": {
+                  "Mana": "Mana",
+                  "Landmark Permanent": "Landmark",
+                  "Spell": "Discard",
+              },
+              "sectionsDict": {
+                  "Hero": {
+                      "title": "Hero",
+                      "isHidden": "no",
+                      "height": "18",
+                      "alignment": "CENTER",
+                      "isHorizontalAllowed": true,
+                      "noQuickActions": true
+                  },
+                  "HeroExpedition": {
+                      "title": "HeroExpedition",
+                      "isHidden": "no",
+                      "height": "MEDIUM",
+                      "alignment": "CENTER",
+                      "isHorizontalAllowed": true,
+                      "displayedTitle": "Hero Expedition"
+                  },
+                  "CompanionExpedition": {
+                      "title": "CompanionExpedition",
+                      "isHidden": "no",
+                      "height": "MEDIUM",
+                      "alignment": "CENTER",
+                      "isHorizontalAllowed": true,
+                      "displayedTitle": "Companion Expedition"
+                  },
+                  "Mana": {
+                      "title": "Mana",
+                      "isHidden": "yes",
+                      "height": "SMALL",
+                      "alignment": "START",
+                      "opponentAlignment": "END",
+                      "noAutoPayTo": "true"
+                  },
+                  "Reserve": {
+                      "title": "Reserve",
+                      "isHidden": "no",
+                      "height": "SMALL",
+                      "alignment": "CENTER",
+                      "isHorizontalAllowed": true,
+                      "cardActionShortcut": {
+                          "action": "MOVE",
+                          "actionData": {
+                              "destination": "Discard"
+                          },
+                          "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/support.png"
+                      }
+                  },
+                  "Landmark": {
+                      "title": "Landmark",
+                      "isHidden": "no",
+                      "height": "SMALL",
+                      "alignment": "START",
+                      "isHorizontalAllowed": true
+                  }
+              }
+          }
+      }
+  },
+  "defaultRessources": {
+      "backgrounds": [
+          "https://valcur.github.io/TCG-Arena-Altered/Images/Playmats/playmat-1.jpeg",
+          "https://valcur.github.io/TCG-Arena-Altered/Images/Playmats/playmat-2.jpeg",
+          "https://valcur.github.io/TCG-Arena-Altered/Images/Playmats/playmat-10.jpeg",
+          "https://valcur.github.io/TCG-Arena-Altered/Images/Playmats/playmat-11.jpeg",
+          "https://valcur.github.io/TCG-Arena-Altered/Images/Playmats/playmat-12.jpeg"
+      ],
+      "decksUrl": "https://valcur.github.io/TCG-Arena-Lorcana/LorcanaDecks.json"
+  },
+  "customHelp": "To manage the tumulte, open https://exalts-table.com/tumulte and join each other there.\n\nYou can grab the first player token in the bottom left by clicing the + button (it is automatically given to the first player when the game starts).",
+  "cards": {
+      "dataUrl": "https://valcur.github.io/TCG-Arena-Altered/AlteredCards.json",
+      "cardBack": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/card-back.png",
+      "cardBackColor": "#c8bdb3"
+  }
+} 
