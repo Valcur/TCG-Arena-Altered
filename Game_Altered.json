@@ -36,20 +36,20 @@
           "countersStartingValues": [0],
           "draggableTokens": [
               {
-                  id: "Anchored",
-                  name: "Anchored",
-                  image: "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/anchored.png"
+                  "id": "Anchored",
+                  "name": "Anchored",
+                  "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/anchored.png"
               },
               {
-                  id: "Asleep",
-                  name: "Asleep",
-                  image: "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/asleep.png"
+                  "id": "Asleep",
+                  "name": "Asleep",
+                  "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/asleep.png"
               },
               {
-                  id: "Fleeting",
-                  name: "Fleeting",
-                  image: "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/fleeting.png"
-              },
+                  "id": "Fleeting",
+                  "name": "Fleeting",
+                  "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/fleeting.png"
+              }
           ],
           "sections": {
               "customSections": [
@@ -122,12 +122,12 @@
               "categoriesAlreadyOnBoard": ["Hero"],
               "autoPlayFromHand": {
                   "Mana": "Mana",
-                  "Landmark Permanent": "Landmark",
+                  "Landmark Permanent": "Landmark"
               },
               "autoPlayFromStack": {
                   "Mana": "Mana",
                   "Landmark Permanent": "Landmark",
-                  "Spell": "Discard",
+                  "Spell": "Discard"
               },
               "sectionsDict": {
                   "Hero": {
