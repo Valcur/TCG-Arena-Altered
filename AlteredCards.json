@@ -95,7 +95,10 @@
     "faction": "Axiom",
     "rarity": "Common",
     "Main Cost": 0,
-    "Recall Cost": 0
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CORE_B_AX_02_C": {
     "id": "ALT_CORE_B_AX_02_C",
@@ -133,7 +136,10 @@
     "faction": "Axiom",
     "rarity": "Common",
     "Main Cost": 0,
-    "Recall Cost": 0
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CORE_B_AX_04_C": {
     "id": "ALT_CORE_B_AX_04_C",
@@ -265,7 +271,10 @@
     "Recall Cost": 2,
     "Ocean Power": 1,
     "Forest Power": 2,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CORE_B_AX_07_C": {
     "id": "ALT_CORE_B_AX_07_C",
@@ -683,7 +692,10 @@
     "Recall Cost": 3,
     "Ocean Power": 2,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CORE_B_AX_16_R1": {
     "id": "ALT_CORE_B_AX_16_R1",
@@ -705,7 +717,10 @@
     "Recall Cost": 3,
     "Ocean Power": 2,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CORE_B_AX_17_C": {
     "id": "ALT_CORE_B_AX_17_C",
@@ -989,7 +1004,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 4,
-    "Recall Cost": 4
+    "Recall Cost": 4,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CORE_B_AX_24_C": {
     "id": "ALT_CORE_B_AX_24_C",
@@ -1008,7 +1026,10 @@
     "faction": "Axiom",
     "rarity": "Common",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CORE_B_AX_24_R1": {
     "id": "ALT_CORE_B_AX_24_R1",
@@ -1027,7 +1048,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CORE_B_AX_25_C": {
     "id": "ALT_CORE_B_AX_25_C",
@@ -1236,7 +1260,10 @@
     "faction": "Axiom",
     "rarity": "Common",
     "Main Cost": 5,
-    "Recall Cost": 5
+    "Recall Cost": 5,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CORE_B_AX_30_R1": {
     "id": "ALT_CORE_B_AX_30_R1",
@@ -1255,7 +1282,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 6,
-    "Recall Cost": 6
+    "Recall Cost": 6,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CORE_B_AX_31_C": {
     "id": "ALT_CORE_B_AX_31_C",
@@ -1708,7 +1738,10 @@
     "Recall Cost": 5,
     "Ocean Power": 3,
     "Forest Power": 3,
-    "Mountain Power": 3
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CORE_B_OR_24_R2": {
     "id": "ALT_CORE_B_OR_24_R2",
@@ -1765,7 +1798,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 4,
-    "Recall Cost": 5
+    "Recall Cost": 5,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CORE_B_YZ_05_R2": {
     "id": "ALT_CORE_B_YZ_05_R2",
@@ -1869,7 +1905,10 @@
     "faction": "Axiom",
     "rarity": "Common",
     "Main Cost": 0,
-    "Recall Cost": 0
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CORE_P_AX_02_C": {
     "id": "ALT_CORE_P_AX_02_C",
@@ -1907,7 +1946,10 @@
     "faction": "Axiom",
     "rarity": "Common",
     "Main Cost": 0,
-    "Recall Cost": 0
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CORE_A_BR_26_C": {
     "id": "ALT_CORE_A_BR_26_C",
@@ -2033,7 +2075,10 @@
     "Recall Cost": 3,
     "Ocean Power": 2,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CORE_B_AX_26_R2": {
     "id": "ALT_CORE_B_AX_26_R2",
@@ -2090,7 +2135,10 @@
     "faction": "Bravos",
     "rarity": "Common",
     "Main Cost": 0,
-    "Recall Cost": 0
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CORE_A_BR_31_C"
+    ]
   },
   "ALT_CORE_B_BR_02_C": {
     "id": "ALT_CORE_B_BR_02_C",
@@ -3683,7 +3731,10 @@
     "Recall Cost": 2,
     "Ocean Power": 2,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_YZ_06_R2": {
     "id": "ALT_CORE_B_YZ_06_R2",
@@ -3790,7 +3841,10 @@
     "faction": "Bravos",
     "rarity": "Common",
     "Main Cost": 0,
-    "Recall Cost": 0
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CORE_A_BR_31_C"
+    ]
   },
   "ALT_CORE_P_BR_02_C": {
     "id": "ALT_CORE_P_BR_02_C",
@@ -7527,7 +7581,10 @@
     "Recall Cost": 3,
     "Ocean Power": 3,
     "Forest Power": 3,
-    "Mountain Power": 3
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_23_R2": {
     "id": "ALT_CORE_B_OR_23_R2",
@@ -7637,7 +7694,7 @@
     "name": "Mana Convergence",
     "type": "Mana",
     "cost": 0,
-    "isToken": false,
+    "isToken": true,
     "faction": "Neutral",
     "rarity": "Common",
     "Main Cost": 0,
@@ -7679,7 +7736,10 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_A_OR_31_C": {
     "id": "ALT_CORE_A_OR_31_C",
@@ -7849,7 +7909,10 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CORE_B_AX_27_R2": {
     "id": "ALT_CORE_B_AX_27_R2",
@@ -7909,7 +7972,10 @@
     "Recall Cost": 3,
     "Ocean Power": 1,
     "Forest Power": 1,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_BR_09_R2": {
     "id": "ALT_CORE_B_BR_09_R2",
@@ -7931,7 +7997,10 @@
     "Recall Cost": 4,
     "Ocean Power": 1,
     "Forest Power": 3,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_BR_17_R2": {
     "id": "ALT_CORE_B_BR_17_R2",
@@ -8098,7 +8167,10 @@
     "faction": "Ordis",
     "rarity": "Common",
     "Main Cost": 0,
-    "Recall Cost": 0
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_02_C": {
     "id": "ALT_CORE_B_OR_02_C",
@@ -8246,7 +8318,10 @@
     "Recall Cost": 2,
     "Ocean Power": 0,
     "Forest Power": 1,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_06_R1": {
     "id": "ALT_CORE_B_OR_06_R1",
@@ -8268,7 +8343,10 @@
     "Recall Cost": 2,
     "Ocean Power": 1,
     "Forest Power": 1,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_07_C": {
     "id": "ALT_CORE_B_OR_07_C",
@@ -8554,7 +8632,10 @@
     "Recall Cost": 3,
     "Ocean Power": 1,
     "Forest Power": 1,
-    "Mountain Power": 3
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_13_R1": {
     "id": "ALT_CORE_B_OR_13_R1",
@@ -8576,7 +8657,10 @@
     "Recall Cost": 3,
     "Ocean Power": 1,
     "Forest Power": 1,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_14_C": {
     "id": "ALT_CORE_B_OR_14_C",
@@ -8620,7 +8704,10 @@
     "Recall Cost": 2,
     "Ocean Power": 2,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_15_C": {
     "id": "ALT_CORE_B_OR_15_C",
@@ -8730,7 +8817,10 @@
     "Recall Cost": 4,
     "Ocean Power": 2,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_17_R1": {
     "id": "ALT_CORE_B_OR_17_R1",
@@ -8752,7 +8842,10 @@
     "Recall Cost": 5,
     "Ocean Power": 2,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_18_C": {
     "id": "ALT_CORE_B_OR_18_C",
@@ -8774,7 +8867,10 @@
     "Recall Cost": 4,
     "Ocean Power": 4,
     "Forest Power": 4,
-    "Mountain Power": 4
+    "Mountain Power": 4,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_18_R1": {
     "id": "ALT_CORE_B_OR_18_R1",
@@ -8796,7 +8892,10 @@
     "Recall Cost": 3,
     "Ocean Power": 3,
     "Forest Power": 3,
-    "Mountain Power": 3
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_19_C": {
     "id": "ALT_CORE_B_OR_19_C",
@@ -8950,7 +9049,10 @@
     "Recall Cost": 3,
     "Ocean Power": 2,
     "Forest Power": 3,
-    "Mountain Power": 3
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_22_R1": {
     "id": "ALT_CORE_B_OR_22_R1",
@@ -8972,7 +9074,10 @@
     "Recall Cost": 3,
     "Ocean Power": 2,
     "Forest Power": 3,
-    "Mountain Power": 3
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_23_C": {
     "id": "ALT_CORE_B_OR_23_C",
@@ -9048,7 +9153,10 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_25_C": {
     "id": "ALT_CORE_B_OR_25_C",
@@ -9105,7 +9213,10 @@
     "faction": "Ordis",
     "rarity": "Common",
     "Main Cost": 5,
-    "Recall Cost": 6
+    "Recall Cost": 6,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_26_R1": {
     "id": "ALT_CORE_B_OR_26_R1",
@@ -9124,7 +9235,10 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 5,
-    "Recall Cost": 5
+    "Recall Cost": 5,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_27_C": {
     "id": "ALT_CORE_B_OR_27_C",
@@ -9257,7 +9371,10 @@
     "faction": "Ordis",
     "rarity": "Common",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_30_R1": {
     "id": "ALT_CORE_B_OR_30_R1",
@@ -9276,7 +9393,10 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 5,
-    "Recall Cost": 5
+    "Recall Cost": 5,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_31_C": {
     "id": "ALT_CORE_B_OR_31_C",
@@ -9522,7 +9642,10 @@
     "faction": "Ordis",
     "rarity": "Common",
     "Main Cost": 0,
-    "Recall Cost": 0
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_P_OR_02_C": {
     "id": "ALT_CORE_P_OR_02_C",
@@ -9699,7 +9822,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 5,
-    "Recall Cost": 5
+    "Recall Cost": 5,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CORE_B_BR_10_R2": {
     "id": "ALT_CORE_B_BR_10_R2",
@@ -10014,7 +10140,10 @@
     "Recall Cost": 2,
     "Ocean Power": 0,
     "Forest Power": 1,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_08_R2": {
     "id": "ALT_CORE_B_OR_08_R2",
@@ -10146,7 +10275,10 @@
     "Recall Cost": 3,
     "Ocean Power": 2,
     "Forest Power": 3,
-    "Mountain Power": 3
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_OR_27_R2": {
     "id": "ALT_CORE_B_OR_27_R2",
@@ -10203,7 +10335,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_CORE_B_YZ_01_C": {
     "id": "ALT_CORE_B_YZ_01_C",
@@ -10241,7 +10376,10 @@
     "faction": "Yzmir",
     "rarity": "Common",
     "Main Cost": 0,
-    "Recall Cost": 0
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CORE_A_YZ_31_C"
+    ]
   },
   "ALT_CORE_B_YZ_04_C": {
     "id": "ALT_CORE_B_YZ_04_C",
@@ -11417,7 +11555,10 @@
     "faction": "Yzmir",
     "rarity": "Common",
     "Main Cost": 0,
-    "Recall Cost": 0
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CORE_A_YZ_31_C"
+    ]
   },
   "ALT_CORE_B_YZ_03_C": {
     "id": "ALT_CORE_B_YZ_03_C",
@@ -11537,7 +11678,10 @@
     "faction": "Axiom",
     "rarity": "Common",
     "Main Cost": 0,
-    "Recall Cost": 0
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_BISE_B_AX_31_C": {
     "id": "ALT_BISE_B_AX_31_C",
@@ -11757,7 +11901,10 @@
     "Recall Cost": 2,
     "Ocean Power": 2,
     "Forest Power": 1,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_BISE_B_AX_53_R1": {
     "id": "ALT_BISE_B_AX_53_R1",
@@ -11779,7 +11926,10 @@
     "Recall Cost": 2,
     "Ocean Power": 2,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_BISE_B_AX_54_C": {
     "id": "ALT_BISE_B_AX_54_C",
@@ -11974,7 +12124,10 @@
     "faction": "Axiom",
     "rarity": "Common",
     "Main Cost": 1,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_BISE_B_AX_58_R1": {
     "id": "ALT_BISE_B_AX_58_R1",
@@ -11993,7 +12146,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 1,
-    "Recall Cost": 1
+    "Recall Cost": 1,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_BISE_B_AX_59_C": {
     "id": "ALT_BISE_B_AX_59_C",
@@ -12126,7 +12282,10 @@
     "faction": "Axiom",
     "rarity": "Common",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_BISE_B_AX_62_R1": {
     "id": "ALT_BISE_B_AX_62_R1",
@@ -12145,7 +12304,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_BISE_B_AX_63_C": {
     "id": "ALT_BISE_B_AX_63_C",
@@ -12378,7 +12540,10 @@
     "Recall Cost": 3,
     "Ocean Power": 2,
     "Forest Power": 1,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_BISE_B_OR_54_R2": {
     "id": "ALT_BISE_B_OR_54_R2",
@@ -12400,7 +12565,10 @@
     "Recall Cost": 3,
     "Ocean Power": 3,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_BISE_B_OR_62_R2": {
     "id": "ALT_BISE_B_OR_62_R2",
@@ -12419,7 +12587,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 5,
-    "Recall Cost": 5
+    "Recall Cost": 5,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_BISE_B_YZ_51_R2": {
     "id": "ALT_BISE_B_YZ_51_R2",
@@ -12501,7 +12672,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_BISE_A_BR_58_C": {
     "id": "ALT_BISE_A_BR_58_C",
@@ -12611,7 +12785,10 @@
     "Recall Cost": 2,
     "Ocean Power": 2,
     "Forest Power": 1,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_BISE_B_AX_55_R2": {
     "id": "ALT_BISE_B_AX_55_R2",
@@ -14631,7 +14808,10 @@
     "faction": "Lyra",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_BISE_A_BR_58_R2": {
     "id": "ALT_BISE_A_BR_58_R2",
@@ -15761,7 +15941,7 @@
     "name": "Mana Convergence",
     "type": "Mana",
     "cost": 0,
-    "isToken": false,
+    "isToken": true,
     "faction": "Neutral",
     "rarity": "Common",
     "Main Cost": 0,
@@ -15894,7 +16074,10 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 1,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_BISE_B_AX_59_R2": {
     "id": "ALT_BISE_B_AX_59_R2",
@@ -15932,7 +16115,10 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_BISE_B_LY_62_R2": {
     "id": "ALT_BISE_B_LY_62_R2",
@@ -16206,7 +16392,10 @@
     "Recall Cost": 2,
     "Ocean Power": 1,
     "Forest Power": 1,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_BISE_B_OR_51_R1": {
     "id": "ALT_BISE_B_OR_51_R1",
@@ -16228,7 +16417,10 @@
     "Recall Cost": 2,
     "Ocean Power": 1,
     "Forest Power": 1,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_BISE_B_OR_52_C": {
     "id": "ALT_BISE_B_OR_52_C",
@@ -16294,7 +16486,10 @@
     "Recall Cost": 4,
     "Ocean Power": 3,
     "Forest Power": 3,
-    "Mountain Power": 3
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_BISE_B_OR_53_R1": {
     "id": "ALT_BISE_B_OR_53_R1",
@@ -16316,7 +16511,10 @@
     "Recall Cost": 4,
     "Ocean Power": 3,
     "Forest Power": 3,
-    "Mountain Power": 3
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_BISE_B_OR_54_C": {
     "id": "ALT_BISE_B_OR_54_C",
@@ -16338,7 +16536,10 @@
     "Recall Cost": 3,
     "Ocean Power": 3,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_BISE_B_OR_54_R1": {
     "id": "ALT_BISE_B_OR_54_R1",
@@ -16360,7 +16561,10 @@
     "Recall Cost": 3,
     "Ocean Power": 1,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_BISE_B_OR_55_C": {
     "id": "ALT_BISE_B_OR_55_C",
@@ -16593,7 +16797,10 @@
     "faction": "Ordis",
     "rarity": "Common",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_BISE_B_OR_60_R1": {
     "id": "ALT_BISE_B_OR_60_R1",
@@ -16612,7 +16819,10 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_BISE_B_OR_61_C": {
     "id": "ALT_BISE_B_OR_61_C",
@@ -16669,7 +16879,10 @@
     "faction": "Ordis",
     "rarity": "Common",
     "Main Cost": 4,
-    "Recall Cost": 4
+    "Recall Cost": 4,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_BISE_B_OR_62_R1": {
     "id": "ALT_BISE_B_OR_62_R1",
@@ -16688,7 +16901,10 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 4,
-    "Recall Cost": 4
+    "Recall Cost": 4,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_BISE_B_OR_63_C": {
     "id": "ALT_BISE_B_OR_63_C",
@@ -16792,7 +17008,10 @@
     "Recall Cost": 2,
     "Ocean Power": 2,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_BISE_B_YZ_61_R2": {
     "id": "ALT_BISE_B_YZ_61_R2",
@@ -16811,7 +17030,10 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 5
+    "Recall Cost": 5,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_BISE_A_AX_56_R2": {
     "id": "ALT_BISE_A_AX_56_R2",
@@ -17110,7 +17332,10 @@
     "Recall Cost": 4,
     "Ocean Power": 3,
     "Forest Power": 3,
-    "Mountain Power": 3
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_BISE_B_OR_55_R2": {
     "id": "ALT_BISE_B_OR_55_R2",
@@ -17170,7 +17395,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_BISE_B_OR_61_R2": {
     "id": "ALT_BISE_B_OR_61_R2",
@@ -17680,7 +17908,10 @@
     "Recall Cost": 2,
     "Ocean Power": 2,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_BISE_B_YZ_59_R1": {
     "id": "ALT_BISE_B_YZ_59_R1",
@@ -17702,7 +17933,10 @@
     "Recall Cost": 1,
     "Ocean Power": 1,
     "Forest Power": 1,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_BISE_B_YZ_60_C": {
     "id": "ALT_BISE_B_YZ_60_C",
@@ -17721,7 +17955,10 @@
     "faction": "Yzmir",
     "rarity": "Common",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_BISE_B_YZ_60_R1": {
     "id": "ALT_BISE_B_YZ_60_R1",
@@ -17740,7 +17977,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_BISE_B_YZ_61_C": {
     "id": "ALT_BISE_B_YZ_61_C",
@@ -17759,7 +17999,10 @@
     "faction": "Yzmir",
     "rarity": "Common",
     "Main Cost": 3,
-    "Recall Cost": 5
+    "Recall Cost": 5,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_BISE_B_YZ_61_R1": {
     "id": "ALT_BISE_B_YZ_61_R1",
@@ -17778,7 +18021,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 6
+    "Recall Cost": 6,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_BISE_B_YZ_62_C": {
     "id": "ALT_BISE_B_YZ_62_C",
@@ -17797,7 +18043,10 @@
     "faction": "Yzmir",
     "rarity": "Common",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_BISE_B_YZ_62_R1": {
     "id": "ALT_BISE_B_YZ_62_R1",
@@ -17816,7 +18065,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_BISE_B_YZ_63_C": {
     "id": "ALT_BISE_B_YZ_63_C",
@@ -17936,7 +18188,10 @@
     "faction": "Axiom",
     "rarity": "Common",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_A_AX_46_R1": {
     "id": "ALT_ALIZE_A_AX_46_R1",
@@ -17955,7 +18210,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_A_BR_46_R2": {
     "id": "ALT_ALIZE_A_BR_46_R2",
@@ -17974,7 +18232,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_A_YZ_46_R2": {
     "id": "ALT_ALIZE_A_YZ_46_R2",
@@ -17993,7 +18254,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_AX_01_C": {
     "id": "ALT_ALIZE_B_AX_01_C",
@@ -18012,7 +18276,10 @@
     "faction": "Axiom",
     "rarity": "Common",
     "Main Cost": 0,
-    "Recall Cost": 0
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_ALIZE_B_AX_03_C": {
     "id": "ALT_ALIZE_B_AX_03_C",
@@ -18031,7 +18298,10 @@
     "faction": "Axiom",
     "rarity": "Common",
     "Main Cost": 0,
-    "Recall Cost": 0
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_ALIZE_B_AX_31_C": {
     "id": "ALT_ALIZE_B_AX_31_C",
@@ -18427,7 +18697,10 @@
     "Recall Cost": 6,
     "Ocean Power": 5,
     "Forest Power": 5,
-    "Mountain Power": 5
+    "Mountain Power": 5,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_ALIZE_B_AX_40_R1": {
     "id": "ALT_ALIZE_B_AX_40_R1",
@@ -18449,7 +18722,10 @@
     "Recall Cost": 6,
     "Ocean Power": 5,
     "Forest Power": 5,
-    "Mountain Power": 5
+    "Mountain Power": 5,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_ALIZE_B_AX_41_C": {
     "id": "ALT_ALIZE_B_AX_41_C",
@@ -18664,7 +18940,10 @@
     "faction": "Axiom",
     "rarity": "Common",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_AX_46_R1": {
     "id": "ALT_ALIZE_B_AX_46_R1",
@@ -18683,7 +18962,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_BR_33_R2": {
     "id": "ALT_ALIZE_B_BR_33_R2",
@@ -18784,7 +19066,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_LY_31_R2": {
     "id": "ALT_ALIZE_B_LY_31_R2",
@@ -18932,7 +19217,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 7,
-    "Recall Cost": 7
+    "Recall Cost": 7,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_45_R2": {
     "id": "ALT_ALIZE_B_YZ_45_R2",
@@ -18951,7 +19239,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 4,
-    "Recall Cost": 4
+    "Recall Cost": 4,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_46_R2": {
     "id": "ALT_ALIZE_B_YZ_46_R2",
@@ -18970,7 +19261,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_A_BR_37_C": {
     "id": "ALT_ALIZE_A_BR_37_C",
@@ -19033,7 +19327,10 @@
     "faction": "Bravos",
     "rarity": "Common",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_A_BR_46_R1": {
     "id": "ALT_ALIZE_A_BR_46_R1",
@@ -19052,7 +19349,10 @@
     "faction": "Bravos",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_A_MU_35_R2": {
     "id": "ALT_ALIZE_A_MU_35_R2",
@@ -19137,7 +19437,10 @@
     "faction": "Bravos",
     "rarity": "Common",
     "Main Cost": 0,
-    "Recall Cost": 0
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CORE_A_BR_31_C"
+    ]
   },
   "ALT_ALIZE_B_BR_03_C": {
     "id": "ALT_ALIZE_B_BR_03_C",
@@ -19783,7 +20086,10 @@
     "faction": "Bravos",
     "rarity": "Common",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_BR_46_R1": {
     "id": "ALT_ALIZE_B_BR_46_R1",
@@ -19802,7 +20108,10 @@
     "faction": "Bravos",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_LY_33_R2": {
     "id": "ALT_ALIZE_B_LY_33_R2",
@@ -20202,7 +20511,10 @@
     "faction": "Lyra",
     "rarity": "Common",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_A_LY_45_R1": {
     "id": "ALT_ALIZE_A_LY_45_R1",
@@ -20221,7 +20533,10 @@
     "faction": "Lyra",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_A_MU_45_R2": {
     "id": "ALT_ALIZE_A_MU_45_R2",
@@ -20240,7 +20555,10 @@
     "faction": "Lyra",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_AX_42_R2": {
     "id": "ALT_ALIZE_B_AX_42_R2",
@@ -20937,7 +21255,10 @@
     "faction": "Lyra",
     "rarity": "Common",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_LY_45_R1": {
     "id": "ALT_ALIZE_B_LY_45_R1",
@@ -20956,7 +21277,10 @@
     "faction": "Lyra",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_MU_33_R2": {
     "id": "ALT_ALIZE_B_MU_33_R2",
@@ -21035,7 +21359,10 @@
     "faction": "Lyra",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_OR_36_R2": {
     "id": "ALT_ALIZE_B_OR_36_R2",
@@ -21136,7 +21463,10 @@
     "faction": "Lyra",
     "rarity": "Rare",
     "Main Cost": 8,
-    "Recall Cost": 8
+    "Recall Cost": 8,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_ALIZE_B_LY_35_C": {
     "id": "ALT_ALIZE_B_LY_35_C",
@@ -21199,7 +21529,10 @@
     "faction": "Muna",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_A_MU_35_C": {
     "id": "ALT_ALIZE_A_MU_35_C",
@@ -21262,7 +21595,10 @@
     "faction": "Muna",
     "rarity": "Common",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_A_MU_45_R1": {
     "id": "ALT_ALIZE_A_MU_45_R1",
@@ -21281,7 +21617,10 @@
     "faction": "Muna",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_AX_32_R2": {
     "id": "ALT_ALIZE_B_AX_32_R2",
@@ -21426,7 +21765,10 @@
     "faction": "Muna",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_BR_38_R2": {
     "id": "ALT_ALIZE_B_BR_38_R2",
@@ -22160,7 +22502,10 @@
     "faction": "Muna",
     "rarity": "Common",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_MU_45_R1": {
     "id": "ALT_ALIZE_B_MU_45_R1",
@@ -22179,7 +22524,10 @@
     "faction": "Muna",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_OR_35_R2": {
     "id": "ALT_ALIZE_B_OR_35_R2",
@@ -22301,7 +22649,7 @@
     "name": "Mana Convergence",
     "type": "Mana",
     "cost": 0,
-    "isToken": false,
+    "isToken": true,
     "faction": "Neutral",
     "rarity": "Common",
     "Main Cost": 0,
@@ -22371,7 +22719,10 @@
     "Recall Cost": 3,
     "Ocean Power": 3,
     "Forest Power": 3,
-    "Mountain Power": 3
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_ALIZE_A_OR_47_C": {
     "id": "ALT_ALIZE_A_OR_47_C",
@@ -22390,7 +22741,10 @@
     "faction": "Ordis",
     "rarity": "Common",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_A_OR_47_R1": {
     "id": "ALT_ALIZE_A_OR_47_R1",
@@ -22409,7 +22763,10 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_AX_39_R2": {
     "id": "ALT_ALIZE_B_AX_39_R2",
@@ -22453,7 +22810,10 @@
     "Recall Cost": 6,
     "Ocean Power": 5,
     "Forest Power": 5,
-    "Mountain Power": 5
+    "Mountain Power": 5,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_ALIZE_B_BR_32_R2": {
     "id": "ALT_ALIZE_B_BR_32_R2",
@@ -22639,7 +22999,10 @@
     "faction": "Ordis",
     "rarity": "Common",
     "Main Cost": 0,
-    "Recall Cost": 0
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_ALIZE_B_OR_03_C": {
     "id": "ALT_ALIZE_B_OR_03_C",
@@ -22746,7 +23109,10 @@
     "Recall Cost": 2,
     "Ocean Power": 2,
     "Forest Power": 1,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_ALIZE_B_OR_34_R1": {
     "id": "ALT_ALIZE_B_OR_34_R1",
@@ -22768,7 +23134,10 @@
     "Recall Cost": 2,
     "Ocean Power": 2,
     "Forest Power": 1,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_ALIZE_B_OR_35_C": {
     "id": "ALT_ALIZE_B_OR_35_C",
@@ -22944,7 +23313,10 @@
     "Recall Cost": 3,
     "Ocean Power": 3,
     "Forest Power": 3,
-    "Mountain Power": 3
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_ALIZE_B_OR_39_C": {
     "id": "ALT_ALIZE_B_OR_39_C",
@@ -23127,7 +23499,10 @@
     "faction": "Ordis",
     "rarity": "Common",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_ALIZE_B_OR_43_R1": {
     "id": "ALT_ALIZE_B_OR_43_R1",
@@ -23146,7 +23521,10 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_ALIZE_B_OR_44_C": {
     "id": "ALT_ALIZE_B_OR_44_C",
@@ -23203,7 +23581,10 @@
     "faction": "Ordis",
     "rarity": "Common",
     "Main Cost": 1,
-    "Recall Cost": 1
+    "Recall Cost": 1,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_ALIZE_B_OR_45_R1": {
     "id": "ALT_ALIZE_B_OR_45_R1",
@@ -23222,7 +23603,10 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 1,
-    "Recall Cost": 1
+    "Recall Cost": 1,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_ALIZE_B_OR_46_C": {
     "id": "ALT_ALIZE_B_OR_46_C",
@@ -23285,7 +23669,10 @@
     "faction": "Ordis",
     "rarity": "Common",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_OR_47_R1": {
     "id": "ALT_ALIZE_B_OR_47_R1",
@@ -23304,7 +23691,10 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_33_R2": {
     "id": "ALT_ALIZE_B_YZ_33_R2",
@@ -23326,7 +23716,10 @@
     "Recall Cost": 2,
     "Ocean Power": 2,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_38_R2": {
     "id": "ALT_ALIZE_B_YZ_38_R2",
@@ -23367,7 +23760,10 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 4,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_44_R2": {
     "id": "ALT_ALIZE_B_YZ_44_R2",
@@ -23386,7 +23782,10 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_ALIZE_P_OR_48_C": {
     "id": "ALT_ALIZE_P_OR_48_C",
@@ -23493,7 +23892,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_A_OR_38_R2": {
     "id": "ALT_ALIZE_A_OR_38_R2",
@@ -23534,7 +23936,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_A_YZ_36_C": {
     "id": "ALT_ALIZE_A_YZ_36_C",
@@ -23597,7 +24002,10 @@
     "faction": "Yzmir",
     "rarity": "Common",
     "Main Cost": 4,
-    "Recall Cost": 4
+    "Recall Cost": 4,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_A_YZ_46_R1": {
     "id": "ALT_ALIZE_A_YZ_46_R1",
@@ -23616,7 +24024,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_AX_33_R2": {
     "id": "ALT_ALIZE_B_AX_33_R2",
@@ -23843,7 +24254,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_OR_34_R2": {
     "id": "ALT_ALIZE_B_OR_34_R2",
@@ -23865,7 +24279,10 @@
     "Recall Cost": 2,
     "Ocean Power": 2,
     "Forest Power": 1,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_ALIZE_B_OR_38_R2": {
     "id": "ALT_ALIZE_B_OR_38_R2",
@@ -23906,7 +24323,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_ALIZE_B_OR_45_R2": {
     "id": "ALT_ALIZE_B_OR_45_R2",
@@ -23925,7 +24345,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 1,
-    "Recall Cost": 1
+    "Recall Cost": 1,
+    "tokens": [
+      "ALT_CORE_A_OR_31_C"
+    ]
   },
   "ALT_ALIZE_B_OR_47_R2": {
     "id": "ALT_ALIZE_B_OR_47_R2",
@@ -23944,7 +24367,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_01_C": {
     "id": "ALT_ALIZE_B_YZ_01_C",
@@ -24029,7 +24455,10 @@
     "Recall Cost": 2,
     "Ocean Power": 2,
     "Forest Power": 2,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_33_R1": {
     "id": "ALT_ALIZE_B_YZ_33_R1",
@@ -24051,7 +24480,10 @@
     "Recall Cost": 2,
     "Ocean Power": 2,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_34_C": {
     "id": "ALT_ALIZE_B_YZ_34_C",
@@ -24202,7 +24634,10 @@
     "faction": "Yzmir",
     "rarity": "Common",
     "Main Cost": 8,
-    "Recall Cost": 8
+    "Recall Cost": 8,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_37_R1": {
     "id": "ALT_ALIZE_B_YZ_37_R1",
@@ -24221,7 +24656,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 8,
-    "Recall Cost": 8
+    "Recall Cost": 8,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_38_C": {
     "id": "ALT_ALIZE_B_YZ_38_C",
@@ -24360,7 +24798,10 @@
     "faction": "Yzmir",
     "rarity": "Common",
     "Main Cost": 3,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_41_R1": {
     "id": "ALT_ALIZE_B_YZ_41_R1",
@@ -24379,7 +24820,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 4,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_42_C": {
     "id": "ALT_ALIZE_B_YZ_42_C",
@@ -24436,7 +24880,10 @@
     "faction": "Yzmir",
     "rarity": "Common",
     "Main Cost": 6,
-    "Recall Cost": 6
+    "Recall Cost": 6,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_43_R1": {
     "id": "ALT_ALIZE_B_YZ_43_R1",
@@ -24455,7 +24902,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 7,
-    "Recall Cost": 7
+    "Recall Cost": 7,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_44_C": {
     "id": "ALT_ALIZE_B_YZ_44_C",
@@ -24474,7 +24924,10 @@
     "faction": "Yzmir",
     "rarity": "Common",
     "Main Cost": 3,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_44_R1": {
     "id": "ALT_ALIZE_B_YZ_44_R1",
@@ -24493,7 +24946,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_45_C": {
     "id": "ALT_ALIZE_B_YZ_45_C",
@@ -24512,7 +24968,10 @@
     "faction": "Yzmir",
     "rarity": "Common",
     "Main Cost": 4,
-    "Recall Cost": 4
+    "Recall Cost": 4,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_45_R1": {
     "id": "ALT_ALIZE_B_YZ_45_R1",
@@ -24531,7 +24990,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_46_C": {
     "id": "ALT_ALIZE_B_YZ_46_C",
@@ -24550,7 +25012,10 @@
     "faction": "Yzmir",
     "rarity": "Common",
     "Main Cost": 4,
-    "Recall Cost": 4
+    "Recall Cost": 4,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_46_R1": {
     "id": "ALT_ALIZE_B_YZ_46_R1",
@@ -24569,7 +25034,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_ALIZE_B_NE_02_C"
+    ]
   },
   "ALT_ALIZE_B_YZ_47_C": {
     "id": "ALT_ALIZE_B_YZ_47_C",
@@ -24651,7 +25119,10 @@
     "faction": "Axiom",
     "rarity": "Common",
     "Main Cost": 0,
-    "Recall Cost": 0
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_AX_69_C": {
     "id": "ALT_CYCLONE_B_AX_69_C",
@@ -24717,7 +25188,10 @@
     "Recall Cost": 2,
     "Ocean Power": 1,
     "Forest Power": 0,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_AX_66_R1": {
     "id": "ALT_CYCLONE_B_AX_66_R1",
@@ -24739,7 +25213,10 @@
     "Recall Cost": 1,
     "Ocean Power": 1,
     "Forest Power": 0,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_AX_31_C": {
     "id": "ALT_CYCLONE_B_AX_31_C",
@@ -24805,7 +25282,10 @@
     "Recall Cost": 2,
     "Ocean Power": 0,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_YZ_73_R2": {
     "id": "ALT_CYCLONE_B_YZ_73_R2",
@@ -24849,7 +25329,10 @@
     "Recall Cost": 2,
     "Ocean Power": 0,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_AX_67_R1": {
     "id": "ALT_CYCLONE_B_AX_67_R1",
@@ -24871,7 +25354,10 @@
     "Recall Cost": 2,
     "Ocean Power": 1,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_AX_71_C": {
     "id": "ALT_CYCLONE_B_AX_71_C",
@@ -24893,7 +25379,10 @@
     "Recall Cost": 5,
     "Ocean Power": 3,
     "Forest Power": 3,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_AX_71_R1": {
     "id": "ALT_CYCLONE_B_AX_71_R1",
@@ -24915,7 +25404,10 @@
     "Recall Cost": 5,
     "Ocean Power": 3,
     "Forest Power": 3,
-    "Mountain Power": 3
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_AX_80_C": {
     "id": "ALT_CYCLONE_B_AX_80_C",
@@ -24934,7 +25426,10 @@
     "faction": "Axiom",
     "rarity": "Common",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CYCLONE_B_AX_80_R1": {
     "id": "ALT_CYCLONE_B_AX_80_R1",
@@ -24953,7 +25448,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CYCLONE_B_AX_82_C": {
     "id": "ALT_CYCLONE_B_AX_82_C",
@@ -24972,7 +25470,10 @@
     "faction": "Axiom",
     "rarity": "Common",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_AX_82_R1": {
     "id": "ALT_CYCLONE_B_AX_82_R1",
@@ -24991,7 +25492,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_LY_70_R2": {
     "id": "ALT_CYCLONE_B_LY_70_R2",
@@ -25013,7 +25517,10 @@
     "Recall Cost": 2,
     "Ocean Power": 0,
     "Forest Power": 0,
-    "Mountain Power": 4
+    "Mountain Power": 4,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_OR_69_R2": {
     "id": "ALT_CYCLONE_B_OR_69_R2",
@@ -25035,7 +25542,10 @@
     "Recall Cost": 2,
     "Ocean Power": 2,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_YZ_69_R2": {
     "id": "ALT_CYCLONE_B_YZ_69_R2",
@@ -25186,7 +25696,11 @@
     "faction": "Axiom",
     "rarity": "Common",
     "Main Cost": 4,
-    "Recall Cost": 4
+    "Recall Cost": 4,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C",
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CYCLONE_B_AX_78_R1": {
     "id": "ALT_CYCLONE_B_AX_78_R1",
@@ -25205,7 +25719,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CYCLONE_B_AX_81_C": {
     "id": "ALT_CYCLONE_B_AX_81_C",
@@ -25287,7 +25804,10 @@
     "Recall Cost": 4,
     "Ocean Power": 5,
     "Forest Power": 5,
-    "Mountain Power": 5
+    "Mountain Power": 5,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_LY_78_R2": {
     "id": "ALT_CYCLONE_B_LY_78_R2",
@@ -25577,7 +26097,10 @@
     "Recall Cost": 1,
     "Ocean Power": 0,
     "Forest Power": 0,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_YZ_68_R2": {
     "id": "ALT_CYCLONE_B_YZ_68_R2",
@@ -25678,7 +26201,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_LY_82_R2": {
     "id": "ALT_CYCLONE_B_LY_82_R2",
@@ -25716,7 +26242,10 @@
     "faction": "Axiom",
     "rarity": "Common",
     "Main Cost": 2,
-    "Recall Cost": 4
+    "Recall Cost": 4,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CYCLONE_B_AX_76_R1": {
     "id": "ALT_CYCLONE_B_AX_76_R1",
@@ -25735,7 +26264,10 @@
     "faction": "Axiom",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CYCLONE_B_BR_65_C": {
     "id": "ALT_CYCLONE_B_BR_65_C",
@@ -25754,7 +26286,10 @@
     "faction": "Bravos",
     "rarity": "Common",
     "Main Cost": 0,
-    "Recall Cost": 0
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CYCLONE_B_BR_83_C"
+    ]
   },
   "ALT_CYCLONE_B_BR_73_C": {
     "id": "ALT_CYCLONE_B_BR_73_C",
@@ -25987,7 +26522,10 @@
     "Recall Cost": 5,
     "Ocean Power": 3,
     "Forest Power": 3,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_BR_66_C": {
     "id": "ALT_CYCLONE_B_BR_66_C",
@@ -26270,7 +26808,10 @@
     "Recall Cost": 4,
     "Ocean Power": 5,
     "Forest Power": 3,
-    "Mountain Power": 5
+    "Mountain Power": 5,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_BR_74_R1": {
     "id": "ALT_CYCLONE_B_BR_74_R1",
@@ -26292,7 +26833,10 @@
     "Recall Cost": 4,
     "Ocean Power": 5,
     "Forest Power": 5,
-    "Mountain Power": 5
+    "Mountain Power": 5,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_BR_80_C": {
     "id": "ALT_CYCLONE_B_BR_80_C",
@@ -26686,7 +27230,10 @@
     "faction": "Bravos",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_MU_83_C"
+    ]
   },
   "ALT_CYCLONE_B_BR_76_C": {
     "id": "ALT_CYCLONE_B_BR_76_C",
@@ -26787,7 +27334,10 @@
     "faction": "Bravos",
     "rarity": "Common",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_BR_82_R1": {
     "id": "ALT_CYCLONE_B_BR_82_R1",
@@ -26806,7 +27356,10 @@
     "faction": "Bravos",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_LY_75_R2": {
     "id": "ALT_CYCLONE_B_LY_75_R2",
@@ -26954,7 +27507,10 @@
     "Recall Cost": 1,
     "Ocean Power": 1,
     "Forest Power": 0,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_LY_68_C": {
     "id": "ALT_CYCLONE_B_LY_68_C",
@@ -27165,7 +27721,10 @@
     "Recall Cost": 2,
     "Ocean Power": 0,
     "Forest Power": 2,
-    "Mountain Power": 0
+    "Mountain Power": 0,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_LY_70_C": {
     "id": "ALT_CYCLONE_B_LY_70_C",
@@ -27187,7 +27746,10 @@
     "Recall Cost": 2,
     "Ocean Power": 0,
     "Forest Power": 0,
-    "Mountain Power": 4
+    "Mountain Power": 4,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_LY_70_R1": {
     "id": "ALT_CYCLONE_B_LY_70_R1",
@@ -27209,7 +27771,10 @@
     "Recall Cost": 2,
     "Ocean Power": 0,
     "Forest Power": 0,
-    "Mountain Power": 4
+    "Mountain Power": 4,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_MU_79_R2": {
     "id": "ALT_CYCLONE_B_MU_79_R2",
@@ -27228,7 +27793,10 @@
     "faction": "Lyra",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_CYCLONE_B_MU_83_C"
+    ]
   },
   "ALT_CYCLONE_B_AX_74_R2": {
     "id": "ALT_CYCLONE_B_AX_74_R2",
@@ -27887,7 +28455,10 @@
     "faction": "Lyra",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_MU_83_C"
+    ]
   },
   "ALT_CYCLONE_B_OR_82_R2": {
     "id": "ALT_CYCLONE_B_OR_82_R2",
@@ -27966,7 +28537,10 @@
     "faction": "Muna",
     "rarity": "Common",
     "Main Cost": 0,
-    "Recall Cost": 0
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CYCLONE_B_MU_83_C"
+    ]
   },
   "ALT_CYCLONE_B_MU_69_C": {
     "id": "ALT_CYCLONE_B_MU_69_C",
@@ -28249,7 +28823,10 @@
     "Recall Cost": 2,
     "Ocean Power": 0,
     "Forest Power": 2,
-    "Mountain Power": 0
+    "Mountain Power": 0,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_MU_72_C": {
     "id": "ALT_CYCLONE_B_MU_72_C",
@@ -28312,7 +28889,10 @@
     "faction": "Muna",
     "rarity": "Common",
     "Main Cost": 2,
-    "Recall Cost": 4
+    "Recall Cost": 4,
+    "tokens": [
+      "ALT_CYCLONE_B_MU_83_C"
+    ]
   },
   "ALT_CYCLONE_B_MU_79_R1": {
     "id": "ALT_CYCLONE_B_MU_79_R1",
@@ -28331,7 +28911,10 @@
     "faction": "Muna",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_CYCLONE_B_MU_83_C"
+    ]
   },
   "ALT_CYCLONE_B_LY_71_R2": {
     "id": "ALT_CYCLONE_B_LY_71_R2",
@@ -28460,7 +29043,10 @@
     "Recall Cost": 5,
     "Ocean Power": 1,
     "Forest Power": 1,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CYCLONE_B_MU_83_C"
+    ]
   },
   "ALT_CYCLONE_B_MU_76_C": {
     "id": "ALT_CYCLONE_B_MU_76_C",
@@ -28482,7 +29068,10 @@
     "Recall Cost": 2,
     "Ocean Power": 1,
     "Forest Power": 1,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CYCLONE_B_MU_83_C"
+    ]
   },
   "ALT_CYCLONE_B_MU_76_R1": {
     "id": "ALT_CYCLONE_B_MU_76_R1",
@@ -28504,7 +29093,10 @@
     "Recall Cost": 2,
     "Ocean Power": 1,
     "Forest Power": 2,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CYCLONE_B_MU_83_C"
+    ]
   },
   "ALT_CYCLONE_B_YZ_72_R2": {
     "id": "ALT_CYCLONE_B_YZ_72_R2",
@@ -28775,7 +29367,10 @@
     "faction": "Muna",
     "rarity": "Common",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_CYCLONE_B_MU_83_C"
+    ]
   },
   "ALT_CYCLONE_B_MU_82_R1": {
     "id": "ALT_CYCLONE_B_MU_82_R1",
@@ -28794,7 +29389,10 @@
     "faction": "Muna",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_MU_83_C"
+    ]
   },
   "ALT_CYCLONE_B_OR_66_R2": {
     "id": "ALT_CYCLONE_B_OR_66_R2",
@@ -28860,7 +29458,10 @@
     "Recall Cost": 2,
     "Ocean Power": 2,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_OR_77_R2": {
     "id": "ALT_CYCLONE_B_OR_77_R2",
@@ -28974,7 +29575,10 @@
     "faction": "Muna",
     "rarity": "Common",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_MU_83_C"
+    ]
   },
   "ALT_CYCLONE_B_MU_80_R1": {
     "id": "ALT_CYCLONE_B_MU_80_R1",
@@ -28993,7 +29597,10 @@
     "faction": "Muna",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_CYCLONE_B_MU_83_C"
+    ]
   },
   "ALT_CYCLONE_B_OR_76_R2": {
     "id": "ALT_CYCLONE_B_OR_76_R2",
@@ -29049,7 +29656,7 @@
     "name": "Aerolith",
     "type": "Token Landmark Permanent",
     "cost": 0,
-    "isToken": false,
+    "isToken": true,
     "faction": "Neutral",
     "rarity": "Common",
     "Main Cost": 0,
@@ -29321,7 +29928,10 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CYCLONE_B_MU_72_R2": {
     "id": "ALT_CYCLONE_B_MU_72_R2",
@@ -29365,7 +29975,10 @@
     "Recall Cost": 2,
     "Ocean Power": 1,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_OR_69_R1": {
     "id": "ALT_CYCLONE_B_OR_69_R1",
@@ -29387,7 +30000,10 @@
     "Recall Cost": 3,
     "Ocean Power": 3,
     "Forest Power": 3,
-    "Mountain Power": 3
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_AX_78_R2": {
     "id": "ALT_CYCLONE_B_AX_78_R2",
@@ -29406,7 +30022,11 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 4,
-    "Recall Cost": 4
+    "Recall Cost": 4,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C",
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CYCLONE_B_BR_70_R2": {
     "id": "ALT_CYCLONE_B_BR_70_R2",
@@ -29491,7 +30111,10 @@
     "Recall Cost": 5,
     "Ocean Power": 1,
     "Forest Power": 1,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CYCLONE_B_MU_83_C"
+    ]
   },
   "ALT_CYCLONE_B_MU_76_R2": {
     "id": "ALT_CYCLONE_B_MU_76_R2",
@@ -29513,7 +30136,10 @@
     "Recall Cost": 2,
     "Ocean Power": 1,
     "Forest Power": 2,
-    "Mountain Power": 1
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_CYCLONE_B_MU_83_C"
+    ]
   },
   "ALT_CYCLONE_B_OR_74_C": {
     "id": "ALT_CYCLONE_B_OR_74_C",
@@ -29818,7 +30444,10 @@
     "Recall Cost": 2,
     "Ocean Power": 2,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_OR_77_C": {
     "id": "ALT_CYCLONE_B_OR_77_C",
@@ -29932,7 +30561,10 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 5,
-    "Recall Cost": 5
+    "Recall Cost": 5,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_CYCLONE_B_AX_77_R2": {
     "id": "ALT_CYCLONE_B_AX_77_R2",
@@ -30134,7 +30766,10 @@
     "faction": "Ordis",
     "rarity": "Rare",
     "Main Cost": 3,
-    "Recall Cost": 3
+    "Recall Cost": 3,
+    "tokens": [
+      "ALT_CORE_A_AX_31_C"
+    ]
   },
   "ALT_CYCLONE_B_AX_69_R2": {
     "id": "ALT_CYCLONE_B_AX_69_R2",
@@ -30175,7 +30810,10 @@
     "faction": "Yzmir",
     "rarity": "Common",
     "Main Cost": 0,
-    "Recall Cost": 0
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_CYCLONE_B_LY_68_R2": {
     "id": "ALT_CYCLONE_B_LY_68_R2",
@@ -30257,7 +30895,10 @@
     "Recall Cost": 2,
     "Ocean Power": 0,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_MU_73_R2": {
     "id": "ALT_CYCLONE_B_MU_73_R2",
@@ -30383,7 +31024,10 @@
     "Recall Cost": 2,
     "Ocean Power": 1,
     "Forest Power": 2,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_AX_82_R2": {
     "id": "ALT_CYCLONE_B_AX_82_R2",
@@ -30402,7 +31046,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 2,
-    "Recall Cost": 2
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_YZ_69_C": {
     "id": "ALT_CYCLONE_B_YZ_69_C",
@@ -30959,7 +31606,10 @@
     "Recall Cost": 1,
     "Ocean Power": 0,
     "Forest Power": 0,
-    "Mountain Power": 2
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_CYCLONE_B_NE_03_C"
+    ]
   },
   "ALT_CYCLONE_B_YZ_68_C": {
     "id": "ALT_CYCLONE_B_YZ_68_C",
@@ -31060,7 +31710,10 @@
     "faction": "Yzmir",
     "rarity": "Common",
     "Main Cost": 4,
-    "Recall Cost": 5
+    "Recall Cost": 5,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_CYCLONE_B_YZ_78_R1": {
     "id": "ALT_CYCLONE_B_YZ_78_R1",
@@ -31079,7 +31732,10 @@
     "faction": "Yzmir",
     "rarity": "Rare",
     "Main Cost": 5,
-    "Recall Cost": 5
+    "Recall Cost": 5,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
   },
   "ALT_CYCLONE_B_YZ_79_C": {
     "id": "ALT_CYCLONE_B_YZ_79_C",
