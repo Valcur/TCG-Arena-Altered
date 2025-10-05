@@ -112,7 +112,7 @@ async function run() {
     let res = {}
     let tokens = {}
 
-    const files = ["CORE_EN.json", "BISE_EN.json", "ALIZE_EN.json", "CYCLONE_EN.json"];
+    const files = ["COREKS_EN.json", "CORE_EN.json", "BISE_EN.json", "ALIZE_EN.json", "CYCLONE_EN.json"];
 
     // Exécution séquentielle
 
