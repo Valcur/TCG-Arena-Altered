@@ -1,0 +1,668 @@
+[
+    {
+        "title": "Akesha - Starter Deck",
+        "id": "42b006a6-e01f-4eab-863c-cb18ac2205b6",
+        "game": "Altered",
+        "format": [
+            "Classic"
+        ],
+        "cardCount": 40,
+        "createdAt": "2025-10-07T16:14:34.927Z",
+        "lastModifiedAt": "2025-10-07T16:14:53.950Z",
+        "deckList": {
+            "categoriesOrder": [
+                "Hero",
+                "Character",
+                "Spell"
+            ],
+            "Sideboard": [],
+            "Hero": [
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_YZ_01_C"
+                }
+            ],
+            "Character": [
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_YZ_04_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_OR_10_R2"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_YZ_08_C"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_YZ_09_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_YZ_06_R1"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_YZ_12_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_YZ_12_R1"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_YZ_13_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_YZ_13_R1"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_YZ_11_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_YZ_11_R1"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_YZ_16_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_YZ_16_R1"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_YZ_18_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_YZ_18_R1"
+                }
+            ],
+            "Spell": [
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_MU_28_R2"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_YZ_22_C"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_YZ_21_C"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_YZ_24_C"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_YZ_26_C"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Nevenka - Starter Deck",
+        "id": "ecdea112-8fa1-4bc0-b578-d2fe7ba6859b",
+        "game": "Altered",
+        "format": [
+            "Classic"
+        ],
+        "cardCount": 40,
+        "createdAt": "2025-10-07T16:16:33.523Z",
+        "lastModifiedAt": "2025-10-07T16:16:40.250Z",
+        "deckList": {
+            "categoriesOrder": [
+                "Hero",
+                "Character",
+                "Spell",
+                "Permanent"
+            ],
+            "Sideboard": [],
+            "Hero": [
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_LY_01_C"
+                }
+            ],
+            "Character": [
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_LY_11_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_LY_11_R1"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_LY_07_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_YZ_07_R2"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_LY_06_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_LY_06_R1"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_LY_08_C"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_LY_16_C"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_LY_14_C"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_LY_09_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_LY_09_R1"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_LY_17_C"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_LY_18_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_LY_20_R1"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_LY_20_C"
+                }
+            ],
+            "Spell": [
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_YZ_21_R2"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_LY_25_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_LY_26_R1"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_LY_26_C"
+                }
+            ],
+            "Permanent": [
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_LY_30_R1"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Teija - Starter Deck",
+        "id": "03177607-e114-4b60-9199-0285d56b981e",
+        "game": "Altered",
+        "format": [
+            "Classic"
+        ],
+        "cardCount": 40,
+        "createdAt": "2025-10-07T16:17:20.363Z",
+        "lastModifiedAt": "2025-10-07T16:17:25.218Z",
+        "deckList": {
+            "categoriesOrder": [
+                "Hero",
+                "Character",
+                "Spell"
+            ],
+            "Sideboard": [],
+            "Hero": [
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_MU_01_C"
+                }
+            ],
+            "Character": [
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_MU_06_C"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_MU_08_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_MU_08_R1"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_MU_05_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_MU_10_R1"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_LY_14_R2"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_MU_13_C"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_MU_12_C"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_MU_11_C"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_MU_10_C"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_MU_14_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_MU_18_R1"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_MU_20_R1"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_MU_20_C"
+                }
+            ],
+            "Spell": [
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_MU_28_C"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_MU_27_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_BR_26_R2"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_MU_25_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_MU_25_R1"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_MU_27_R1"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Kojo - Starter Deck",
+        "id": "2c03eabb-6a6d-4368-8bb8-8ef7bfb64bc0",
+        "game": "Altered",
+        "format": [
+            "Classic"
+        ],
+        "cardCount": 40,
+        "createdAt": "2025-10-07T16:18:08.251Z",
+        "lastModifiedAt": "2025-10-07T16:18:13.521Z",
+        "deckList": {
+            "categoriesOrder": [
+                "Hero",
+                "Character",
+                "Spell",
+                "Permanent"
+            ],
+            "Sideboard": [],
+            "Hero": [
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_BR_01_C"
+                }
+            ],
+            "Character": [
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_BR_05_C"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_BR_04_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_BR_04_R1"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_BR_09_C"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_BR_08_C"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_BR_07_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_BR_07_R1"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_BR_17_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_BR_17_R1"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_BR_18_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_BR_18_R1"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_BR_15_C"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_BR_13_C"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_BR_20_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_YZ_16_R2"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_BR_22_R1"
+                }
+            ],
+            "Spell": [
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_BR_26_C"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_BR_28_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_BR_26_R1"
+                }
+            ],
+            "Permanent": [
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_MU_30_R2"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Sigismar - Starter Deck",
+        "id": "f946e03b-034a-4f1e-b596-f0cd4c4095ca",
+        "game": "Altered",
+        "format": [
+            "Classic"
+        ],
+        "cardCount": 40,
+        "createdAt": "2025-10-07T16:18:44.778Z",
+        "lastModifiedAt": "2025-10-07T16:18:49.419Z",
+        "deckList": {
+            "categoriesOrder": [
+                "Hero",
+                "Character",
+                "Spell",
+                "Permanent"
+            ],
+            "Sideboard": [],
+            "Hero": [
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_OR_01_C"
+                }
+            ],
+            "Character": [
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_AX_07_R2"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_BR_04_R2"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_OR_05_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_OR_05_R1"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_OR_06_C"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_OR_09_C"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_OR_07_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_OR_07_R1"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_OR_14_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_OR_14_R1"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_OR_13_C"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_OR_15_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_OR_15_R1"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_OR_17_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_OR_17_R1"
+                }
+            ],
+            "Spell": [
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_OR_23_C"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_OR_25_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_OR_26_R1"
+                }
+            ],
+            "Permanent": [
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_OR_30_C"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_OR_28_C"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Sierra - Starter Deck",
+        "id": "bdcdeb6b-15c5-428b-8109-797c740e8bf5",
+        "game": "Altered",
+        "format": [
+            "Classic"
+        ],
+        "cardCount": 40,
+        "createdAt": "2025-10-07T16:19:26.189Z",
+        "lastModifiedAt": "2025-10-07T16:19:31.406Z",
+        "deckList": {
+            "categoriesOrder": [
+                "Hero",
+                "Character",
+                "Spell",
+                "Permanent"
+            ],
+            "Sideboard": [],
+            "Hero": [
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_AX_01_C"
+                }
+            ],
+            "Character": [
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_AX_07_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_AX_07_R1"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_AX_08_C"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_AX_10_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_AX_10_R1"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_OR_09_R2"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_AX_04_C"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_AX_11_C"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_AX_16_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_AX_15_R1"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_AX_12_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_AX_12_R1"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_AX_15_C"
+                }
+            ],
+            "Spell": [
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_AX_23_C"
+                }
+            ],
+            "Permanent": [
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_AX_24_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_LY_30_R2"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_AX_27_R1"
+                },
+                {
+                    "count": 3,
+                    "id": "ALT_CORE_B_AX_25_C"
+                },
+                {
+                    "count": 2,
+                    "id": "ALT_CORE_B_AX_30_C"
+                },
+                {
+                    "count": 1,
+                    "id": "ALT_CORE_B_AX_30_R1"
+                }
+            ]
+        }
+    }
+]
