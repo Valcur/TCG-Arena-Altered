@@ -194,8 +194,7 @@
           "https://valcur.github.io/TCG-Arena-Altered/Images/Playmats/playmat-10.jpeg",
           "https://valcur.github.io/TCG-Arena-Altered/Images/Playmats/playmat-11.jpeg",
           "https://valcur.github.io/TCG-Arena-Altered/Images/Playmats/playmat-12.jpeg"
-      ],
-      "decksUrl": "https://valcur.github.io/TCG-Arena-Lorcana/LorcanaDecks.json"
+      ]
   },
   "customHelp": "To manage the tumulte, open https://exalts-table.com/tumulte and join each other there.\n\nYou can grab the first player token in the bottom left by clicing the + button (it is automatically given to the first player when the game starts).",
   "cards": {
