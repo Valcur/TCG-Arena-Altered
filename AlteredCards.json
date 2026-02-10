@@ -42700,5 +42700,6741 @@
     "rarity": "Rare",
     "Main Cost": 2,
     "Recall Cost": 2
+  },
+  "ALT_DUSTER_A_AX_85_C": {
+    "id": "ALT_DUSTER_A_AX_85_C",
+    "face": {
+      "front": {
+        "name": "Della & Bolt",
+        "type": "Hero",
+        "cost": 0,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_A_AX_85/JPG/en_US/0cd63a02739f0fa08fcd1235bccbdd96.jpg"
+      }
+    },
+    "name": "Della & Bolt",
+    "type": "Hero",
+    "cost": 0,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Common",
+    "Main Cost": 0,
+    "Recall Cost": 0
+  },
+  "ALT_DUSTER_B_AX_85_C": {
+    "id": "ALT_DUSTER_B_AX_85_C",
+    "face": {
+      "front": {
+        "name": "Della & Bolt",
+        "type": "Hero",
+        "cost": 0,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_85/JPG/en_US/f3eb321451c2c292fc8d24d9e8b0301c.jpg"
+      }
+    },
+    "name": "Della & Bolt",
+    "type": "Hero",
+    "cost": 0,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Common",
+    "Main Cost": 0,
+    "Recall Cost": 0
+  },
+  "ALT_DUSTER_P_AX_85_C": {
+    "id": "ALT_DUSTER_P_AX_85_C",
+    "face": {
+      "front": {
+        "name": "Della & Bolt",
+        "type": "Hero",
+        "cost": 0,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_P_AX_85/JPG/en_US/b2e2cf82790ffe2872fbf66bb694ba58.jpg"
+      }
+    },
+    "name": "Della & Bolt",
+    "type": "Hero",
+    "cost": 0,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Common",
+    "Main Cost": 0,
+    "Recall Cost": 0
+  },
+  "ALT_DUSTER_B_OR_101_R2": {
+    "id": "ALT_DUSTER_B_OR_101_R2",
+    "face": {
+      "front": {
+        "name": "The Reunion - AX",
+        "type": "Landmark Permanent",
+        "cost": 6,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_101/JPG/en_US/16297261b94b85facf4f4205bd5c010c.jpg"
+      }
+    },
+    "name": "The Reunion - AX",
+    "type": "Landmark Permanent",
+    "cost": 6,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 6,
+    "Recall Cost": 6,
+    "tokens": [
+      "ALT_COREKS_B_OR_31_C"
+    ]
+  },
+  "ALT_DUSTER_B_AX_89_C": {
+    "id": "ALT_DUSTER_B_AX_89_C",
+    "face": {
+      "front": {
+        "name": "Nikola Tesla",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_89/JPG/en_US/ba9fd472c48ea5ebece860f1721efb5b.jpg"
+      }
+    },
+    "name": "Nikola Tesla",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_AX_89_R1": {
+    "id": "ALT_DUSTER_B_AX_89_R1",
+    "face": {
+      "front": {
+        "name": "Nikola Tesla - AX",
+        "type": "Character",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_89/JPG/en_US/51df5d4c609512780b9bbcb060c833cf.jpg"
+      }
+    },
+    "name": "Nikola Tesla - AX",
+    "type": "Character",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 1,
+    "Recall Cost": 2,
+    "Ocean Power": 1,
+    "Forest Power": 1,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_AX_96_C": {
+    "id": "ALT_DUSTER_B_AX_96_C",
+    "face": {
+      "front": {
+        "name": "The Shell",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_96/JPG/en_US/e90d5887261265985f70fbae8f0aa976.jpg"
+      }
+    },
+    "name": "The Shell",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 1,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_AX_96_R1": {
+    "id": "ALT_DUSTER_B_AX_96_R1",
+    "face": {
+      "front": {
+        "name": "The Shell - AX",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_96/JPG/en_US/f238f26f7a361bb8142b68a80af1e0ae.jpg"
+      }
+    },
+    "name": "The Shell - AX",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 3,
+    "Ocean Power": 1,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_AX_97_C": {
+    "id": "ALT_DUSTER_B_AX_97_C",
+    "face": {
+      "front": {
+        "name": "Failed Demo",
+        "type": "Spell",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_97/JPG/en_US/9fac4e8e00b846462691419e235819cd.jpg"
+      }
+    },
+    "name": "Failed Demo",
+    "type": "Spell",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2
+  },
+  "ALT_DUSTER_B_AX_97_R1": {
+    "id": "ALT_DUSTER_B_AX_97_R1",
+    "face": {
+      "front": {
+        "name": "Failed Demo - AX",
+        "type": "Spell",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_97/JPG/en_US/a545893fd5a2cb83ba6d9ae9d6dea7f0.jpg"
+      }
+    },
+    "name": "Failed Demo - AX",
+    "type": "Spell",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 3
+  },
+  "ALT_DUSTER_B_AX_98_R1": {
+    "id": "ALT_DUSTER_B_AX_98_R1",
+    "face": {
+      "front": {
+        "name": "Technological Encounter - AX",
+        "type": "Spell",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_98/JPG/en_US/1b9542f291237b0b5529791d094c6a0b.jpg"
+      }
+    },
+    "name": "Technological Encounter - AX",
+    "type": "Spell",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_AX_101_C": {
+    "id": "ALT_DUSTER_B_AX_101_C",
+    "face": {
+      "front": {
+        "name": "Axiom Exhibit",
+        "type": "Landmark Permanent",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_101/JPG/en_US/bce33381d7e7f7a574a72415545679de.jpg"
+      }
+    },
+    "name": "Axiom Exhibit",
+    "type": "Landmark Permanent",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2
+  },
+  "ALT_DUSTER_B_AX_101_R1": {
+    "id": "ALT_DUSTER_B_AX_101_R1",
+    "face": {
+      "front": {
+        "name": "Axiom Exhibit - AX",
+        "type": "Landmark Permanent",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_101/JPG/en_US/d9fb17e28eb11cb3d22a618d0b6eeb84.jpg"
+      }
+    },
+    "name": "Axiom Exhibit - AX",
+    "type": "Landmark Permanent",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2
+  },
+  "ALT_DUSTER_B_BR_95_R2": {
+    "id": "ALT_DUSTER_B_BR_95_R2",
+    "face": {
+      "front": {
+        "name": "Deep-Cloud Instructor - AX",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_95/JPG/en_US/481df34335e10e16fe030db86ee62949.jpg"
+      }
+    },
+    "name": "Deep-Cloud Instructor - AX",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 3,
+    "Ocean Power": 1,
+    "Forest Power": 1,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_BR_89_R2": {
+    "id": "ALT_DUSTER_B_BR_89_R2",
+    "face": {
+      "front": {
+        "name": "Kedarm - AX",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_89/JPG/en_US/d8bcbbf147d35367c59737ecec7bc302.jpg"
+      }
+    },
+    "name": "Kedarm - AX",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_BR_99_R2": {
+    "id": "ALT_DUSTER_B_BR_99_R2",
+    "face": {
+      "front": {
+        "name": "Market Encounter - AX",
+        "type": "Spell",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_99/JPG/en_US/b70ee824b7463367f5e2fcedad917d5d.jpg"
+      }
+    },
+    "name": "Market Encounter - AX",
+    "type": "Spell",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_YZ_101_R2": {
+    "id": "ALT_DUSTER_B_YZ_101_R2",
+    "face": {
+      "front": {
+        "name": "Mothcatcher Wand - AX",
+        "type": "Expedition Permanent",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_101/JPG/en_US/d6b3b1ad2c9d307aa6d46af367457177.jpg"
+      }
+    },
+    "name": "Mothcatcher Wand - AX",
+    "type": "Expedition Permanent",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
+  },
+  "ALT_DUSTER_B_AX_88_C": {
+    "id": "ALT_DUSTER_B_AX_88_C",
+    "face": {
+      "front": {
+        "name": "Ira, Fair Attendee",
+        "type": "Character",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_88/JPG/en_US/31d2c45f21dcc8fe7e531df04bc09b4c.jpg"
+      }
+    },
+    "name": "Ira, Fair Attendee",
+    "type": "Character",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Common",
+    "Main Cost": 1,
+    "Recall Cost": 1,
+    "Ocean Power": 1,
+    "Forest Power": 1,
+    "Mountain Power": 0
+  },
+  "ALT_DUSTER_B_AX_88_R1": {
+    "id": "ALT_DUSTER_B_AX_88_R1",
+    "face": {
+      "front": {
+        "name": "Ira, Fair Attendee - AX",
+        "type": "Character",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_88/JPG/en_US/64a49dbed077ddaf2536c039f47786af.jpg"
+      }
+    },
+    "name": "Ira, Fair Attendee - AX",
+    "type": "Character",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 1,
+    "Recall Cost": 2,
+    "Ocean Power": 1,
+    "Forest Power": 2,
+    "Mountain Power": 0,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_AX_87_C": {
+    "id": "ALT_DUSTER_B_AX_87_C",
+    "face": {
+      "front": {
+        "name": "Axiom Machinist",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_87/JPG/en_US/818fc8b8915af9265ad95c874279eb32.jpg"
+      }
+    },
+    "name": "Axiom Machinist",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 1,
+    "Ocean Power": 1,
+    "Forest Power": 1,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_AX_87_R1": {
+    "id": "ALT_DUSTER_B_AX_87_R1",
+    "face": {
+      "front": {
+        "name": "Axiom Machinist - AX",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_87/JPG/en_US/3cbc6cee637a11b099d0598aad35595c.jpg"
+      }
+    },
+    "name": "Axiom Machinist - AX",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 1,
+    "Forest Power": 1,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_AX_94_C": {
+    "id": "ALT_DUSTER_B_AX_94_C",
+    "face": {
+      "front": {
+        "name": "Leonardo da Vinci",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_94/JPG/en_US/d8f4bf133972e0324a27b6ff30ced4a6.jpg"
+      }
+    },
+    "name": "Leonardo da Vinci",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 0,
+    "Forest Power": 2,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_AX_94_R1": {
+    "id": "ALT_DUSTER_B_AX_94_R1",
+    "face": {
+      "front": {
+        "name": "Leonardo da Vinci - AX",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_94/JPG/en_US/f487639566c074668acac8d6c9addea9.jpg"
+      }
+    },
+    "name": "Leonardo da Vinci - AX",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 0,
+    "Forest Power": 2,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_AX_86_C": {
+    "id": "ALT_DUSTER_B_AX_86_C",
+    "face": {
+      "front": {
+        "name": "Tik-Tok",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_86/JPG/en_US/69f8973b7b0a433f2a7ae1d62b8bc060.jpg"
+      }
+    },
+    "name": "Tik-Tok",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 3,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_AX_86_R1": {
+    "id": "ALT_DUSTER_B_AX_86_R1",
+    "face": {
+      "front": {
+        "name": "Tik-Tok - AX",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_86/JPG/en_US/5cf90a0a6dd934be35dd577841c9ef20.jpg"
+      }
+    },
+    "name": "Tik-Tok - AX",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 3,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_AX_91_C": {
+    "id": "ALT_DUSTER_B_AX_91_C",
+    "face": {
+      "front": {
+        "name": "Vending Bot",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_91/JPG/en_US/f4447e34136c2bb80f3249301ddf7d2f.jpg"
+      }
+    },
+    "name": "Vending Bot",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 0,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_AX_91_R1": {
+    "id": "ALT_DUSTER_B_AX_91_R1",
+    "face": {
+      "front": {
+        "name": "Vending Bot - AX",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_91/JPG/en_US/9e49f22040d3e84d8d46a800444a338f.jpg"
+      }
+    },
+    "name": "Vending Bot - AX",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 0,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_AX_93_C": {
+    "id": "ALT_DUSTER_B_AX_93_C",
+    "face": {
+      "front": {
+        "name": "Reka Magnate",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_93/JPG/en_US/b518a393bb594a5b895c954b003e1f88.jpg"
+      }
+    },
+    "name": "Reka Magnate",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 2,
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_AX_93_R1": {
+    "id": "ALT_DUSTER_B_AX_93_R1",
+    "face": {
+      "front": {
+        "name": "Reka Magnate - AX",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_93/JPG/en_US/d2ca2b87cf45721333f527514e47f021.jpg"
+      }
+    },
+    "name": "Reka Magnate - AX",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 2,
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_AX_92_C": {
+    "id": "ALT_DUSTER_B_AX_92_C",
+    "face": {
+      "front": {
+        "name": "Reka Bioengineer",
+        "type": "Character",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_92/JPG/en_US/d43a9d44b10fe7f500f45f9f9ef36279.jpg"
+      }
+    },
+    "name": "Reka Bioengineer",
+    "type": "Character",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Common",
+    "Main Cost": 4,
+    "Recall Cost": 4,
+    "Ocean Power": 4,
+    "Forest Power": 3,
+    "Mountain Power": 4,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_AX_92_R1": {
+    "id": "ALT_DUSTER_B_AX_92_R1",
+    "face": {
+      "front": {
+        "name": "Reka Bioengineer - AX",
+        "type": "Character",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_92/JPG/en_US/7c6488094722ac6c3e95da8e360580a9.jpg"
+      }
+    },
+    "name": "Reka Bioengineer - AX",
+    "type": "Character",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 4,
+    "Recall Cost": 3,
+    "Ocean Power": 4,
+    "Forest Power": 3,
+    "Mountain Power": 4,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_AX_90_C": {
+    "id": "ALT_DUSTER_B_AX_90_C",
+    "face": {
+      "front": {
+        "name": "Thomas Edison",
+        "type": "Character",
+        "cost": 5,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_90/JPG/en_US/7331917a9e7e77941a5232d51a8ace99.jpg"
+      }
+    },
+    "name": "Thomas Edison",
+    "type": "Character",
+    "cost": 5,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Common",
+    "Main Cost": 5,
+    "Recall Cost": 5,
+    "Ocean Power": 5,
+    "Forest Power": 5,
+    "Mountain Power": 5
+  },
+  "ALT_DUSTER_B_AX_90_R1": {
+    "id": "ALT_DUSTER_B_AX_90_R1",
+    "face": {
+      "front": {
+        "name": "Thomas Edison - AX",
+        "type": "Character",
+        "cost": 5,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_90/JPG/en_US/354e62b63b26ef7320094b162bcbc459.jpg"
+      }
+    },
+    "name": "Thomas Edison - AX",
+    "type": "Character",
+    "cost": 5,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 5,
+    "Recall Cost": 4,
+    "Ocean Power": 4,
+    "Forest Power": 4,
+    "Mountain Power": 4
+  },
+  "ALT_DUSTER_B_AX_98_C": {
+    "id": "ALT_DUSTER_B_AX_98_C",
+    "face": {
+      "front": {
+        "name": "Technological Encounter",
+        "type": "Spell",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_98/JPG/en_US/e1f81c593096bcc80b6b588b5caf9d8f.jpg"
+      }
+    },
+    "name": "Technological Encounter",
+    "type": "Spell",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Common",
+    "Main Cost": 4,
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_AX_99_C": {
+    "id": "ALT_DUSTER_B_AX_99_C",
+    "face": {
+      "front": {
+        "name": "Fab Lab Unit",
+        "type": "Expedition Permanent",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_99/JPG/en_US/a899db430c20b006e9b2abf4f4ef3fd6.jpg"
+      }
+    },
+    "name": "Fab Lab Unit",
+    "type": "Expedition Permanent",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 1
+  },
+  "ALT_DUSTER_B_AX_99_R1": {
+    "id": "ALT_DUSTER_B_AX_99_R1",
+    "face": {
+      "front": {
+        "name": "Fab Lab Unit - AX",
+        "type": "Expedition Permanent",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_99/JPG/en_US/002e4e847999da2ac2a3e22e968b7685.jpg"
+      }
+    },
+    "name": "Fab Lab Unit - AX",
+    "type": "Expedition Permanent",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 1
+  },
+  "ALT_DUSTER_B_AX_100_C": {
+    "id": "ALT_DUSTER_B_AX_100_C",
+    "face": {
+      "front": {
+        "name": "Science Fair",
+        "type": "Landmark Permanent",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_100/JPG/en_US/625f08bf453e4c68d50b5b97f987ca2d.jpg"
+      }
+    },
+    "name": "Science Fair",
+    "type": "Landmark Permanent",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Common",
+    "Main Cost": 4,
+    "Recall Cost": 4
+  },
+  "ALT_DUSTER_B_AX_100_R1": {
+    "id": "ALT_DUSTER_B_AX_100_R1",
+    "face": {
+      "front": {
+        "name": "Science Fair - AX",
+        "type": "Landmark Permanent",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_100/JPG/en_US/492f07d059aad9a5aab998093195f158.jpg"
+      }
+    },
+    "name": "Science Fair - AX",
+    "type": "Landmark Permanent",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3
+  },
+  "ALT_DUSTER_B_AX_102_C": {
+    "id": "ALT_DUSTER_B_AX_102_C",
+    "face": {
+      "front": {
+        "name": "The Consortium",
+        "type": "Landmark Permanent",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_102/JPG/en_US/1a101cd310b9ca51c87a8bf853e738c6.jpg"
+      }
+    },
+    "name": "The Consortium",
+    "type": "Landmark Permanent",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Common",
+    "Main Cost": 4,
+    "Recall Cost": 4
+  },
+  "ALT_DUSTER_B_AX_102_R1": {
+    "id": "ALT_DUSTER_B_AX_102_R1",
+    "face": {
+      "front": {
+        "name": "The Consortium - AX",
+        "type": "Landmark Permanent",
+        "cost": 5,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_102/JPG/en_US/cdf999ae0d4f7b8e63f7356cde8770e3.jpg"
+      }
+    },
+    "name": "The Consortium - AX",
+    "type": "Landmark Permanent",
+    "cost": 5,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 5,
+    "Recall Cost": 5
+  },
+  "ALT_DUSTER_B_BR_93_R2": {
+    "id": "ALT_DUSTER_B_BR_93_R2",
+    "face": {
+      "front": {
+        "name": "Bravos Lookout - AX",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_93/JPG/en_US/bff7bd0b94e63a7b5094dd109946d863.jpg"
+      }
+    },
+    "name": "Bravos Lookout - AX",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 4,
+    "Ocean Power": 3,
+    "Forest Power": 0,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_BR_91_R2": {
+    "id": "ALT_DUSTER_B_BR_91_R2",
+    "face": {
+      "front": {
+        "name": "Bravos Cloudhog - AX",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_91/JPG/en_US/b5558fd706bcf84ab8448453ca7f6a07.jpg"
+      }
+    },
+    "name": "Bravos Cloudhog - AX",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 4,
+    "Ocean Power": 3,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_BR_102_R2": {
+    "id": "ALT_DUSTER_B_BR_102_R2",
+    "face": {
+      "front": {
+        "name": "Rider's Mask - AX",
+        "type": "Expedition Permanent",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_102/JPG/en_US/6efa22ace75588509ade8ae0b3202908.jpg"
+      }
+    },
+    "name": "Rider's Mask - AX",
+    "type": "Expedition Permanent",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 1,
+    "Recall Cost": 1
+  },
+  "ALT_DUSTER_B_OR_90_R2": {
+    "id": "ALT_DUSTER_B_OR_90_R2",
+    "face": {
+      "front": {
+        "name": "Ordis Tourist - AX",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_90/JPG/en_US/20bf123d6a6bd026b83062f6adcbb291.jpg"
+      }
+    },
+    "name": "Ordis Tourist - AX",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 1,
+    "Forest Power": 1,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_OR_86_R2": {
+    "id": "ALT_DUSTER_B_OR_86_R2",
+    "face": {
+      "front": {
+        "name": "Louis Sullivan - AX",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_86/JPG/en_US/3fdfbfffb248e4c4c5b968142ef45232.jpg"
+      }
+    },
+    "name": "Louis Sullivan - AX",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 2,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_OR_96_R2": {
+    "id": "ALT_DUSTER_B_OR_96_R2",
+    "face": {
+      "front": {
+        "name": "Talos - AX",
+        "type": "Character",
+        "cost": 5,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_96/JPG/en_US/11a2d25edab04176174f89e9c22b9e30.jpg"
+      }
+    },
+    "name": "Talos - AX",
+    "type": "Character",
+    "cost": 5,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 5,
+    "Recall Cost": 5,
+    "Ocean Power": 4,
+    "Forest Power": 4,
+    "Mountain Power": 4
+  },
+  "ALT_DUSTER_B_OR_102_R2": {
+    "id": "ALT_DUSTER_B_OR_102_R2",
+    "face": {
+      "front": {
+        "name": "The Consulate - AX",
+        "type": "Landmark Permanent",
+        "cost": 5,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_102/JPG/en_US/467dd4ced5b9c12214c2583abed55fd8.jpg"
+      }
+    },
+    "name": "The Consulate - AX",
+    "type": "Landmark Permanent",
+    "cost": 5,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 5,
+    "Recall Cost": 5,
+    "tokens": [
+      "ALT_COREKS_B_OR_31_C"
+    ]
+  },
+  "ALT_DUSTER_B_YZ_96_R2": {
+    "id": "ALT_DUSTER_B_YZ_96_R2",
+    "face": {
+      "front": {
+        "name": "Team Mascot - AX",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_96/JPG/en_US/7b0ed8fdae7e430be04ec230cfbbc154.jpg"
+      }
+    },
+    "name": "Team Mascot - AX",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 1,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_YZ_87_R2": {
+    "id": "ALT_DUSTER_B_YZ_87_R2",
+    "face": {
+      "front": {
+        "name": "Hextag Chaser - AX",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_87/JPG/en_US/70c9fdc849fb91721dfc8338ce78517c.jpg"
+      }
+    },
+    "name": "Hextag Chaser - AX",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 0,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_YZ_100_R2": {
+    "id": "ALT_DUSTER_B_YZ_100_R2",
+    "face": {
+      "front": {
+        "name": "Moth Decoy - AX",
+        "type": "Spell",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_100/JPG/en_US/bce5a2b60c52ddcda0b0d5a81e667d77.jpg"
+      }
+    },
+    "name": "Moth Decoy - AX",
+    "type": "Spell",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Axiom",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
+  },
+  "ALT_DUSTER_A_BR_65_C": {
+    "id": "ALT_DUSTER_A_BR_65_C",
+    "face": {
+      "front": {
+        "name": "Sol & Halua",
+        "type": "Hero",
+        "cost": 0,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_A_BR_65/JPG/en_US/ff2b4327220ce23af3e7462ffb7b1e03.jpg"
+      }
+    },
+    "name": "Sol & Halua",
+    "type": "Hero",
+    "cost": 0,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 0,
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CYCLONE_B_BR_83_C"
+    ]
+  },
+  "ALT_DUSTER_B_BR_65_C": {
+    "id": "ALT_DUSTER_B_BR_65_C",
+    "face": {
+      "front": {
+        "name": "Sol & Halua",
+        "type": "Hero",
+        "cost": 0,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_65/JPG/en_US/1d0b1eca59b2d1f13be8a070ac072808.jpg"
+      }
+    },
+    "name": "Sol & Halua",
+    "type": "Hero",
+    "cost": 0,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 0,
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CYCLONE_B_BR_83_C"
+    ]
+  },
+  "ALT_DUSTER_B_MU_86_R2": {
+    "id": "ALT_DUSTER_B_MU_86_R2",
+    "face": {
+      "front": {
+        "name": "Rabbit Farmer - BR",
+        "type": "Character",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_86/JPG/en_US/87cc869de35a631a75c25ee25c9683a7.jpg"
+      }
+    },
+    "name": "Rabbit Farmer - BR",
+    "type": "Character",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 1,
+    "Recall Cost": 1,
+    "Ocean Power": 0,
+    "Forest Power": 1,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_P_BR_65_C": {
+    "id": "ALT_DUSTER_P_BR_65_C",
+    "face": {
+      "front": {
+        "name": "Sol & Halua",
+        "type": "Hero",
+        "cost": 0,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_P_BR_65/JPG/en_US/756d748ec84031a5f40028eedbf67ea9.jpg"
+      }
+    },
+    "name": "Sol & Halua",
+    "type": "Hero",
+    "cost": 0,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 0,
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_CYCLONE_B_BR_83_C"
+    ]
+  },
+  "ALT_DUSTER_B_MU_91_R2": {
+    "id": "ALT_DUSTER_B_MU_91_R2",
+    "face": {
+      "front": {
+        "name": "Reka Agronomist - BR",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_91/JPG/en_US/f86c0931f35e6d9f70226232a6daf132.jpg"
+      }
+    },
+    "name": "Reka Agronomist - BR",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 4,
+    "Forest Power": 4,
+    "Mountain Power": 4,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_AX_96_R2": {
+    "id": "ALT_DUSTER_B_AX_96_R2",
+    "face": {
+      "front": {
+        "name": "The Shell - BR",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_96/JPG/en_US/f43be9986f1e93e8fbbf693c2c8fa635.jpg"
+      }
+    },
+    "name": "The Shell - BR",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 3,
+    "Ocean Power": 1,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_BR_88_C": {
+    "id": "ALT_DUSTER_B_BR_88_C",
+    "face": {
+      "front": {
+        "name": "Helpful Diver",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_88/JPG/en_US/1598e7475b44dc5182f2cd8ed77c09d6.jpg"
+      }
+    },
+    "name": "Helpful Diver",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 3,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_BR_88_R1": {
+    "id": "ALT_DUSTER_B_BR_88_R1",
+    "face": {
+      "front": {
+        "name": "Helpful Diver - BR",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_88/JPG/en_US/7fcbf0b3ee5ea7358f80534915ccffb0.jpg"
+      }
+    },
+    "name": "Helpful Diver - BR",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_BR_90_C": {
+    "id": "ALT_DUSTER_B_BR_90_C",
+    "face": {
+      "front": {
+        "name": "Isabel Letham",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_90/JPG/en_US/0da5b846ffea52d9b623435699e781ab.jpg"
+      }
+    },
+    "name": "Isabel Letham",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 0
+  },
+  "ALT_DUSTER_B_BR_90_R1": {
+    "id": "ALT_DUSTER_B_BR_90_R1",
+    "face": {
+      "front": {
+        "name": "Isabel Letham - BR",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_90/JPG/en_US/bdcccbef2753ce054e35370c2ce36980.jpg"
+      }
+    },
+    "name": "Isabel Letham - BR",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 2,
+    "Mountain Power": 0
+  },
+  "ALT_DUSTER_B_BR_95_C": {
+    "id": "ALT_DUSTER_B_BR_95_C",
+    "face": {
+      "front": {
+        "name": "Deep-Cloud Instructor",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_95/JPG/en_US/4374b353cda04af9f78d64fcc5726be0.jpg"
+      }
+    },
+    "name": "Deep-Cloud Instructor",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 4,
+    "Ocean Power": 1,
+    "Forest Power": 1,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_BR_95_R1": {
+    "id": "ALT_DUSTER_B_BR_95_R1",
+    "face": {
+      "front": {
+        "name": "Deep-Cloud Instructor - BR",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_95/JPG/en_US/9e981521dc70ec9969cfa752ea265386.jpg"
+      }
+    },
+    "name": "Deep-Cloud Instructor - BR",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 3,
+    "Ocean Power": 1,
+    "Forest Power": 1,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_BR_89_C": {
+    "id": "ALT_DUSTER_B_BR_89_C",
+    "face": {
+      "front": {
+        "name": "Kedarm",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_89/JPG/en_US/9c134b2efe275a936b39374ae8182814.jpg"
+      }
+    },
+    "name": "Kedarm",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_BR_89_R1": {
+    "id": "ALT_DUSTER_B_BR_89_R1",
+    "face": {
+      "front": {
+        "name": "Kedarm - BR",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_89/JPG/en_US/3c7184705532040feaf7852c40225da6.jpg"
+      }
+    },
+    "name": "Kedarm - BR",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_BR_96_C": {
+    "id": "ALT_DUSTER_B_BR_96_C",
+    "face": {
+      "front": {
+        "name": "Nephele",
+        "type": "Character",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_96/JPG/en_US/d2a5f379682e37a5da0fd24ae94a038b.jpg"
+      }
+    },
+    "name": "Nephele",
+    "type": "Character",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 4,
+    "Recall Cost": 4,
+    "Ocean Power": 5,
+    "Forest Power": 5,
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_BR_96_R1": {
+    "id": "ALT_DUSTER_B_BR_96_R1",
+    "face": {
+      "front": {
+        "name": "Nephele - BR",
+        "type": "Character",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_96/JPG/en_US/0c7d3c5894a1665dacfe1023d7b12623.jpg"
+      }
+    },
+    "name": "Nephele - BR",
+    "type": "Character",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 4,
+    "Recall Cost": 4,
+    "Ocean Power": 5,
+    "Forest Power": 5,
+    "Mountain Power": 5,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_BR_100_C": {
+    "id": "ALT_DUSTER_B_BR_100_C",
+    "face": {
+      "front": {
+        "name": "Catch of the Day",
+        "type": "Spell",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_100/JPG/en_US/1e0ab33a35cb3b8cc0aff08537ba9e17.jpg"
+      }
+    },
+    "name": "Catch of the Day",
+    "type": "Spell",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 4,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_BR_100_R1": {
+    "id": "ALT_DUSTER_B_BR_100_R1",
+    "face": {
+      "front": {
+        "name": "Catch of the Day - BR",
+        "type": "Spell",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_100/JPG/en_US/db3f473b118fcc0c571d2313172576ea.jpg"
+      }
+    },
+    "name": "Catch of the Day - BR",
+    "type": "Spell",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 5,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_BR_99_C": {
+    "id": "ALT_DUSTER_B_BR_99_C",
+    "face": {
+      "front": {
+        "name": "Market Encounter",
+        "type": "Spell",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_99/JPG/en_US/85f5ca698baf5ecf9b7fa80b79e4129d.jpg"
+      }
+    },
+    "name": "Market Encounter",
+    "type": "Spell",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_BR_99_R1": {
+    "id": "ALT_DUSTER_B_BR_99_R1",
+    "face": {
+      "front": {
+        "name": "Market Encounter - BR",
+        "type": "Spell",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_99/JPG/en_US/fa5dd29a0f145903d70a2f4b15d803c3.jpg"
+      }
+    },
+    "name": "Market Encounter - BR",
+    "type": "Spell",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 4
+  },
+  "ALT_DUSTER_B_LY_93_R2": {
+    "id": "ALT_DUSTER_B_LY_93_R2",
+    "face": {
+      "front": {
+        "name": "Diocles, Chariot Racer - BR",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_93/JPG/en_US/617e5e3258fa8dd784814e477a426d41.jpg"
+      }
+    },
+    "name": "Diocles, Chariot Racer - BR",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 0,
+    "Forest Power": 4,
+    "Mountain Power": 4
+  },
+  "ALT_DUSTER_B_BR_83_C": {
+    "id": "ALT_DUSTER_B_BR_83_C",
+    "face": {
+      "front": {
+        "name": "Halua",
+        "type": "Token Character",
+        "cost": 0,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_83/JPG/en_US/7b5fe037597d5e95da5f7048470c7ac5.jpg"
+      }
+    },
+    "name": "Halua",
+    "type": "Token Character",
+    "cost": 0,
+    "isToken": true,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 0,
+    "Recall Cost": 0,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_MU_97_R2": {
+    "id": "ALT_DUSTER_B_MU_97_R2",
+    "face": {
+      "front": {
+        "name": "Son of Naos - BR",
+        "type": "Character",
+        "cost": 5,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_97/JPG/en_US/948bc8286422abfd7aa4b740087152fd.jpg"
+      }
+    },
+    "name": "Son of Naos - BR",
+    "type": "Character",
+    "cost": 5,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 5,
+    "Recall Cost": 5,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_AX_88_R2": {
+    "id": "ALT_DUSTER_B_AX_88_R2",
+    "face": {
+      "front": {
+        "name": "Ira, Fair Attendee - BR",
+        "type": "Character",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_88/JPG/en_US/214ea2ace590e72bbd73ed2c4a9beb0f.jpg"
+      }
+    },
+    "name": "Ira, Fair Attendee - BR",
+    "type": "Character",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 1,
+    "Recall Cost": 2,
+    "Ocean Power": 1,
+    "Forest Power": 2,
+    "Mountain Power": 0,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_AX_93_R2": {
+    "id": "ALT_DUSTER_B_AX_93_R2",
+    "face": {
+      "front": {
+        "name": "Reka Magnate - BR",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_93/JPG/en_US/252611811a65795e624b51e0a4877da6.jpg"
+      }
+    },
+    "name": "Reka Magnate - BR",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 2,
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_AX_90_R2": {
+    "id": "ALT_DUSTER_B_AX_90_R2",
+    "face": {
+      "front": {
+        "name": "Thomas Edison - BR",
+        "type": "Character",
+        "cost": 5,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_90/JPG/en_US/a48ef5758fbb217c255785c6c2d27987.jpg"
+      }
+    },
+    "name": "Thomas Edison - BR",
+    "type": "Character",
+    "cost": 5,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 5,
+    "Recall Cost": 4,
+    "Ocean Power": 4,
+    "Forest Power": 4,
+    "Mountain Power": 4
+  },
+  "ALT_DUSTER_B_AX_99_R2": {
+    "id": "ALT_DUSTER_B_AX_99_R2",
+    "face": {
+      "front": {
+        "name": "Fab Lab Unit - BR",
+        "type": "Expedition Permanent",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_99/JPG/en_US/e0f5fd1dce22af692d08810cbaa00c26.jpg"
+      }
+    },
+    "name": "Fab Lab Unit - BR",
+    "type": "Expedition Permanent",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 1
+  },
+  "ALT_DUSTER_B_BR_86_C": {
+    "id": "ALT_DUSTER_B_BR_86_C",
+    "face": {
+      "front": {
+        "name": "Flying Squirrel",
+        "type": "Character",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_86/JPG/en_US/2ee405fea8d2c9f35abbc8988b9def73.jpg"
+      }
+    },
+    "name": "Flying Squirrel",
+    "type": "Character",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 1,
+    "Recall Cost": 2,
+    "Ocean Power": 0,
+    "Forest Power": 1,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_BR_86_R1": {
+    "id": "ALT_DUSTER_B_BR_86_R1",
+    "face": {
+      "front": {
+        "name": "Flying Squirrel - BR",
+        "type": "Character",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_86/JPG/en_US/fc4fbfd69812d9f6563375ffa57f1a59.jpg"
+      }
+    },
+    "name": "Flying Squirrel - BR",
+    "type": "Character",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 1,
+    "Recall Cost": 2,
+    "Ocean Power": 0,
+    "Forest Power": 1,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_BR_93_C": {
+    "id": "ALT_DUSTER_B_BR_93_C",
+    "face": {
+      "front": {
+        "name": "Bravos Lookout",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_93/JPG/en_US/eddf412af9ed0490b78c36631f207789.jpg"
+      }
+    },
+    "name": "Bravos Lookout",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 0,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_BR_93_R1": {
+    "id": "ALT_DUSTER_B_BR_93_R1",
+    "face": {
+      "front": {
+        "name": "Bravos Lookout - BR",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_93/JPG/en_US/ddcdc22473b792da44af2766a9183052.jpg"
+      }
+    },
+    "name": "Bravos Lookout - BR",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 4,
+    "Ocean Power": 3,
+    "Forest Power": 0,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_BR_87_C": {
+    "id": "ALT_DUSTER_B_BR_87_C",
+    "face": {
+      "front": {
+        "name": "Reka Skipper",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_87/JPG/en_US/e79adbdf7797d3539e03e777e1a583c8.jpg"
+      }
+    },
+    "name": "Reka Skipper",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 0,
+    "Mountain Power": 0,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_BR_87_R1": {
+    "id": "ALT_DUSTER_B_BR_87_R1",
+    "face": {
+      "front": {
+        "name": "Reka Skipper - BR",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_87/JPG/en_US/c8d343555b5d0034e57f8d2b01964ea9.jpg"
+      }
+    },
+    "name": "Reka Skipper - BR",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 0,
+    "Mountain Power": 0,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_BR_91_C": {
+    "id": "ALT_DUSTER_B_BR_91_C",
+    "face": {
+      "front": {
+        "name": "Bravos Cloudhog",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_91/JPG/en_US/9692b82a8f500175964fdeec7de1776f.jpg"
+      }
+    },
+    "name": "Bravos Cloudhog",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 4,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_BR_91_R1": {
+    "id": "ALT_DUSTER_B_BR_91_R1",
+    "face": {
+      "front": {
+        "name": "Bravos Cloudhog - BR",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_91/JPG/en_US/4bc55e5ccd6b9a3037ef387233f62ca3.jpg"
+      }
+    },
+    "name": "Bravos Cloudhog - BR",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 4,
+    "Ocean Power": 3,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_BR_92_C": {
+    "id": "ALT_DUSTER_B_BR_92_C",
+    "face": {
+      "front": {
+        "name": "Reka Peddler",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_92/JPG/en_US/3cebad2b6593afa97a5a64965e104ffa.jpg"
+      }
+    },
+    "name": "Reka Peddler",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_BR_92_R1": {
+    "id": "ALT_DUSTER_B_BR_92_R1",
+    "face": {
+      "front": {
+        "name": "Reka Peddler - BR",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_92/JPG/en_US/684a3313233e6286a27e22437f414748.jpg"
+      }
+    },
+    "name": "Reka Peddler - BR",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_BR_97_C": {
+    "id": "ALT_DUSTER_B_BR_97_C",
+    "face": {
+      "front": {
+        "name": "Haven Trainer",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_97/JPG/en_US/855c9ec0808a2f59f1415fd555f85d1f.jpg"
+      }
+    },
+    "name": "Haven Trainer",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 2,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_BR_97_R1": {
+    "id": "ALT_DUSTER_B_BR_97_R1",
+    "face": {
+      "front": {
+        "name": "Haven Trainer - BR",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_97/JPG/en_US/3fa051f0dbfb6208d1f2cff0b436b501.jpg"
+      }
+    },
+    "name": "Haven Trainer - BR",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_BR_101_C": {
+    "id": "ALT_DUSTER_B_BR_101_C",
+    "face": {
+      "front": {
+        "name": "Departed Brother",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_101/JPG/en_US/e6b2574c940a4908c3368fe2daf4488c.jpg"
+      }
+    },
+    "name": "Departed Brother",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 1,
+    "Forest Power": 4,
+    "Mountain Power": 4
+  },
+  "ALT_DUSTER_B_BR_101_R1": {
+    "id": "ALT_DUSTER_B_BR_101_R1",
+    "face": {
+      "front": {
+        "name": "Departed Brother - BR",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_101/JPG/en_US/9b74b65b3af69bd7944e11698230e45a.jpg"
+      }
+    },
+    "name": "Departed Brother - BR",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 1,
+    "Forest Power": 4,
+    "Mountain Power": 4
+  },
+  "ALT_DUSTER_B_BR_94_C": {
+    "id": "ALT_DUSTER_B_BR_94_C",
+    "face": {
+      "front": {
+        "name": "Reka Fisherman",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_94/JPG/en_US/6f265bd084699f72e2456e17d05a42dd.jpg"
+      }
+    },
+    "name": "Reka Fisherman",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 5,
+    "Ocean Power": 4,
+    "Forest Power": 2,
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_BR_94_R1": {
+    "id": "ALT_DUSTER_B_BR_94_R1",
+    "face": {
+      "front": {
+        "name": "Reka Fisherman - BR",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_94/JPG/en_US/b07118429869883ee51fcf2571de42f8.jpg"
+      }
+    },
+    "name": "Reka Fisherman - BR",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 5,
+    "Ocean Power": 4,
+    "Forest Power": 3,
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_BR_102_C": {
+    "id": "ALT_DUSTER_B_BR_102_C",
+    "face": {
+      "front": {
+        "name": "Rider's Mask",
+        "type": "Expedition Permanent",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_102/JPG/en_US/a367a417d2321e1ce61bbcb6c90b2b6f.jpg"
+      }
+    },
+    "name": "Rider's Mask",
+    "type": "Expedition Permanent",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Common",
+    "Main Cost": 1,
+    "Recall Cost": 1
+  },
+  "ALT_DUSTER_B_BR_102_R1": {
+    "id": "ALT_DUSTER_B_BR_102_R1",
+    "face": {
+      "front": {
+        "name": "Rider's Mask - BR",
+        "type": "Expedition Permanent",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_102/JPG/en_US/0694f3838f9d45e37321d69396282d73.jpg"
+      }
+    },
+    "name": "Rider's Mask - BR",
+    "type": "Expedition Permanent",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 1,
+    "Recall Cost": 1
+  },
+  "ALT_DUSTER_B_LY_97_R2": {
+    "id": "ALT_DUSTER_B_LY_97_R2",
+    "face": {
+      "front": {
+        "name": "Lyra DJ - BR",
+        "type": "Character",
+        "cost": 6,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_97/JPG/en_US/8b4dfed93e9470268a410fa480c47619.jpg"
+      }
+    },
+    "name": "Lyra DJ - BR",
+    "type": "Character",
+    "cost": 6,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 6,
+    "Recall Cost": 6,
+    "Ocean Power": 6,
+    "Forest Power": 6,
+    "Mountain Power": 6
+  },
+  "ALT_DUSTER_B_MU_88_R2": {
+    "id": "ALT_DUSTER_B_MU_88_R2",
+    "face": {
+      "front": {
+        "name": "Muna Botanist - BR",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_88/JPG/en_US/1b6dbeed370dc768dfa415b58285100f.jpg"
+      }
+    },
+    "name": "Muna Botanist - BR",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 1,
+    "Ocean Power": 0,
+    "Forest Power": 2,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_MU_93_R2": {
+    "id": "ALT_DUSTER_B_MU_93_R2",
+    "face": {
+      "front": {
+        "name": "Hesperide - BR",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_93/JPG/en_US/df7dc84a377e0d4d5088da2f47e82658.jpg"
+      }
+    },
+    "name": "Hesperide - BR",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 3,
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_MU_99_R2": {
+    "id": "ALT_DUSTER_B_MU_99_R2",
+    "face": {
+      "front": {
+        "name": "Newton's Law - BR",
+        "type": "Spell",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_99/JPG/en_US/c1c74f28df7cd13968ad5351b622a72c.jpg"
+      }
+    },
+    "name": "Newton's Law - BR",
+    "type": "Spell",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_95_R2": {
+    "id": "ALT_DUSTER_B_OR_95_R2",
+    "face": {
+      "front": {
+        "name": "Kikimora - BR",
+        "type": "Character",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_95/JPG/en_US/1c30d4dca5132a6784f0cc663db3a9c3.jpg"
+      }
+    },
+    "name": "Kikimora - BR",
+    "type": "Character",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 1,
+    "Recall Cost": 1,
+    "Ocean Power": 1,
+    "Forest Power": 1,
+    "Mountain Power": 0
+  },
+  "ALT_DUSTER_B_YZ_97_R2": {
+    "id": "ALT_DUSTER_B_YZ_97_R2",
+    "face": {
+      "front": {
+        "name": "Sports Encounter - BR",
+        "type": "Spell",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_97/JPG/en_US/18e81f9a4e4d01d9c877c8708fd36c63.jpg"
+      }
+    },
+    "name": "Sports Encounter - BR",
+    "type": "Spell",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 1
+  },
+  "ALT_DUSTER_B_YZ_95_R2": {
+    "id": "ALT_DUSTER_B_YZ_95_R2",
+    "face": {
+      "front": {
+        "name": "Time Out! - BR",
+        "type": "Spell",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_95/JPG/en_US/2831dfae25c80672dfe496eadb51fdce.jpg"
+      }
+    },
+    "name": "Time Out! - BR",
+    "type": "Spell",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Bravos",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3
+  },
+  "ALT_DUSTER_B_LY_90_C": {
+    "id": "ALT_DUSTER_B_LY_90_C",
+    "face": {
+      "front": {
+        "name": "Nyala, Night Reveler",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_90/JPG/en_US/1cfccababe94035135a69a78ca84ae4b.jpg"
+      }
+    },
+    "name": "Nyala, Night Reveler",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 0,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_LY_90_R1": {
+    "id": "ALT_DUSTER_B_LY_90_R1",
+    "face": {
+      "front": {
+        "name": "Nyala, Night Reveler - LY",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_90/JPG/en_US/15020c38c5df1e215801d374f26f88d4.jpg"
+      }
+    },
+    "name": "Nyala, Night Reveler - LY",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 0,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_OR_94_R2": {
+    "id": "ALT_DUSTER_B_OR_94_R2",
+    "face": {
+      "front": {
+        "name": "Reka Caterer - LY",
+        "type": "Character",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_94/JPG/en_US/a48874fc7622908e452f213a4d8ea153.jpg"
+      }
+    },
+    "name": "Reka Caterer - LY",
+    "type": "Character",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 4,
+    "Recall Cost": 4,
+    "Ocean Power": 4,
+    "Forest Power": 3,
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_AX_97_R2": {
+    "id": "ALT_DUSTER_B_AX_97_R2",
+    "face": {
+      "front": {
+        "name": "Failed Demo - LY",
+        "type": "Spell",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_97/JPG/en_US/71e8deaa8eff00677c8d3b8f23de1bbc.jpg"
+      }
+    },
+    "name": "Failed Demo - LY",
+    "type": "Spell",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2
+  },
+  "ALT_DUSTER_B_BR_90_R2": {
+    "id": "ALT_DUSTER_B_BR_90_R2",
+    "face": {
+      "front": {
+        "name": "Isabel Letham - LY",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_90/JPG/en_US/ad5f65e69bac65a9a45db30aec491fcd.jpg"
+      }
+    },
+    "name": "Isabel Letham - LY",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 2,
+    "Mountain Power": 0
+  },
+  "ALT_DUSTER_B_LY_65_C": {
+    "id": "ALT_DUSTER_B_LY_65_C",
+    "face": {
+      "front": {
+        "name": "Nadir & Bubbles",
+        "type": "Hero",
+        "cost": 0,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_65/JPG/en_US/6373e0f57ec2e61e84e53718bfc74d6b.jpg"
+      }
+    },
+    "name": "Nadir & Bubbles",
+    "type": "Hero",
+    "cost": 0,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Common",
+    "Main Cost": 0,
+    "Recall Cost": 0
+  },
+  "ALT_DUSTER_P_LY_65_C": {
+    "id": "ALT_DUSTER_P_LY_65_C",
+    "face": {
+      "front": {
+        "name": "Nadir & Bubbles",
+        "type": "Hero",
+        "cost": 0,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_P_LY_65/JPG/en_US/5a77abdb1faa525ace4daa054106c5d6.jpg"
+      }
+    },
+    "name": "Nadir & Bubbles",
+    "type": "Hero",
+    "cost": 0,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Common",
+    "Main Cost": 0,
+    "Recall Cost": 0
+  },
+  "ALT_DUSTER_B_LY_86_C": {
+    "id": "ALT_DUSTER_B_LY_86_C",
+    "face": {
+      "front": {
+        "name": "Pinocchio",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_86/JPG/en_US/83b5d8d77db45c0f2fa1e5ca6c708ceb.jpg"
+      }
+    },
+    "name": "Pinocchio",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 1,
+    "Ocean Power": 3,
+    "Forest Power": 0,
+    "Mountain Power": 0
+  },
+  "ALT_DUSTER_B_LY_86_R1": {
+    "id": "ALT_DUSTER_B_LY_86_R1",
+    "face": {
+      "front": {
+        "name": "Pinocchio - LY",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_86/JPG/en_US/49ad4ec74758c03d657f7a67ee662c7c.jpg"
+      }
+    },
+    "name": "Pinocchio - LY",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 0,
+    "Mountain Power": 0
+  },
+  "ALT_DUSTER_B_LY_92_C": {
+    "id": "ALT_DUSTER_B_LY_92_C",
+    "face": {
+      "front": {
+        "name": "Urbex Specialist",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_92/JPG/en_US/df701ac14da873079a657daadd18d259.jpg"
+      }
+    },
+    "name": "Urbex Specialist",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 0,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_LY_92_R1": {
+    "id": "ALT_DUSTER_B_LY_92_R1",
+    "face": {
+      "front": {
+        "name": "Urbex Specialist - LY",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_92/JPG/en_US/54220ac68f4f136ded7d276623254d6a.jpg"
+      }
+    },
+    "name": "Urbex Specialist - LY",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 0,
+    "Forest Power": 0,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_LY_93_C": {
+    "id": "ALT_DUSTER_B_LY_93_C",
+    "face": {
+      "front": {
+        "name": "Diocles, Chariot Racer",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_93/JPG/en_US/5a5d4c1a940e6b068ff52571693b0024.jpg"
+      }
+    },
+    "name": "Diocles, Chariot Racer",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 0,
+    "Forest Power": 4,
+    "Mountain Power": 4
+  },
+  "ALT_DUSTER_B_LY_93_R1": {
+    "id": "ALT_DUSTER_B_LY_93_R1",
+    "face": {
+      "front": {
+        "name": "Diocles, Chariot Racer - LY",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_93/JPG/en_US/157bd8880cf9136367e0fc973d82ca50.jpg"
+      }
+    },
+    "name": "Diocles, Chariot Racer - LY",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 0,
+    "Forest Power": 4,
+    "Mountain Power": 4
+  },
+  "ALT_DUSTER_B_LY_94_C": {
+    "id": "ALT_DUSTER_B_LY_94_C",
+    "face": {
+      "front": {
+        "name": "Nightclub Bouncer",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_94/JPG/en_US/4d72896c7f641ab6a7860fdb72f11918.jpg"
+      }
+    },
+    "name": "Nightclub Bouncer",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 4,
+    "Forest Power": 4,
+    "Mountain Power": 0
+  },
+  "ALT_DUSTER_B_LY_94_R1": {
+    "id": "ALT_DUSTER_B_LY_94_R1",
+    "face": {
+      "front": {
+        "name": "Nightclub Bouncer - LY",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_94/JPG/en_US/26e515cb509fb62b7b5bb8a0ca6b1446.jpg"
+      }
+    },
+    "name": "Nightclub Bouncer - LY",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 4,
+    "Forest Power": 4,
+    "Mountain Power": 0
+  },
+  "ALT_DUSTER_B_LY_102_C": {
+    "id": "ALT_DUSTER_B_LY_102_C",
+    "face": {
+      "front": {
+        "name": "Cable-Car Station",
+        "type": "Landmark Permanent",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_102/JPG/en_US/5f780a3d4c5c89fb11f603fb4395e20b.jpg"
+      }
+    },
+    "name": "Cable-Car Station",
+    "type": "Landmark Permanent",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2
+  },
+  "ALT_DUSTER_B_LY_102_R1": {
+    "id": "ALT_DUSTER_B_LY_102_R1",
+    "face": {
+      "front": {
+        "name": "Cable-Car Station - LY",
+        "type": "Landmark Permanent",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_102/JPG/en_US/5de149590a11f076141e368e89a119bb.jpg"
+      }
+    },
+    "name": "Cable-Car Station - LY",
+    "type": "Landmark Permanent",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2
+  },
+  "ALT_DUSTER_B_YZ_92_R2": {
+    "id": "ALT_DUSTER_B_YZ_92_R2",
+    "face": {
+      "front": {
+        "name": "Mochizuki Chiyome - LY",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/JPG/en_US/9a48b7d1fc36731194cf7ca922f6ed98.jpg"
+      }
+    },
+    "name": "Mochizuki Chiyome - LY",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_YZ_99_R2": {
+    "id": "ALT_DUSTER_B_YZ_99_R2",
+    "face": {
+      "front": {
+        "name": "Tag! - LY",
+        "type": "Spell",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_99/JPG/en_US/6317cbc5f6956eee180d2f613ba1902d.jpg"
+      }
+    },
+    "name": "Tag! - LY",
+    "type": "Spell",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 4,
+    "Recall Cost": 7
+  },
+  "ALT_DUSTER_B_YZ_98_R2": {
+    "id": "ALT_DUSTER_B_YZ_98_R2",
+    "face": {
+      "front": {
+        "name": "Finisher - LY",
+        "type": "Spell",
+        "cost": 7,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_98/JPG/en_US/29a3df3b6f43a1f4530ec23ddb35deed.jpg"
+      }
+    },
+    "name": "Finisher - LY",
+    "type": "Spell",
+    "cost": 7,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 7,
+    "Recall Cost": 7
+  },
+  "ALT_DUSTER_B_BR_86_R2": {
+    "id": "ALT_DUSTER_B_BR_86_R2",
+    "face": {
+      "front": {
+        "name": "Flying Squirrel - LY",
+        "type": "Character",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_86/JPG/en_US/e82b32cf978268b6f9a5e4d75c91dd5a.jpg"
+      }
+    },
+    "name": "Flying Squirrel - LY",
+    "type": "Character",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 1,
+    "Recall Cost": 2,
+    "Ocean Power": 0,
+    "Forest Power": 1,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_BR_87_R2": {
+    "id": "ALT_DUSTER_B_BR_87_R2",
+    "face": {
+      "front": {
+        "name": "Reka Skipper - LY",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_87/JPG/en_US/974ea09da5189693dee55a56a191cdaa.jpg"
+      }
+    },
+    "name": "Reka Skipper - LY",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 0,
+    "Mountain Power": 0,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_LY_87_C": {
+    "id": "ALT_DUSTER_B_LY_87_C",
+    "face": {
+      "front": {
+        "name": "Reka Guide",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_87/JPG/en_US/6b50c3ae45b3f9f9a73ff63c1cf9b202.jpg"
+      }
+    },
+    "name": "Reka Guide",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 1,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_LY_87_R1": {
+    "id": "ALT_DUSTER_B_LY_87_R1",
+    "face": {
+      "front": {
+        "name": "Reka Guide - LY",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_87/JPG/en_US/ba50058bc257c85e9b812c06979e26b4.jpg"
+      }
+    },
+    "name": "Reka Guide - LY",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_LY_88_C": {
+    "id": "ALT_DUSTER_B_LY_88_C",
+    "face": {
+      "front": {
+        "name": "Reka Zipliner",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_88/JPG/en_US/6b0478badad36096180063aef37107ef.jpg"
+      }
+    },
+    "name": "Reka Zipliner",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 0,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_LY_88_R1": {
+    "id": "ALT_DUSTER_B_LY_88_R1",
+    "face": {
+      "front": {
+        "name": "Reka Zipliner - LY",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_88/JPG/en_US/f33541d3e152ac05756939692568d699.jpg"
+      }
+    },
+    "name": "Reka Zipliner - LY",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 0,
+    "Forest Power": 2,
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_LY_89_C": {
+    "id": "ALT_DUSTER_B_LY_89_C",
+    "face": {
+      "front": {
+        "name": "Reka Barmaid",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_89/JPG/en_US/c9e0fbe4fe975864f98f1b42a82540c3.jpg"
+      }
+    },
+    "name": "Reka Barmaid",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 0,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_LY_89_R1": {
+    "id": "ALT_DUSTER_B_LY_89_R1",
+    "face": {
+      "front": {
+        "name": "Reka Barmaid - LY",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_89/JPG/en_US/a7614d7d859898c0d01f3c4f8209c8b2.jpg"
+      }
+    },
+    "name": "Reka Barmaid - LY",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_LY_91_C": {
+    "id": "ALT_DUSTER_B_LY_91_C",
+    "face": {
+      "front": {
+        "name": "Cheshire Cat",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_91/JPG/en_US/1433e8dbb195c0076652dbbd2237fa70.jpg"
+      }
+    },
+    "name": "Cheshire Cat",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_LY_91_R1": {
+    "id": "ALT_DUSTER_B_LY_91_R1",
+    "face": {
+      "front": {
+        "name": "Cheshire Cat - LY",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_91/JPG/en_US/c9504d9124f26b2ead46a9e1c7f8d992.jpg"
+      }
+    },
+    "name": "Cheshire Cat - LY",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_LY_96_C": {
+    "id": "ALT_DUSTER_B_LY_96_C",
+    "face": {
+      "front": {
+        "name": "Don Juan",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_96/JPG/en_US/7e6288283096b9bde514eee2baf2a70e.jpg"
+      }
+    },
+    "name": "Don Juan",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 4,
+    "Ocean Power": 5,
+    "Forest Power": 0,
+    "Mountain Power": 5
+  },
+  "ALT_DUSTER_B_LY_96_R1": {
+    "id": "ALT_DUSTER_B_LY_96_R1",
+    "face": {
+      "front": {
+        "name": "Don Juan - LY",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_96/JPG/en_US/c0bff95b150771bef175ce97131e7416.jpg"
+      }
+    },
+    "name": "Don Juan - LY",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 3,
+    "Ocean Power": 4,
+    "Forest Power": 0,
+    "Mountain Power": 4
+  },
+  "ALT_DUSTER_B_LY_95_C": {
+    "id": "ALT_DUSTER_B_LY_95_C",
+    "face": {
+      "front": {
+        "name": "Hostel Nightkeeper",
+        "type": "Character",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_95/JPG/en_US/2db3b97d17eb25eebd5802869bc3d5e8.jpg"
+      }
+    },
+    "name": "Hostel Nightkeeper",
+    "type": "Character",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Common",
+    "Main Cost": 4,
+    "Recall Cost": 3,
+    "Ocean Power": 4,
+    "Forest Power": 4,
+    "Mountain Power": 0,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_LY_95_R1": {
+    "id": "ALT_DUSTER_B_LY_95_R1",
+    "face": {
+      "front": {
+        "name": "Hostel Nightkeeper - LY",
+        "type": "Character",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_95/JPG/en_US/a21b8ac21f1d6948862109706ed01a79.jpg"
+      }
+    },
+    "name": "Hostel Nightkeeper - LY",
+    "type": "Character",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 4,
+    "Recall Cost": 3,
+    "Ocean Power": 4,
+    "Forest Power": 4,
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_LY_97_C": {
+    "id": "ALT_DUSTER_B_LY_97_C",
+    "face": {
+      "front": {
+        "name": "Lyra DJ",
+        "type": "Character",
+        "cost": 6,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_97/JPG/en_US/903e1ae92bc8a74e91d486012958c393.jpg"
+      }
+    },
+    "name": "Lyra DJ",
+    "type": "Character",
+    "cost": 6,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Common",
+    "Main Cost": 6,
+    "Recall Cost": 6,
+    "Ocean Power": 6,
+    "Forest Power": 6,
+    "Mountain Power": 6
+  },
+  "ALT_DUSTER_B_LY_97_R1": {
+    "id": "ALT_DUSTER_B_LY_97_R1",
+    "face": {
+      "front": {
+        "name": "Lyra DJ - LY",
+        "type": "Character",
+        "cost": 6,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_97/JPG/en_US/cd97ce1eb40e8cb0d44fb720149538bb.jpg"
+      }
+    },
+    "name": "Lyra DJ - LY",
+    "type": "Character",
+    "cost": 6,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 6,
+    "Recall Cost": 6,
+    "Ocean Power": 6,
+    "Forest Power": 6,
+    "Mountain Power": 6
+  },
+  "ALT_DUSTER_B_LY_99_C": {
+    "id": "ALT_DUSTER_B_LY_99_C",
+    "face": {
+      "front": {
+        "name": "Paint it Pink!",
+        "type": "Spell",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_99/JPG/en_US/4a106a48be99f0e6063635a7b442441e.jpg"
+      }
+    },
+    "name": "Paint it Pink!",
+    "type": "Spell",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Common",
+    "Main Cost": 4,
+    "Recall Cost": 4
+  },
+  "ALT_DUSTER_B_LY_99_R1": {
+    "id": "ALT_DUSTER_B_LY_99_R1",
+    "face": {
+      "front": {
+        "name": "Paint it Pink! - LY",
+        "type": "Spell",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_99/JPG/en_US/5278b996258c5a68b68d3f6e6ce7c800.jpg"
+      }
+    },
+    "name": "Paint it Pink! - LY",
+    "type": "Spell",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 4,
+    "Recall Cost": 4
+  },
+  "ALT_DUSTER_B_LY_100_C": {
+    "id": "ALT_DUSTER_B_LY_100_C",
+    "face": {
+      "front": {
+        "name": "Romantic Encounter",
+        "type": "Spell",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_100/JPG/en_US/78a3a465f0b40361c734bf9162a9b402.jpg"
+      }
+    },
+    "name": "Romantic Encounter",
+    "type": "Spell",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Common",
+    "Main Cost": 4,
+    "Recall Cost": 4
+  },
+  "ALT_DUSTER_B_LY_100_R1": {
+    "id": "ALT_DUSTER_B_LY_100_R1",
+    "face": {
+      "front": {
+        "name": "Romantic Encounter - LY",
+        "type": "Spell",
+        "cost": 7,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_100/JPG/en_US/933eb882683df3e0c4372bd021a030b3.jpg"
+      }
+    },
+    "name": "Romantic Encounter - LY",
+    "type": "Spell",
+    "cost": 7,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 7,
+    "Recall Cost": 7
+  },
+  "ALT_DUSTER_B_LY_101_C": {
+    "id": "ALT_DUSTER_B_LY_101_C",
+    "face": {
+      "front": {
+        "name": "Reka Headset",
+        "type": "Expedition Permanent",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_101/JPG/en_US/4e09f31c500f6d52e3250903e5b5e6fc.jpg"
+      }
+    },
+    "name": "Reka Headset",
+    "type": "Expedition Permanent",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Common",
+    "Main Cost": 1,
+    "Recall Cost": 2
+  },
+  "ALT_DUSTER_B_LY_101_R1": {
+    "id": "ALT_DUSTER_B_LY_101_R1",
+    "face": {
+      "front": {
+        "name": "Reka Headset - LY",
+        "type": "Expedition Permanent",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_101/JPG/en_US/58a4b5f2b73176763a59b37bb6031127.jpg"
+      }
+    },
+    "name": "Reka Headset - LY",
+    "type": "Expedition Permanent",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 1,
+    "Recall Cost": 1
+  },
+  "ALT_DUSTER_B_MU_94_R2": {
+    "id": "ALT_DUSTER_B_MU_94_R2",
+    "face": {
+      "front": {
+        "name": "Reka Gatherer - LY",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_94/JPG/en_US/9f9d2f5a831efc5b97ba90620a4a3c32.jpg"
+      }
+    },
+    "name": "Reka Gatherer - LY",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 3,
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_MU_90_R2": {
+    "id": "ALT_DUSTER_B_MU_90_R2",
+    "face": {
+      "front": {
+        "name": "Flore, Fuming Gardener - LY",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_90/JPG/en_US/e5119d4c1a9a4d4f2bbc571dc64f64ab.jpg"
+      }
+    },
+    "name": "Flore, Fuming Gardener - LY",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 0,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_MU_95_R2": {
+    "id": "ALT_DUSTER_B_MU_95_R2",
+    "face": {
+      "front": {
+        "name": "Dapeng - LY",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_95/JPG/en_US/173035ca88f8971eb7dd6f8424522949.jpg"
+      }
+    },
+    "name": "Dapeng - LY",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 4,
+    "Forest Power": 4,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_MU_98_R2": {
+    "id": "ALT_DUSTER_B_MU_98_R2",
+    "face": {
+      "front": {
+        "name": "Soul Encounter - LY",
+        "type": "Spell",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_98/JPG/en_US/f2e2f9a0520789fc2eab34a956664a14.jpg"
+      }
+    },
+    "name": "Soul Encounter - LY",
+    "type": "Spell",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 2
+  },
+  "ALT_DUSTER_B_MU_101_R2": {
+    "id": "ALT_DUSTER_B_MU_101_R2",
+    "face": {
+      "front": {
+        "name": "The Embassy - LY",
+        "type": "Landmark Permanent",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_101/JPG/en_US/e36b98f386f74c80e57c69accc178ee4.jpg"
+      }
+    },
+    "name": "The Embassy - LY",
+    "type": "Landmark Permanent",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 4,
+    "Recall Cost": 4
+  },
+  "ALT_DUSTER_B_OR_88_R2": {
+    "id": "ALT_DUSTER_B_OR_88_R2",
+    "face": {
+      "front": {
+        "name": "Galatea - LY",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_88/JPG/en_US/6ca74a3d0b27d652c3c12e985c0c35c7.jpg"
+      }
+    },
+    "name": "Galatea - LY",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_OR_98_R2": {
+    "id": "ALT_DUSTER_B_OR_98_R2",
+    "face": {
+      "front": {
+        "name": "Unfair Encounter - LY",
+        "type": "Spell",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_98/JPG/en_US/a35b7d98b0d850fadb3985a8cbb21eff.jpg"
+      }
+    },
+    "name": "Unfair Encounter - LY",
+    "type": "Spell",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3
+  },
+  "ALT_DUSTER_B_YZ_89_R2": {
+    "id": "ALT_DUSTER_B_YZ_89_R2",
+    "face": {
+      "front": {
+        "name": "Foul Faker - LY",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_89/JPG/en_US/d7e1d8eccfb3d6303a148457fcdb81b7.jpg"
+      }
+    },
+    "name": "Foul Faker - LY",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Lyra",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 1,
+    "Forest Power": 1,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_MU_85_C": {
+    "id": "ALT_DUSTER_B_MU_85_C",
+    "face": {
+      "front": {
+        "name": "Turuun & Benih",
+        "type": "Hero",
+        "cost": 0,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_85/JPG/en_US/fe4dbe89a16847fdc97ab3d1f922efaf.jpg"
+      }
+    },
+    "name": "Turuun & Benih",
+    "type": "Hero",
+    "cost": 0,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Common",
+    "Main Cost": 0,
+    "Recall Cost": 0
+  },
+  "ALT_DUSTER_B_MU_86_C": {
+    "id": "ALT_DUSTER_B_MU_86_C",
+    "face": {
+      "front": {
+        "name": "Rabbit Farmer",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_86/JPG/en_US/319d6cda77b1db76726e0b5c14a4b882.jpg"
+      }
+    },
+    "name": "Rabbit Farmer",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 1,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_MU_86_R1": {
+    "id": "ALT_DUSTER_B_MU_86_R1",
+    "face": {
+      "front": {
+        "name": "Rabbit Farmer - MU",
+        "type": "Character",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_86/JPG/en_US/eb1b7dc6ee47781e87bb2627e27e5ee7.jpg"
+      }
+    },
+    "name": "Rabbit Farmer - MU",
+    "type": "Character",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 1,
+    "Recall Cost": 1,
+    "Ocean Power": 0,
+    "Forest Power": 1,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_MU_89_C": {
+    "id": "ALT_DUSTER_B_MU_89_C",
+    "face": {
+      "front": {
+        "name": "Charitable Reka",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_89/JPG/en_US/39835f5a836f9de64cd1fa43cf8c8fe3.jpg"
+      }
+    },
+    "name": "Charitable Reka",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 0
+  },
+  "ALT_DUSTER_B_MU_89_R1": {
+    "id": "ALT_DUSTER_B_MU_89_R1",
+    "face": {
+      "front": {
+        "name": "Charitable Reka - MU",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_89/JPG/en_US/74fa8c6295d3908d3abd6f7ca5d75ce2.jpg"
+      }
+    },
+    "name": "Charitable Reka - MU",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 0,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_MU_91_C": {
+    "id": "ALT_DUSTER_B_MU_91_C",
+    "face": {
+      "front": {
+        "name": "Reka Agronomist",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_91/JPG/en_US/8b96af40444ccfce2b7e6b8deff3dfeb.jpg"
+      }
+    },
+    "name": "Reka Agronomist",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 4,
+    "Forest Power": 4,
+    "Mountain Power": 4,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_MU_91_R1": {
+    "id": "ALT_DUSTER_B_MU_91_R1",
+    "face": {
+      "front": {
+        "name": "Reka Agronomist - MU",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_91/JPG/en_US/da72d802ee6b48ec14bc1e1e79c4d9c3.jpg"
+      }
+    },
+    "name": "Reka Agronomist - MU",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 5,
+    "Forest Power": 5,
+    "Mountain Power": 4,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_92_R2": {
+    "id": "ALT_DUSTER_B_OR_92_R2",
+    "face": {
+      "front": {
+        "name": "Reka Investor - MU",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_92/JPG/en_US/f07af4469c8cd785a9f48d2999d6bb05.jpg"
+      }
+    },
+    "name": "Reka Investor - MU",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 0,
+    "Forest Power": 3,
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C",
+      "ALT_COREKS_B_OR_31_C"
+    ]
+  },
+  "ALT_DUSTER_B_BR_88_R2": {
+    "id": "ALT_DUSTER_B_BR_88_R2",
+    "face": {
+      "front": {
+        "name": "Helpful Diver - MU",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_88/JPG/en_US/b8afc76705319f16f229c5cdeb253573.jpg"
+      }
+    },
+    "name": "Helpful Diver - MU",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_BR_96_R2": {
+    "id": "ALT_DUSTER_B_BR_96_R2",
+    "face": {
+      "front": {
+        "name": "Nephele - MU",
+        "type": "Character",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_96/JPG/en_US/7cde7cdbe465390453119f79df5889d5.jpg"
+      }
+    },
+    "name": "Nephele - MU",
+    "type": "Character",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 4,
+    "Recall Cost": 4,
+    "Ocean Power": 5,
+    "Forest Power": 5,
+    "Mountain Power": 5,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_BR_100_R2": {
+    "id": "ALT_DUSTER_B_BR_100_R2",
+    "face": {
+      "front": {
+        "name": "Catch of the Day - MU",
+        "type": "Spell",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_100/JPG/en_US/8e17c7e3b01460e20f90806b4a38eb4d.jpg"
+      }
+    },
+    "name": "Catch of the Day - MU",
+    "type": "Spell",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 4,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_LY_86_R2": {
+    "id": "ALT_DUSTER_B_LY_86_R2",
+    "face": {
+      "front": {
+        "name": "Pinocchio - MU",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_86/JPG/en_US/dcfcb3dc5f0888b782a0a599a4c7e90a.jpg"
+      }
+    },
+    "name": "Pinocchio - MU",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 0,
+    "Mountain Power": 0
+  },
+  "ALT_DUSTER_B_LY_92_R2": {
+    "id": "ALT_DUSTER_B_LY_92_R2",
+    "face": {
+      "front": {
+        "name": "Urbex Specialist - MU",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_92/JPG/en_US/8951ce0667b980b40df4988741a8e6f7.jpg"
+      }
+    },
+    "name": "Urbex Specialist - MU",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 0,
+    "Forest Power": 0,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_P_MU_85_C": {
+    "id": "ALT_DUSTER_P_MU_85_C",
+    "face": {
+      "front": {
+        "name": "Turuun & Benih",
+        "type": "Hero",
+        "cost": 0,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_P_MU_85/JPG/en_US/fcff38dfd44071b32edda9ff95a47c28.jpg"
+      }
+    },
+    "name": "Turuun & Benih",
+    "type": "Hero",
+    "cost": 0,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Common",
+    "Main Cost": 0,
+    "Recall Cost": 0
+  },
+  "ALT_DUSTER_B_YZ_86_R2": {
+    "id": "ALT_DUSTER_B_YZ_86_R2",
+    "face": {
+      "front": {
+        "name": "Harry Houdini - MU",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_86/JPG/en_US/9630c81aae13426ab00f93885d7b0ebd.jpg"
+      }
+    },
+    "name": "Harry Houdini - MU",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 1,
+    "Ocean Power": 0,
+    "Forest Power": 1,
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
+  },
+  "ALT_DUSTER_B_MU_97_C": {
+    "id": "ALT_DUSTER_B_MU_97_C",
+    "face": {
+      "front": {
+        "name": "Son of Naos",
+        "type": "Character",
+        "cost": 5,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_97/JPG/en_US/3ff917bf681c8c09c81d41bbaa77a36c.jpg"
+      }
+    },
+    "name": "Son of Naos",
+    "type": "Character",
+    "cost": 5,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Common",
+    "Main Cost": 5,
+    "Recall Cost": 5,
+    "Ocean Power": 4,
+    "Forest Power": 4,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_MU_97_R1": {
+    "id": "ALT_DUSTER_B_MU_97_R1",
+    "face": {
+      "front": {
+        "name": "Son of Naos - MU",
+        "type": "Character",
+        "cost": 5,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_97/JPG/en_US/e7fa8121396099c9b948f3c177993671.jpg"
+      }
+    },
+    "name": "Son of Naos - MU",
+    "type": "Character",
+    "cost": 5,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 5,
+    "Recall Cost": 5,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_OR_87_R2": {
+    "id": "ALT_DUSTER_B_OR_87_R2",
+    "face": {
+      "front": {
+        "name": "Souvenir Seller - MU",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_87/JPG/en_US/dfb9f64872c080ebc08462fae5384cdc.jpg"
+      }
+    },
+    "name": "Souvenir Seller - MU",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_BR_92_R2": {
+    "id": "ALT_DUSTER_B_BR_92_R2",
+    "face": {
+      "front": {
+        "name": "Reka Peddler - MU",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_92/JPG/en_US/6f5c341c122084b1e2b5e63345e0715b.jpg"
+      }
+    },
+    "name": "Reka Peddler - MU",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_BR_101_R2": {
+    "id": "ALT_DUSTER_B_BR_101_R2",
+    "face": {
+      "front": {
+        "name": "Departed Brother - MU",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_101/JPG/en_US/b6ffcf51a056ff1ed50772440e10165e.jpg"
+      }
+    },
+    "name": "Departed Brother - MU",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 1,
+    "Forest Power": 4,
+    "Mountain Power": 4
+  },
+  "ALT_DUSTER_B_LY_87_R2": {
+    "id": "ALT_DUSTER_B_LY_87_R2",
+    "face": {
+      "front": {
+        "name": "Reka Guide - MU",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_87/JPG/en_US/891d8cf0ceb6c8b74c8aa0eae3116b4d.jpg"
+      }
+    },
+    "name": "Reka Guide - MU",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_LY_96_R2": {
+    "id": "ALT_DUSTER_B_LY_96_R2",
+    "face": {
+      "front": {
+        "name": "Don Juan - MU",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_96/JPG/en_US/aea0d3d5aa0703e036f131ac696876f1.jpg"
+      }
+    },
+    "name": "Don Juan - MU",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 3,
+    "Ocean Power": 4,
+    "Forest Power": 0,
+    "Mountain Power": 4
+  },
+  "ALT_DUSTER_B_LY_95_R2": {
+    "id": "ALT_DUSTER_B_LY_95_R2",
+    "face": {
+      "front": {
+        "name": "Hostel Nightkeeper - MU",
+        "type": "Character",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_95/JPG/en_US/d1bdd6e45ec6fc0ba08fbf824ef879bb.jpg"
+      }
+    },
+    "name": "Hostel Nightkeeper - MU",
+    "type": "Character",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 4,
+    "Recall Cost": 3,
+    "Ocean Power": 4,
+    "Forest Power": 4,
+    "Mountain Power": 0,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_MU_94_C": {
+    "id": "ALT_DUSTER_B_MU_94_C",
+    "face": {
+      "front": {
+        "name": "Reka Gatherer",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_94/JPG/en_US/3eadbd937bb306b1e55d011d7b2b027f.jpg"
+      }
+    },
+    "name": "Reka Gatherer",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_MU_94_R1": {
+    "id": "ALT_DUSTER_B_MU_94_R1",
+    "face": {
+      "front": {
+        "name": "Reka Gatherer - MU",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_94/JPG/en_US/cc9560446d2139a9fb1aa3bdac2de136.jpg"
+      }
+    },
+    "name": "Reka Gatherer - MU",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 3,
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_MU_87_C": {
+    "id": "ALT_DUSTER_B_MU_87_C",
+    "face": {
+      "front": {
+        "name": "Reka Tradesman",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_87/JPG/en_US/e01295945d652b0f1ea8d7469129bcbf.jpg"
+      }
+    },
+    "name": "Reka Tradesman",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 0,
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_MU_87_R1": {
+    "id": "ALT_DUSTER_B_MU_87_R1",
+    "face": {
+      "front": {
+        "name": "Reka Tradesman - MU",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_87/JPG/en_US/dc8fe1ba58c185562ec95e5cad4ecf78.jpg"
+      }
+    },
+    "name": "Reka Tradesman - MU",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 0,
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_MU_88_C": {
+    "id": "ALT_DUSTER_B_MU_88_C",
+    "face": {
+      "front": {
+        "name": "Muna Botanist",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_88/JPG/en_US/b9f9db5a7f0a0130f0d24719d755ce36.jpg"
+      }
+    },
+    "name": "Muna Botanist",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 0,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_MU_88_R1": {
+    "id": "ALT_DUSTER_B_MU_88_R1",
+    "face": {
+      "front": {
+        "name": "Muna Botanist - MU",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_88/JPG/en_US/88bec6f53546f9a090b1a67237db05fb.jpg"
+      }
+    },
+    "name": "Muna Botanist - MU",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 1,
+    "Ocean Power": 0,
+    "Forest Power": 2,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_MU_93_C": {
+    "id": "ALT_DUSTER_B_MU_93_C",
+    "face": {
+      "front": {
+        "name": "Hesperide",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_93/JPG/en_US/c5610f9ad227bd6f55fd393f975aaa01.jpg"
+      }
+    },
+    "name": "Hesperide",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_MU_93_R1": {
+    "id": "ALT_DUSTER_B_MU_93_R1",
+    "face": {
+      "front": {
+        "name": "Hesperide - MU",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_93/JPG/en_US/49ff886d649d63e1f4359cbc12000d27.jpg"
+      }
+    },
+    "name": "Hesperide - MU",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 3,
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_MU_92_C": {
+    "id": "ALT_DUSTER_B_MU_92_C",
+    "face": {
+      "front": {
+        "name": "Daughter of Naos",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_92/JPG/en_US/4a5b9c895a4d1ed202761a9463645be7.jpg"
+      }
+    },
+    "name": "Daughter of Naos",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 2,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_MU_92_R1": {
+    "id": "ALT_DUSTER_B_MU_92_R1",
+    "face": {
+      "front": {
+        "name": "Daughter of Naos - MU",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_92/JPG/en_US/8e3efa6907951b52e21a92701908190d.jpg"
+      }
+    },
+    "name": "Daughter of Naos - MU",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 2,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_MU_90_C": {
+    "id": "ALT_DUSTER_B_MU_90_C",
+    "face": {
+      "front": {
+        "name": "Flore, Fuming Gardener",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_90/JPG/en_US/1e781b33422b7ef9a6bf24e69f49b0ec.jpg"
+      }
+    },
+    "name": "Flore, Fuming Gardener",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 0,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_MU_90_R1": {
+    "id": "ALT_DUSTER_B_MU_90_R1",
+    "face": {
+      "front": {
+        "name": "Flore, Fuming Gardener - MU",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_90/JPG/en_US/42b2e36b48330ba7c620ba3267daf50b.jpg"
+      }
+    },
+    "name": "Flore, Fuming Gardener - MU",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 0,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_MU_95_C": {
+    "id": "ALT_DUSTER_B_MU_95_C",
+    "face": {
+      "front": {
+        "name": "Dapeng",
+        "type": "Character",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_95/JPG/en_US/c75c39bb5ed9917caa29dd959fd7a22a.jpg"
+      }
+    },
+    "name": "Dapeng",
+    "type": "Character",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Common",
+    "Main Cost": 4,
+    "Recall Cost": 3,
+    "Ocean Power": 4,
+    "Forest Power": 4,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_MU_95_R1": {
+    "id": "ALT_DUSTER_B_MU_95_R1",
+    "face": {
+      "front": {
+        "name": "Dapeng - MU",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_95/JPG/en_US/d69fd0ea8d8f8e0f3966ca7c43d41a3d.jpg"
+      }
+    },
+    "name": "Dapeng - MU",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 4,
+    "Forest Power": 4,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_MU_99_C": {
+    "id": "ALT_DUSTER_B_MU_99_C",
+    "face": {
+      "front": {
+        "name": "Newton's Law",
+        "type": "Spell",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_99/JPG/en_US/5ebf343781661e77ff721eac242c1bd4.jpg"
+      }
+    },
+    "name": "Newton's Law",
+    "type": "Spell",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_MU_99_R1": {
+    "id": "ALT_DUSTER_B_MU_99_R1",
+    "face": {
+      "front": {
+        "name": "Newton's Law - MU",
+        "type": "Spell",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_99/JPG/en_US/311f5226c848eb54c19d18264b35a2ce.jpg"
+      }
+    },
+    "name": "Newton's Law - MU",
+    "type": "Spell",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_MU_98_C": {
+    "id": "ALT_DUSTER_B_MU_98_C",
+    "face": {
+      "front": {
+        "name": "Soul Encounter",
+        "type": "Spell",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_98/JPG/en_US/1b55114b9babbefabd13bdac73eb0d41.jpg"
+      }
+    },
+    "name": "Soul Encounter",
+    "type": "Spell",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 3
+  },
+  "ALT_DUSTER_B_MU_98_R1": {
+    "id": "ALT_DUSTER_B_MU_98_R1",
+    "face": {
+      "front": {
+        "name": "Soul Encounter - MU",
+        "type": "Spell",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_98/JPG/en_US/66662e172fca81ddd26be2a16149935e.jpg"
+      }
+    },
+    "name": "Soul Encounter - MU",
+    "type": "Spell",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 2
+  },
+  "ALT_DUSTER_B_MU_100_C": {
+    "id": "ALT_DUSTER_B_MU_100_C",
+    "face": {
+      "front": {
+        "name": "Picnic Area",
+        "type": "Landmark Permanent",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_100/JPG/en_US/807ccb4132a5685b1d444bab955f80d2.jpg"
+      }
+    },
+    "name": "Picnic Area",
+    "type": "Landmark Permanent",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2
+  },
+  "ALT_DUSTER_B_MU_100_R1": {
+    "id": "ALT_DUSTER_B_MU_100_R1",
+    "face": {
+      "front": {
+        "name": "Picnic Area - MU",
+        "type": "Landmark Permanent",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_100/JPG/en_US/e9fc5527106a2fb765ab0f89683d5abc.jpg"
+      }
+    },
+    "name": "Picnic Area - MU",
+    "type": "Landmark Permanent",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2
+  },
+  "ALT_DUSTER_B_MU_101_C": {
+    "id": "ALT_DUSTER_B_MU_101_C",
+    "face": {
+      "front": {
+        "name": "The Embassy",
+        "type": "Landmark Permanent",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_101/JPG/en_US/3d91b456022fbe825b6095742a026d2d.jpg"
+      }
+    },
+    "name": "The Embassy",
+    "type": "Landmark Permanent",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Common",
+    "Main Cost": 4,
+    "Recall Cost": 4
+  },
+  "ALT_DUSTER_B_MU_101_R1": {
+    "id": "ALT_DUSTER_B_MU_101_R1",
+    "face": {
+      "front": {
+        "name": "The Embassy - MU",
+        "type": "Landmark Permanent",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_101/JPG/en_US/f77e68d4f65138416b8b9c804e4f3ab8.jpg"
+      }
+    },
+    "name": "The Embassy - MU",
+    "type": "Landmark Permanent",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 4,
+    "Recall Cost": 4
+  },
+  "ALT_DUSTER_B_MU_102_C": {
+    "id": "ALT_DUSTER_B_MU_102_C",
+    "face": {
+      "front": {
+        "name": "The Naos",
+        "type": "Landmark Permanent",
+        "cost": 6,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_102/JPG/en_US/a04f70af841145a6db3d007ec13a3e93.jpg"
+      }
+    },
+    "name": "The Naos",
+    "type": "Landmark Permanent",
+    "cost": 6,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Common",
+    "Main Cost": 6,
+    "Recall Cost": 6,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_MU_102_R1": {
+    "id": "ALT_DUSTER_B_MU_102_R1",
+    "face": {
+      "front": {
+        "name": "The Naos - MU",
+        "type": "Landmark Permanent",
+        "cost": 8,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_102/JPG/en_US/0458f1b9a026afa698cc888c5c98c72f.jpg"
+      }
+    },
+    "name": "The Naos - MU",
+    "type": "Landmark Permanent",
+    "cost": 8,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 8,
+    "Recall Cost": 8,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_YZ_90_R2": {
+    "id": "ALT_DUSTER_B_YZ_90_R2",
+    "face": {
+      "front": {
+        "name": "Milady de Winter - MU",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_90/JPG/en_US/d624234a4a0d28527ba2c2c6bb7a1721.jpg"
+      }
+    },
+    "name": "Milady de Winter - MU",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_YZ_93_R2": {
+    "id": "ALT_DUSTER_B_YZ_93_R2",
+    "face": {
+      "front": {
+        "name": "Partial Referee - MU",
+        "type": "Character",
+        "cost": 5,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_93/JPG/en_US/2ac9fae79515ce5b3c4417d0f89748a8.jpg"
+      }
+    },
+    "name": "Partial Referee - MU",
+    "type": "Character",
+    "cost": 5,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 5,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 4
+  },
+  "ALT_DUSTER_B_YZ_102_R2": {
+    "id": "ALT_DUSTER_B_YZ_102_R2",
+    "face": {
+      "front": {
+        "name": "The Infirmary - MU",
+        "type": "Landmark Permanent",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_102/JPG/en_US/94ef4d237e70a64b81fdf67105f272ae.jpg"
+      }
+    },
+    "name": "The Infirmary - MU",
+    "type": "Landmark Permanent",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Muna",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3
+  },
+  "ALT_DUSTER_B_NE_04_C": {
+    "id": "ALT_DUSTER_B_NE_04_C",
+    "face": {
+      "front": {
+        "name": "Manaseed",
+        "type": "Token Landmark Permanent",
+        "cost": 0,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_NE_04/JPG/en_US/f4f4681b4ad07c00763feb585de850ed.jpg"
+      }
+    },
+    "name": "Manaseed",
+    "type": "Token Landmark Permanent",
+    "cost": 0,
+    "isToken": true,
+    "faction": "Neutral",
+    "rarity": "Common",
+    "Main Cost": 0,
+    "Recall Cost": 0
+  },
+  "ALT_DUSTER_B_OR_97_E": {
+    "id": "ALT_DUSTER_B_OR_97_E",
+    "face": {
+      "front": {
+        "name": "Astrape, Reka Hexarch",
+        "type": "Character",
+        "cost": 6,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_97/JPG/en_US/d65bb96051b5c86c317b34bcdfebcb43.jpg"
+      }
+    },
+    "name": "Astrape, Reka Hexarch",
+    "type": "Character",
+    "cost": 6,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Exalted",
+    "Main Cost": 6,
+    "Recall Cost": 6,
+    "Ocean Power": 0,
+    "Forest Power": 0,
+    "Mountain Power": 0,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_MU_89_R2": {
+    "id": "ALT_DUSTER_B_MU_89_R2",
+    "face": {
+      "front": {
+        "name": "Charitable Reka - OR",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_89/JPG/en_US/383586dd8aa7ec390c3030d6296c7567.jpg"
+      }
+    },
+    "name": "Charitable Reka - OR",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 0,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_85_C": {
+    "id": "ALT_DUSTER_B_OR_85_C",
+    "face": {
+      "front": {
+        "name": "Matz & Hive",
+        "type": "Hero",
+        "cost": 0,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_85/JPG/en_US/e88f285436410843a238606c20eb7938.jpg"
+      }
+    },
+    "name": "Matz & Hive",
+    "type": "Hero",
+    "cost": 0,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 0,
+    "Recall Cost": 0
+  },
+  "ALT_DUSTER_A_OR_85_C": {
+    "id": "ALT_DUSTER_A_OR_85_C",
+    "face": {
+      "front": {
+        "name": "Matz & Hive",
+        "type": "Hero",
+        "cost": 0,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_A_OR_85/JPG/en_US/781eda320d90839d1ee7cb1c6a584b40.jpg"
+      }
+    },
+    "name": "Matz & Hive",
+    "type": "Hero",
+    "cost": 0,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 0,
+    "Recall Cost": 0
+  },
+  "ALT_DUSTER_B_OR_92_C": {
+    "id": "ALT_DUSTER_B_OR_92_C",
+    "face": {
+      "front": {
+        "name": "Reka Investor",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_92/JPG/en_US/3dea23cf31ad41448677be09b4a4df60.jpg"
+      }
+    },
+    "name": "Reka Investor",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 0,
+    "Forest Power": 3,
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_92_R1": {
+    "id": "ALT_DUSTER_B_OR_92_R1",
+    "face": {
+      "front": {
+        "name": "Reka Investor - OR",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_92/JPG/en_US/3a23dd046b7a97471753950f12c747fd.jpg"
+      }
+    },
+    "name": "Reka Investor - OR",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 0,
+    "Forest Power": 3,
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C",
+      "ALT_COREKS_B_OR_31_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_93_C": {
+    "id": "ALT_DUSTER_B_OR_93_C",
+    "face": {
+      "front": {
+        "name": "Sunisa, Ordis Bodyguard",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_93/JPG/en_US/6cbf88e54bf2aad07fe941df67b6c227.jpg"
+      }
+    },
+    "name": "Sunisa, Ordis Bodyguard",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 4,
+    "Forest Power": 4,
+    "Mountain Power": 4
+  },
+  "ALT_DUSTER_B_OR_93_R1": {
+    "id": "ALT_DUSTER_B_OR_93_R1",
+    "face": {
+      "front": {
+        "name": "Sunisa, Ordis Bodyguard - OR",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_93/JPG/en_US/eb29ec315db7fedea80891277eaf50a9.jpg"
+      }
+    },
+    "name": "Sunisa, Ordis Bodyguard - OR",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_COREKS_B_OR_31_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_94_C": {
+    "id": "ALT_DUSTER_B_OR_94_C",
+    "face": {
+      "front": {
+        "name": "Reka Caterer",
+        "type": "Character",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_94/JPG/en_US/ef5582f7d0022e9f0977dc6f75a5eea1.jpg"
+      }
+    },
+    "name": "Reka Caterer",
+    "type": "Character",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 4,
+    "Recall Cost": 4,
+    "Ocean Power": 4,
+    "Forest Power": 2,
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_94_R1": {
+    "id": "ALT_DUSTER_B_OR_94_R1",
+    "face": {
+      "front": {
+        "name": "Reka Caterer - OR",
+        "type": "Character",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_94/JPG/en_US/e8796ece66ee58dfb7a4506e9fdcc978.jpg"
+      }
+    },
+    "name": "Reka Caterer - OR",
+    "type": "Character",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 4,
+    "Recall Cost": 4,
+    "Ocean Power": 4,
+    "Forest Power": 3,
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_101_C": {
+    "id": "ALT_DUSTER_B_OR_101_C",
+    "face": {
+      "front": {
+        "name": "The Reunion",
+        "type": "Landmark Permanent",
+        "cost": 6,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_101/JPG/en_US/9bbaef7abab320afb154bb9915cf16c9.jpg"
+      }
+    },
+    "name": "The Reunion",
+    "type": "Landmark Permanent",
+    "cost": 6,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 6,
+    "Recall Cost": 6,
+    "tokens": [
+      "ALT_COREKS_B_OR_31_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_101_R1": {
+    "id": "ALT_DUSTER_B_OR_101_R1",
+    "face": {
+      "front": {
+        "name": "The Reunion - OR",
+        "type": "Landmark Permanent",
+        "cost": 6,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_101/JPG/en_US/14042deec6232bc8fa10d0f7bc4ca79b.jpg"
+      }
+    },
+    "name": "The Reunion - OR",
+    "type": "Landmark Permanent",
+    "cost": 6,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 6,
+    "Recall Cost": 6,
+    "tokens": [
+      "ALT_COREKS_B_OR_31_C"
+    ]
+  },
+  "ALT_DUSTER_B_AX_89_R2": {
+    "id": "ALT_DUSTER_B_AX_89_R2",
+    "face": {
+      "front": {
+        "name": "Nikola Tesla - OR",
+        "type": "Character",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_89/JPG/en_US/b2c6c27898773e5a4c58538cfb5c388e.jpg"
+      }
+    },
+    "name": "Nikola Tesla - OR",
+    "type": "Character",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 1,
+    "Recall Cost": 2,
+    "Ocean Power": 1,
+    "Forest Power": 1,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_LY_102_R2": {
+    "id": "ALT_DUSTER_B_LY_102_R2",
+    "face": {
+      "front": {
+        "name": "Cable-Car Station - OR",
+        "type": "Landmark Permanent",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_102/JPG/en_US/6d40858e3871976d62af1d1da69014ff.jpg"
+      }
+    },
+    "name": "Cable-Car Station - OR",
+    "type": "Landmark Permanent",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2
+  },
+  "ALT_DUSTER_P_OR_85_C": {
+    "id": "ALT_DUSTER_P_OR_85_C",
+    "face": {
+      "front": {
+        "name": "Matz & Hive",
+        "type": "Hero",
+        "cost": 0,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_P_OR_85/JPG/en_US/3500efa25cab5236a6d8d0b7cd85467c.jpg"
+      }
+    },
+    "name": "Matz & Hive",
+    "type": "Hero",
+    "cost": 0,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 0,
+    "Recall Cost": 0
+  },
+  "ALT_DUSTER_B_YZ_88_R2": {
+    "id": "ALT_DUSTER_B_YZ_88_R2",
+    "face": {
+      "front": {
+        "name": "Studious Rookie - OR",
+        "type": "Character",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_88/JPG/en_US/fe8fef620bcad0f5e06a2ed0e10176f4.jpg"
+      }
+    },
+    "name": "Studious Rookie - OR",
+    "type": "Character",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 1,
+    "Recall Cost": 1,
+    "Ocean Power": 1,
+    "Forest Power": 0,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_YZ_91_R2": {
+    "id": "ALT_DUSTER_B_YZ_91_R2",
+    "face": {
+      "front": {
+        "name": "Reka Supporter - OR",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_91/JPG/en_US/cc21637ffb5ca018c5ba07dbeec8f2bf.jpg"
+      }
+    },
+    "name": "Reka Supporter - OR",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_31_C": {
+    "id": "ALT_DUSTER_B_OR_31_C",
+    "face": {
+      "front": {
+        "name": "Ordis Recruit",
+        "type": "Token Character",
+        "cost": 0,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_31/JPG/en_US/dc1fd4d0b75d24e1b7ef3f01338692fc.jpg"
+      }
+    },
+    "name": "Ordis Recruit",
+    "type": "Token Character",
+    "cost": 0,
+    "isToken": true,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 0,
+    "Recall Cost": 0,
+    "Ocean Power": 1,
+    "Forest Power": 1,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_OR_87_C": {
+    "id": "ALT_DUSTER_B_OR_87_C",
+    "face": {
+      "front": {
+        "name": "Souvenir Seller",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_87/JPG/en_US/64bca90ed5ba6a82ee49a944ad3314ce.jpg"
+      }
+    },
+    "name": "Souvenir Seller",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_OR_87_R1": {
+    "id": "ALT_DUSTER_B_OR_87_R1",
+    "face": {
+      "front": {
+        "name": "Souvenir Seller - OR",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_87/JPG/en_US/e3b847100ed67410a420f00ef70c32b6.jpg"
+      }
+    },
+    "name": "Souvenir Seller - OR",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_AX_87_R2": {
+    "id": "ALT_DUSTER_B_AX_87_R2",
+    "face": {
+      "front": {
+        "name": "Axiom Machinist - OR",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_87/JPG/en_US/e1fb85beea5202b2206e8a8ea87026e8.jpg"
+      }
+    },
+    "name": "Axiom Machinist - OR",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 1,
+    "Forest Power": 1,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_AX_94_R2": {
+    "id": "ALT_DUSTER_B_AX_94_R2",
+    "face": {
+      "front": {
+        "name": "Leonardo da Vinci - OR",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_94/JPG/en_US/341290b6a413bba17d9d98d9a8799285.jpg"
+      }
+    },
+    "name": "Leonardo da Vinci - OR",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 0,
+    "Forest Power": 2,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_AX_91_R2": {
+    "id": "ALT_DUSTER_B_AX_91_R2",
+    "face": {
+      "front": {
+        "name": "Vending Bot - OR",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_91/JPG/en_US/ec692fc6a3092541c5de11123390285c.jpg"
+      }
+    },
+    "name": "Vending Bot - OR",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 0,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_AX_102_R2": {
+    "id": "ALT_DUSTER_B_AX_102_R2",
+    "face": {
+      "front": {
+        "name": "The Consortium - OR",
+        "type": "Landmark Permanent",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_102/JPG/en_US/72b5dba96c7fae3c5658dc7bd9b3092c.jpg"
+      }
+    },
+    "name": "The Consortium - OR",
+    "type": "Landmark Permanent",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 4,
+    "Recall Cost": 4
+  },
+  "ALT_DUSTER_B_LY_88_R2": {
+    "id": "ALT_DUSTER_B_LY_88_R2",
+    "face": {
+      "front": {
+        "name": "Reka Zipliner - OR",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_88/JPG/en_US/9723e76ac0c69cb8a1419660a6e05bf3.jpg"
+      }
+    },
+    "name": "Reka Zipliner - OR",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 0,
+    "Forest Power": 2,
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_LY_99_R2": {
+    "id": "ALT_DUSTER_B_LY_99_R2",
+    "face": {
+      "front": {
+        "name": "Paint it Pink! - OR",
+        "type": "Spell",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_99/JPG/en_US/264ddacdb0bce084d6fcb4ff2f8e6dcb.jpg"
+      }
+    },
+    "name": "Paint it Pink! - OR",
+    "type": "Spell",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 4,
+    "Recall Cost": 4
+  },
+  "ALT_DUSTER_B_LY_101_R2": {
+    "id": "ALT_DUSTER_B_LY_101_R2",
+    "face": {
+      "front": {
+        "name": "Reka Headset - OR",
+        "type": "Expedition Permanent",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_101/JPG/en_US/fc679ad55860a7c2f6b6302b15514c5a.jpg"
+      }
+    },
+    "name": "Reka Headset - OR",
+    "type": "Expedition Permanent",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 1,
+    "Recall Cost": 1
+  },
+  "ALT_DUSTER_B_MU_87_R2": {
+    "id": "ALT_DUSTER_B_MU_87_R2",
+    "face": {
+      "front": {
+        "name": "Reka Tradesman - OR",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_87/JPG/en_US/99f13bc30e6613d85adf36ecef3329ae.jpg"
+      }
+    },
+    "name": "Reka Tradesman - OR",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 0,
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_MU_92_R2": {
+    "id": "ALT_DUSTER_B_MU_92_R2",
+    "face": {
+      "front": {
+        "name": "Daughter of Naos - OR",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_92/JPG/en_US/4775a657a89195a7aa44dcf94e1f3d95.jpg"
+      }
+    },
+    "name": "Daughter of Naos - OR",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 2,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_MU_100_R2": {
+    "id": "ALT_DUSTER_B_MU_100_R2",
+    "face": {
+      "front": {
+        "name": "Picnic Area - OR",
+        "type": "Landmark Permanent",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_100/JPG/en_US/69a58851dcc5b1e94ce388e31dce5408.jpg"
+      }
+    },
+    "name": "Picnic Area - OR",
+    "type": "Landmark Permanent",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2
+  },
+  "ALT_DUSTER_B_MU_102_R2": {
+    "id": "ALT_DUSTER_B_MU_102_R2",
+    "face": {
+      "front": {
+        "name": "The Naos - OR",
+        "type": "Landmark Permanent",
+        "cost": 8,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_MU_102/JPG/en_US/5846e61e39b6f66e1fe9954b98d3843d.jpg"
+      }
+    },
+    "name": "The Naos - OR",
+    "type": "Landmark Permanent",
+    "cost": 8,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 8,
+    "Recall Cost": 8,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_95_C": {
+    "id": "ALT_DUSTER_B_OR_95_C",
+    "face": {
+      "front": {
+        "name": "Kikimora",
+        "type": "Character",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_95/JPG/en_US/c041c6ff64cb385d6d27edec3fcafeca.jpg"
+      }
+    },
+    "name": "Kikimora",
+    "type": "Character",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 1,
+    "Recall Cost": 1,
+    "Ocean Power": 0,
+    "Forest Power": 1,
+    "Mountain Power": 0
+  },
+  "ALT_DUSTER_B_OR_95_R1": {
+    "id": "ALT_DUSTER_B_OR_95_R1",
+    "face": {
+      "front": {
+        "name": "Kikimora - OR",
+        "type": "Character",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_95/JPG/en_US/1338d6b2192ca63bb1e844783c909d18.jpg"
+      }
+    },
+    "name": "Kikimora - OR",
+    "type": "Character",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 1,
+    "Recall Cost": 1,
+    "Ocean Power": 1,
+    "Forest Power": 1,
+    "Mountain Power": 0
+  },
+  "ALT_DUSTER_B_OR_88_C": {
+    "id": "ALT_DUSTER_B_OR_88_C",
+    "face": {
+      "front": {
+        "name": "Galatea",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_88/JPG/en_US/45c1c27e0fd6178a650d51f1f9504227.jpg"
+      }
+    },
+    "name": "Galatea",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_OR_88_R1": {
+    "id": "ALT_DUSTER_B_OR_88_R1",
+    "face": {
+      "front": {
+        "name": "Galatea - OR",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_88/JPG/en_US/f6cec9acfad6c0de9c0edb199382ea06.jpg"
+      }
+    },
+    "name": "Galatea - OR",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_OR_89_C": {
+    "id": "ALT_DUSTER_B_OR_89_C",
+    "face": {
+      "front": {
+        "name": "Reka Patron",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_89/JPG/en_US/9b4e134a25ff600f5f1f1f678b681a2e.jpg"
+      }
+    },
+    "name": "Reka Patron",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 1,
+    "Forest Power": 2,
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_89_R1": {
+    "id": "ALT_DUSTER_B_OR_89_R1",
+    "face": {
+      "front": {
+        "name": "Reka Patron - OR",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_89/JPG/en_US/6cda9a6bce9fd8a5f0130703b6c36ce6.jpg"
+      }
+    },
+    "name": "Reka Patron - OR",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_90_C": {
+    "id": "ALT_DUSTER_B_OR_90_C",
+    "face": {
+      "front": {
+        "name": "Ordis Tourist",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_90/JPG/en_US/3aa6feddd3a2ffcbd3948ffef2b26496.jpg"
+      }
+    },
+    "name": "Ordis Tourist",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 1,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_OR_90_R1": {
+    "id": "ALT_DUSTER_B_OR_90_R1",
+    "face": {
+      "front": {
+        "name": "Ordis Tourist - OR",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_90/JPG/en_US/3cf93249d2277b650484d2463699137a.jpg"
+      }
+    },
+    "name": "Ordis Tourist - OR",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 1,
+    "Forest Power": 1,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_OR_91_C": {
+    "id": "ALT_DUSTER_B_OR_91_C",
+    "face": {
+      "front": {
+        "name": "Adamant Receptionist",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_91/JPG/en_US/856e4c46339acf275d18073d23552516.jpg"
+      }
+    },
+    "name": "Adamant Receptionist",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_OR_91_R1": {
+    "id": "ALT_DUSTER_B_OR_91_R1",
+    "face": {
+      "front": {
+        "name": "Adamant Receptionist - OR",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_91/JPG/en_US/cec8f35b328a90f24f946e0c9bc73a1d.jpg"
+      }
+    },
+    "name": "Adamant Receptionist - OR",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_OR_86_C": {
+    "id": "ALT_DUSTER_B_OR_86_C",
+    "face": {
+      "front": {
+        "name": "Louis Sullivan",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_86/JPG/en_US/829c14b15b1baad8855a95273110fbde.jpg"
+      }
+    },
+    "name": "Louis Sullivan",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 2,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_OR_86_R1": {
+    "id": "ALT_DUSTER_B_OR_86_R1",
+    "face": {
+      "front": {
+        "name": "Louis Sullivan - OR",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_86/JPG/en_US/484263fb1484b08f9ad70fe18a709819.jpg"
+      }
+    },
+    "name": "Louis Sullivan - OR",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_OR_96_C": {
+    "id": "ALT_DUSTER_B_OR_96_C",
+    "face": {
+      "front": {
+        "name": "Talos",
+        "type": "Character",
+        "cost": 5,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_96/JPG/en_US/e443d4c4b83d07fc93e3a3e900c980ee.jpg"
+      }
+    },
+    "name": "Talos",
+    "type": "Character",
+    "cost": 5,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 5,
+    "Recall Cost": 5,
+    "Ocean Power": 4,
+    "Forest Power": 4,
+    "Mountain Power": 4
+  },
+  "ALT_DUSTER_B_OR_96_R1": {
+    "id": "ALT_DUSTER_B_OR_96_R1",
+    "face": {
+      "front": {
+        "name": "Talos - OR",
+        "type": "Character",
+        "cost": 5,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_96/JPG/en_US/beb7f68f9506cb73025eea4c8616a359.jpg"
+      }
+    },
+    "name": "Talos - OR",
+    "type": "Character",
+    "cost": 5,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 5,
+    "Recall Cost": 5,
+    "Ocean Power": 4,
+    "Forest Power": 4,
+    "Mountain Power": 4
+  },
+  "ALT_DUSTER_B_OR_98_C": {
+    "id": "ALT_DUSTER_B_OR_98_C",
+    "face": {
+      "front": {
+        "name": "Unfair Encounter",
+        "type": "Spell",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_98/JPG/en_US/5fe93cd81a6220a932abbd403ad3c2d7.jpg"
+      }
+    },
+    "name": "Unfair Encounter",
+    "type": "Spell",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 4,
+    "Recall Cost": 4
+  },
+  "ALT_DUSTER_B_OR_98_R1": {
+    "id": "ALT_DUSTER_B_OR_98_R1",
+    "face": {
+      "front": {
+        "name": "Unfair Encounter - OR",
+        "type": "Spell",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_98/JPG/en_US/4c06c5d99a48a902b034a70a2f754011.jpg"
+      }
+    },
+    "name": "Unfair Encounter - OR",
+    "type": "Spell",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3
+  },
+  "ALT_DUSTER_B_OR_99_C": {
+    "id": "ALT_DUSTER_B_OR_99_C",
+    "face": {
+      "front": {
+        "name": "Angry Crowd",
+        "type": "Spell",
+        "cost": 5,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_99/JPG/en_US/5a98a61db09a82dc90dd8997d34fb15a.jpg"
+      }
+    },
+    "name": "Angry Crowd",
+    "type": "Spell",
+    "cost": 5,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 5,
+    "Recall Cost": 5,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_99_R1": {
+    "id": "ALT_DUSTER_B_OR_99_R1",
+    "face": {
+      "front": {
+        "name": "Angry Crowd - OR",
+        "type": "Spell",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_99/JPG/en_US/010fca1a31572c65bb55952c6452e933.jpg"
+      }
+    },
+    "name": "Angry Crowd - OR",
+    "type": "Spell",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 4,
+    "Recall Cost": 4,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_100_C": {
+    "id": "ALT_DUSTER_B_OR_100_C",
+    "face": {
+      "front": {
+        "name": "The Lectern",
+        "type": "Landmark Permanent",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_100/JPG/en_US/ef8daa7b80609d606a013ae31e2fdd65.jpg"
+      }
+    },
+    "name": "The Lectern",
+    "type": "Landmark Permanent",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_COREKS_B_OR_31_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_100_R1": {
+    "id": "ALT_DUSTER_B_OR_100_R1",
+    "face": {
+      "front": {
+        "name": "The Lectern - OR",
+        "type": "Landmark Permanent",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_100/JPG/en_US/60d431bb387555eb6709adcc6f011d8c.jpg"
+      }
+    },
+    "name": "The Lectern - OR",
+    "type": "Landmark Permanent",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_COREKS_B_OR_31_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_102_C": {
+    "id": "ALT_DUSTER_B_OR_102_C",
+    "face": {
+      "front": {
+        "name": "The Consulate",
+        "type": "Landmark Permanent",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_102/JPG/en_US/a454e0d07fac7340dc1360d9de50a042.jpg"
+      }
+    },
+    "name": "The Consulate",
+    "type": "Landmark Permanent",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Common",
+    "Main Cost": 4,
+    "Recall Cost": 4,
+    "tokens": [
+      "ALT_COREKS_B_OR_31_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_102_R1": {
+    "id": "ALT_DUSTER_B_OR_102_R1",
+    "face": {
+      "front": {
+        "name": "The Consulate - OR",
+        "type": "Landmark Permanent",
+        "cost": 5,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_102/JPG/en_US/35983f63011306d17ccce26719bca903.jpg"
+      }
+    },
+    "name": "The Consulate - OR",
+    "type": "Landmark Permanent",
+    "cost": 5,
+    "isToken": false,
+    "faction": "Ordis",
+    "rarity": "Rare",
+    "Main Cost": 5,
+    "Recall Cost": 5,
+    "tokens": [
+      "ALT_COREKS_B_OR_31_C"
+    ]
+  },
+  "ALT_DUSTER_B_YZ_94_E": {
+    "id": "ALT_DUSTER_B_YZ_94_E",
+    "face": {
+      "front": {
+        "name": "Maleros, Reka Hexarch",
+        "type": "Character",
+        "cost": 7,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_94/JPG/en_US/06132bdcdda399f03b4b25796e2e3c21.jpg"
+      }
+    },
+    "name": "Maleros, Reka Hexarch",
+    "type": "Character",
+    "cost": 7,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Exalted",
+    "Main Cost": 7,
+    "Recall Cost": 3,
+    "Ocean Power": 4,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_LY_90_R2": {
+    "id": "ALT_DUSTER_B_LY_90_R2",
+    "face": {
+      "front": {
+        "name": "Nyala, Night Reveler - YZ",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_90/JPG/en_US/c3d5b2156bbbe4c1802d3e0cc6806bef.jpg"
+      }
+    },
+    "name": "Nyala, Night Reveler - YZ",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 0,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_OR_93_R2": {
+    "id": "ALT_DUSTER_B_OR_93_R2",
+    "face": {
+      "front": {
+        "name": "Sunisa, Ordis Bodyguard - YZ",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_93/JPG/en_US/ef157912a1c58fdd33beaec19b71c0b9.jpg"
+      }
+    },
+    "name": "Sunisa, Ordis Bodyguard - YZ",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 3,
+    "tokens": [
+      "ALT_COREKS_B_OR_31_C"
+    ]
+  },
+  "ALT_DUSTER_B_YZ_65_C": {
+    "id": "ALT_DUSTER_B_YZ_65_C",
+    "face": {
+      "front": {
+        "name": "Moyo & Silk",
+        "type": "Hero",
+        "cost": 0,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_65/JPG/en_US/52ebc4a13456b5dc384fe55e1a2c4f39.jpg"
+      }
+    },
+    "name": "Moyo & Silk",
+    "type": "Hero",
+    "cost": 0,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Common",
+    "Main Cost": 0,
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
+  },
+  "ALT_DUSTER_B_AX_98_R2": {
+    "id": "ALT_DUSTER_B_AX_98_R2",
+    "face": {
+      "front": {
+        "name": "Technological Encounter - YZ",
+        "type": "Spell",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_98/JPG/en_US/32c8d8b62ef3d16350b696b4d7282575.jpg"
+      }
+    },
+    "name": "Technological Encounter - YZ",
+    "type": "Spell",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 4,
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_AX_101_R2": {
+    "id": "ALT_DUSTER_B_AX_101_R2",
+    "face": {
+      "front": {
+        "name": "Axiom Exhibit - YZ",
+        "type": "Landmark Permanent",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_101/JPG/en_US/ce3d62eb7f77daa0ad311ea59edc0b64.jpg"
+      }
+    },
+    "name": "Axiom Exhibit - YZ",
+    "type": "Landmark Permanent",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2
+  },
+  "ALT_DUSTER_B_LY_94_R2": {
+    "id": "ALT_DUSTER_B_LY_94_R2",
+    "face": {
+      "front": {
+        "name": "Nightclub Bouncer - YZ",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_94/JPG/en_US/f57c91d2733e3a9c0da894e778b9c4be.jpg"
+      }
+    },
+    "name": "Nightclub Bouncer - YZ",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 4,
+    "Forest Power": 4,
+    "Mountain Power": 0
+  },
+  "ALT_DUSTER_P_YZ_65_C": {
+    "id": "ALT_DUSTER_P_YZ_65_C",
+    "face": {
+      "front": {
+        "name": "Moyo & Silk",
+        "type": "Hero",
+        "cost": 0,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_P_YZ_65/JPG/en_US/d0b31ab2cfc6267bd1b7a5431a3a2be6.jpg"
+      }
+    },
+    "name": "Moyo & Silk",
+    "type": "Hero",
+    "cost": 0,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Common",
+    "Main Cost": 0,
+    "Recall Cost": 0,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
+  },
+  "ALT_DUSTER_B_YZ_88_C": {
+    "id": "ALT_DUSTER_B_YZ_88_C",
+    "face": {
+      "front": {
+        "name": "Studious Rookie",
+        "type": "Character",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_88/JPG/en_US/091a0fb0395d6ada1371c50a3f01d1c3.jpg"
+      }
+    },
+    "name": "Studious Rookie",
+    "type": "Character",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Common",
+    "Main Cost": 1,
+    "Recall Cost": 1,
+    "Ocean Power": 1,
+    "Forest Power": 0,
+    "Mountain Power": 0
+  },
+  "ALT_DUSTER_B_YZ_88_R1": {
+    "id": "ALT_DUSTER_B_YZ_88_R1",
+    "face": {
+      "front": {
+        "name": "Studious Rookie - YZ",
+        "type": "Character",
+        "cost": 1,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_88/JPG/en_US/01779171bc070b1d282f8d85e5fe8455.jpg"
+      }
+    },
+    "name": "Studious Rookie - YZ",
+    "type": "Character",
+    "cost": 1,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 1,
+    "Recall Cost": 1,
+    "Ocean Power": 1,
+    "Forest Power": 0,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_YZ_86_C": {
+    "id": "ALT_DUSTER_B_YZ_86_C",
+    "face": {
+      "front": {
+        "name": "Harry Houdini",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_86/JPG/en_US/1aeffec7022916c885a3a5e0b4955dbe.jpg"
+      }
+    },
+    "name": "Harry Houdini",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 1,
+    "Ocean Power": 0,
+    "Forest Power": 1,
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
+  },
+  "ALT_DUSTER_B_YZ_86_R1": {
+    "id": "ALT_DUSTER_B_YZ_86_R1",
+    "face": {
+      "front": {
+        "name": "Harry Houdini - YZ",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_86/JPG/en_US/6a82f894f9f3fa4ec7ce3c7ccff06186.jpg"
+      }
+    },
+    "name": "Harry Houdini - YZ",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 1,
+    "Ocean Power": 0,
+    "Forest Power": 1,
+    "Mountain Power": 1,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
+  },
+  "ALT_DUSTER_B_YZ_91_C": {
+    "id": "ALT_DUSTER_B_YZ_91_C",
+    "face": {
+      "front": {
+        "name": "Reka Supporter",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_91/JPG/en_US/5a0aa00e2a87dc63ca26647e3b69632b.jpg"
+      }
+    },
+    "name": "Reka Supporter",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_YZ_91_R1": {
+    "id": "ALT_DUSTER_B_YZ_91_R1",
+    "face": {
+      "front": {
+        "name": "Reka Supporter - YZ",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_91/JPG/en_US/41d53d8ffa3fd257fc349a1aa28b4629.jpg"
+      }
+    },
+    "name": "Reka Supporter - YZ",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 2,
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_YZ_92_C": {
+    "id": "ALT_DUSTER_B_YZ_92_C",
+    "face": {
+      "front": {
+        "name": "Mochizuki Chiyome",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/JPG/en_US/0efecd1d8d309cf5a2c289ffff2636ce.jpg"
+      }
+    },
+    "name": "Mochizuki Chiyome",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_YZ_92_R1": {
+    "id": "ALT_DUSTER_B_YZ_92_R1",
+    "face": {
+      "front": {
+        "name": "Mochizuki Chiyome - YZ",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/JPG/en_US/37bfab8acf965a7e5c789cb0c3e7b86e.jpg"
+      }
+    },
+    "name": "Mochizuki Chiyome - YZ",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_YZ_99_C": {
+    "id": "ALT_DUSTER_B_YZ_99_C",
+    "face": {
+      "front": {
+        "name": "Tag!",
+        "type": "Spell",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_99/JPG/en_US/9f6ef40f531741e190872fea6159c6ae.jpg"
+      }
+    },
+    "name": "Tag!",
+    "type": "Spell",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Common",
+    "Main Cost": 4,
+    "Recall Cost": 4
+  },
+  "ALT_DUSTER_B_YZ_99_R1": {
+    "id": "ALT_DUSTER_B_YZ_99_R1",
+    "face": {
+      "front": {
+        "name": "Tag! - YZ",
+        "type": "Spell",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_99/JPG/en_US/0d30e5516260a2d79d081182fe9b6e57.jpg"
+      }
+    },
+    "name": "Tag! - YZ",
+    "type": "Spell",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 4,
+    "Recall Cost": 7
+  },
+  "ALT_DUSTER_B_YZ_98_C": {
+    "id": "ALT_DUSTER_B_YZ_98_C",
+    "face": {
+      "front": {
+        "name": "Finisher",
+        "type": "Spell",
+        "cost": 7,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_98/JPG/en_US/1e150ba8801e2fd8266516a1788016ae.jpg"
+      }
+    },
+    "name": "Finisher",
+    "type": "Spell",
+    "cost": 7,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Common",
+    "Main Cost": 7,
+    "Recall Cost": 7
+  },
+  "ALT_DUSTER_B_YZ_98_R1": {
+    "id": "ALT_DUSTER_B_YZ_98_R1",
+    "face": {
+      "front": {
+        "name": "Finisher - YZ",
+        "type": "Spell",
+        "cost": 7,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_98/JPG/en_US/b3a370ae532bfb1399ed0949bb139638.jpg"
+      }
+    },
+    "name": "Finisher - YZ",
+    "type": "Spell",
+    "cost": 7,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 7,
+    "Recall Cost": 7
+  },
+  "ALT_DUSTER_B_YZ_101_C": {
+    "id": "ALT_DUSTER_B_YZ_101_C",
+    "face": {
+      "front": {
+        "name": "Mothcatcher Wand",
+        "type": "Expedition Permanent",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_101/JPG/en_US/45d438434c5c053265208f9d1c329e07.jpg"
+      }
+    },
+    "name": "Mothcatcher Wand",
+    "type": "Expedition Permanent",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
+  },
+  "ALT_DUSTER_B_YZ_101_R1": {
+    "id": "ALT_DUSTER_B_YZ_101_R1",
+    "face": {
+      "front": {
+        "name": "Mothcatcher Wand - YZ",
+        "type": "Expedition Permanent",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_101/JPG/en_US/043f05f7c6b487dae0fffd77aa924b02.jpg"
+      }
+    },
+    "name": "Mothcatcher Wand - YZ",
+    "type": "Expedition Permanent",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
+  },
+  "ALT_DUSTER_B_AX_86_R2": {
+    "id": "ALT_DUSTER_B_AX_86_R2",
+    "face": {
+      "front": {
+        "name": "Tik-Tok - YZ",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_86/JPG/en_US/1f9e59ff3cdc56071281a5c83ce67955.jpg"
+      }
+    },
+    "name": "Tik-Tok - YZ",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 3,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_AX_92_R2": {
+    "id": "ALT_DUSTER_B_AX_92_R2",
+    "face": {
+      "front": {
+        "name": "Reka Bioengineer - YZ",
+        "type": "Character",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_92/JPG/en_US/458061152935084dbb6fd97adfeef986.jpg"
+      }
+    },
+    "name": "Reka Bioengineer - YZ",
+    "type": "Character",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 4,
+    "Recall Cost": 3,
+    "Ocean Power": 4,
+    "Forest Power": 3,
+    "Mountain Power": 4,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_AX_100_R2": {
+    "id": "ALT_DUSTER_B_AX_100_R2",
+    "face": {
+      "front": {
+        "name": "Science Fair - YZ",
+        "type": "Landmark Permanent",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_AX_100/JPG/en_US/bbc414ffd45f39c7dee062bd7d052c13.jpg"
+      }
+    },
+    "name": "Science Fair - YZ",
+    "type": "Landmark Permanent",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3
+  },
+  "ALT_DUSTER_B_BR_97_R2": {
+    "id": "ALT_DUSTER_B_BR_97_R2",
+    "face": {
+      "front": {
+        "name": "Haven Trainer - YZ",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_BR_97/JPG/en_US/2ae212d2558b4f6b9b6b8effbe839eb4.jpg"
+      }
+    },
+    "name": "Haven Trainer - YZ",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_LY_89_R2": {
+    "id": "ALT_DUSTER_B_LY_89_R2",
+    "face": {
+      "front": {
+        "name": "Reka Barmaid - YZ",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_89/JPG/en_US/0a33571cbd34f33f30434ea0a64c0e38.jpg"
+      }
+    },
+    "name": "Reka Barmaid - YZ",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_LY_91_R2": {
+    "id": "ALT_DUSTER_B_LY_91_R2",
+    "face": {
+      "front": {
+        "name": "Cheshire Cat - YZ",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_91/JPG/en_US/4d8ff90c024ce576cdf5a5b881318ca3.jpg"
+      }
+    },
+    "name": "Cheshire Cat - YZ",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_LY_100_R2": {
+    "id": "ALT_DUSTER_B_LY_100_R2",
+    "face": {
+      "front": {
+        "name": "Romantic Encounter - YZ",
+        "type": "Spell",
+        "cost": 7,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_LY_100/JPG/en_US/4c54622267d1dcd295ed5b9ce4a8fd86.jpg"
+      }
+    },
+    "name": "Romantic Encounter - YZ",
+    "type": "Spell",
+    "cost": 7,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 7,
+    "Recall Cost": 7
+  },
+  "ALT_DUSTER_B_OR_89_R2": {
+    "id": "ALT_DUSTER_B_OR_89_R2",
+    "face": {
+      "front": {
+        "name": "Reka Patron - YZ",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_89/JPG/en_US/756cf677f2a8435934d122f420ed7726.jpg"
+      }
+    },
+    "name": "Reka Patron - YZ",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 2,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_91_R2": {
+    "id": "ALT_DUSTER_B_OR_91_R2",
+    "face": {
+      "front": {
+        "name": "Adamant Receptionist - YZ",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_91/JPG/en_US/7ce18c89d68a70fb2d738ae055ac0cc7.jpg"
+      }
+    },
+    "name": "Adamant Receptionist - YZ",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 3,
+    "Forest Power": 2,
+    "Mountain Power": 2
+  },
+  "ALT_DUSTER_B_OR_99_R2": {
+    "id": "ALT_DUSTER_B_OR_99_R2",
+    "face": {
+      "front": {
+        "name": "Angry Crowd - YZ",
+        "type": "Spell",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_99/JPG/en_US/ba70615a64b7c2b5f32c42d42c917bd4.jpg"
+      }
+    },
+    "name": "Angry Crowd - YZ",
+    "type": "Spell",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 4,
+    "Recall Cost": 4,
+    "tokens": [
+      "ALT_DUSTER_B_NE_04_C"
+    ]
+  },
+  "ALT_DUSTER_B_OR_100_R2": {
+    "id": "ALT_DUSTER_B_OR_100_R2",
+    "face": {
+      "front": {
+        "name": "The Lectern - YZ",
+        "type": "Landmark Permanent",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_OR_100/JPG/en_US/069020f9ae436139d169f880eda1c1e8.jpg"
+      }
+    },
+    "name": "The Lectern - YZ",
+    "type": "Landmark Permanent",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "tokens": [
+      "ALT_COREKS_B_OR_31_C"
+    ]
+  },
+  "ALT_DUSTER_B_YZ_89_C": {
+    "id": "ALT_DUSTER_B_YZ_89_C",
+    "face": {
+      "front": {
+        "name": "Foul Faker",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_89/JPG/en_US/179999b724e7d8b6a1e2e5c5ae7271bc.jpg"
+      }
+    },
+    "name": "Foul Faker",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 1,
+    "Ocean Power": 1,
+    "Forest Power": 1,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_YZ_89_R1": {
+    "id": "ALT_DUSTER_B_YZ_89_R1",
+    "face": {
+      "front": {
+        "name": "Foul Faker - YZ",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_89/JPG/en_US/66dc33b58f0dd4f2cb7fe5fe32dd68aa.jpg"
+      }
+    },
+    "name": "Foul Faker - YZ",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 1,
+    "Forest Power": 1,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_YZ_96_C": {
+    "id": "ALT_DUSTER_B_YZ_96_C",
+    "face": {
+      "front": {
+        "name": "Team Mascot",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_96/JPG/en_US/798ed3a0f8603961a09dfc8679a3cf7e.jpg"
+      }
+    },
+    "name": "Team Mascot",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 1,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_YZ_96_R1": {
+    "id": "ALT_DUSTER_B_YZ_96_R1",
+    "face": {
+      "front": {
+        "name": "Team Mascot - YZ",
+        "type": "Character",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_96/JPG/en_US/795ec32ae6cd1d288dddd780be7f5fa0.jpg"
+      }
+    },
+    "name": "Team Mascot - YZ",
+    "type": "Character",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 1,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_YZ_87_C": {
+    "id": "ALT_DUSTER_B_YZ_87_C",
+    "face": {
+      "front": {
+        "name": "Hextag Chaser",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_87/JPG/en_US/2b6197dcf46400728884907d23e17107.jpg"
+      }
+    },
+    "name": "Hextag Chaser",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 0,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_YZ_87_R1": {
+    "id": "ALT_DUSTER_B_YZ_87_R1",
+    "face": {
+      "front": {
+        "name": "Hextag Chaser - YZ",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_87/JPG/en_US/67554511b031faf1c43a673afbefee89.jpg"
+      }
+    },
+    "name": "Hextag Chaser - YZ",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 0,
+    "Forest Power": 3,
+    "Mountain Power": 3
+  },
+  "ALT_DUSTER_B_YZ_90_C": {
+    "id": "ALT_DUSTER_B_YZ_90_C",
+    "face": {
+      "front": {
+        "name": "Milady de Winter",
+        "type": "Character",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_90/JPG/en_US/48c82f58f91a44f706f0539fb55e909a.jpg"
+      }
+    },
+    "name": "Milady de Winter",
+    "type": "Character",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_YZ_90_R1": {
+    "id": "ALT_DUSTER_B_YZ_90_R1",
+    "face": {
+      "front": {
+        "name": "Milady de Winter - YZ",
+        "type": "Character",
+        "cost": 5,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_90/JPG/en_US/0c98bf9ac7a8c94174014ca72f5b22d3.jpg"
+      }
+    },
+    "name": "Milady de Winter - YZ",
+    "type": "Character",
+    "cost": 5,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 5,
+    "Recall Cost": 2,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 1
+  },
+  "ALT_DUSTER_B_YZ_93_C": {
+    "id": "ALT_DUSTER_B_YZ_93_C",
+    "face": {
+      "front": {
+        "name": "Partial Referee",
+        "type": "Character",
+        "cost": 5,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_93/JPG/en_US/088a882df34f4ae93d35e69f61299cfb.jpg"
+      }
+    },
+    "name": "Partial Referee",
+    "type": "Character",
+    "cost": 5,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Common",
+    "Main Cost": 5,
+    "Recall Cost": 3,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 4
+  },
+  "ALT_DUSTER_B_YZ_93_R1": {
+    "id": "ALT_DUSTER_B_YZ_93_R1",
+    "face": {
+      "front": {
+        "name": "Partial Referee - YZ",
+        "type": "Character",
+        "cost": 5,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_93/JPG/en_US/4ea2917573d696fe1903c678121640f8.jpg"
+      }
+    },
+    "name": "Partial Referee - YZ",
+    "type": "Character",
+    "cost": 5,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 5,
+    "Recall Cost": 3,
+    "Ocean Power": 3,
+    "Forest Power": 3,
+    "Mountain Power": 4
+  },
+  "ALT_DUSTER_B_YZ_97_C": {
+    "id": "ALT_DUSTER_B_YZ_97_C",
+    "face": {
+      "front": {
+        "name": "Sports Encounter",
+        "type": "Spell",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_97/JPG/en_US/c3334137723d9a1a1ad23ff618367a21.jpg"
+      }
+    },
+    "name": "Sports Encounter",
+    "type": "Spell",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Common",
+    "Main Cost": 2,
+    "Recall Cost": 4
+  },
+  "ALT_DUSTER_B_YZ_97_R1": {
+    "id": "ALT_DUSTER_B_YZ_97_R1",
+    "face": {
+      "front": {
+        "name": "Sports Encounter - YZ",
+        "type": "Spell",
+        "cost": 2,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_97/JPG/en_US/a2a8634086f4e5a7b1f74ba4e9242cd0.jpg"
+      }
+    },
+    "name": "Sports Encounter - YZ",
+    "type": "Spell",
+    "cost": 2,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 2,
+    "Recall Cost": 1
+  },
+  "ALT_DUSTER_B_YZ_95_C": {
+    "id": "ALT_DUSTER_B_YZ_95_C",
+    "face": {
+      "front": {
+        "name": "Time Out!",
+        "type": "Spell",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_95/JPG/en_US/47cf6cadcc60ee48302bb55dfdc7d493.jpg"
+      }
+    },
+    "name": "Time Out!",
+    "type": "Spell",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 3
+  },
+  "ALT_DUSTER_B_YZ_95_R1": {
+    "id": "ALT_DUSTER_B_YZ_95_R1",
+    "face": {
+      "front": {
+        "name": "Time Out! - YZ",
+        "type": "Spell",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_95/JPG/en_US/692e9081347285314ceec1518298ec0f.jpg"
+      }
+    },
+    "name": "Time Out! - YZ",
+    "type": "Spell",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3
+  },
+  "ALT_DUSTER_B_YZ_100_C": {
+    "id": "ALT_DUSTER_B_YZ_100_C",
+    "face": {
+      "front": {
+        "name": "Moth Decoy",
+        "type": "Spell",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_100/JPG/en_US/002a690755da3b78d3b594e8c113fda9.jpg"
+      }
+    },
+    "name": "Moth Decoy",
+    "type": "Spell",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Common",
+    "Main Cost": 4,
+    "Recall Cost": 5,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
+  },
+  "ALT_DUSTER_B_YZ_100_R1": {
+    "id": "ALT_DUSTER_B_YZ_100_R1",
+    "face": {
+      "front": {
+        "name": "Moth Decoy - YZ",
+        "type": "Spell",
+        "cost": 4,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_100/JPG/en_US/2100dc6916b5301a806e8e8b80dbaf32.jpg"
+      }
+    },
+    "name": "Moth Decoy - YZ",
+    "type": "Spell",
+    "cost": 4,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 4,
+    "Recall Cost": 4,
+    "tokens": [
+      "ALT_BISE_B_YZ_47_C"
+    ]
+  },
+  "ALT_DUSTER_B_YZ_102_C": {
+    "id": "ALT_DUSTER_B_YZ_102_C",
+    "face": {
+      "front": {
+        "name": "The Infirmary",
+        "type": "Landmark Permanent",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_102/JPG/en_US/2e71b43a63fb1a393e9b0a75c33c294e.jpg"
+      }
+    },
+    "name": "The Infirmary",
+    "type": "Landmark Permanent",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Common",
+    "Main Cost": 3,
+    "Recall Cost": 3
+  },
+  "ALT_DUSTER_B_YZ_102_R1": {
+    "id": "ALT_DUSTER_B_YZ_102_R1",
+    "face": {
+      "front": {
+        "name": "The Infirmary - YZ",
+        "type": "Landmark Permanent",
+        "cost": 3,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_102/JPG/en_US/dccb8720285622dcd17e6bda0e17a60b.jpg"
+      }
+    },
+    "name": "The Infirmary - YZ",
+    "type": "Landmark Permanent",
+    "cost": 3,
+    "isToken": false,
+    "faction": "Yzmir",
+    "rarity": "Rare",
+    "Main Cost": 3,
+    "Recall Cost": 3
+  },
+  "ALT_DUSTER_B_YZ_47_C": {
+    "id": "ALT_DUSTER_B_YZ_47_C",
+    "face": {
+      "front": {
+        "name": "Mana Moth",
+        "type": "Token Character",
+        "cost": 0,
+        "image": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_47/JPG/en_US/65e278e8c155f88d8ffba90d38b2f0ad.jpg"
+      }
+    },
+    "name": "Mana Moth",
+    "type": "Token Character",
+    "cost": 0,
+    "isToken": true,
+    "faction": "Yzmir",
+    "rarity": "Common",
+    "Main Cost": 0,
+    "Recall Cost": 0,
+    "Ocean Power": 2,
+    "Forest Power": 2,
+    "Mountain Power": 2
   }
 }
