@@ -1,1535 +1,1539 @@
 {
-    "name": "Altered - Test",
-    "menuBackgroundImage": "https://valcur.github.io/TCG-Arena-Altered/Images/background.jpeg",
-    "deckBuilding": {
-        "mainFilters": [
-            "type",
-            "faction",
-            "rarity"
-        ],
-        "formats": [
-            {
-                "title": "Classic",
-                "gameplay": "Classic"
-            },
-            {
-                "title": "mp_4",
-                "gameplay": "mp_4"
-            }
-        ]
-    },
-    "gameplay": {
-        "Classic": {
-            "mulligan": {
-                "startingHandSize": 0
-            },
-            "newTurn": {
-                "drawOnStart": false,
-                "sharedTurn": true,
-                "firstPlayerTokenName": "First player",
-                "drawPerTurn": 2
-            },
-            "countersStartingValues": [],
-            "draggableTokens": [
-                {
-                    "id": "Anchored",
-                    "name": "Anchored",
-                    "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/anchored.png"
-                },
-                {
-                    "id": "Asleep",
-                    "name": "Asleep",
-                    "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/asleep.png"
-                },
-                {
-                    "id": "Fleeting",
-                    "name": "Fleeting",
-                    "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/fleeting.png"
-                }
-            ],
-            "sections": {
-                "layout": {
-                    "direction": "column",
-                    "content": [
-                        {
-                            "section": "Tumulte"
-                        },
-                        {
-                            "section": "TumulteData"
-                        },
-                        {
-                            "section": "TerrainMarkers"
-                        },
-                        {
-                            "direction": "row",
-                            "isSymetricalForOpponents": true,
-                            "style": {
-                                "marginTop": "5vh"
-                            },
-                            "content": [
-                                {
-                                    "section": "HeroExpedition",
-                                    "style": {
-                                        "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
-                                    }
-                                },
-                                {
-                                    "direction": "column",
-                                    "style": {
-                                        "width": "13vh",
-                                        "marginRight": "2vh",
-                                        "marginLeft": "2vh"
-                                    },
-                                    "content": [
-                                        {
-                                            "section": "Hero",
-                                            "style": {
-                                                "background": "no-repeat url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/HeroBackground.png')",
-                                                "backgroundSize": "98% 98%",
-                                                "backgroundPosition": "center",
-                                                "marginTop": "auto",
-                                                "marginBottom": "auto"
-                                            }
-                                        },
-                                        {
-                                            "section": "FirstPlayer"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "section": "CompanionExpedition",
-                                    "style": {
-                                        "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "direction": "row",
-                            "isSymetricalForOpponents": true,
-                            "content": [
-                                {
-                                    "section": "Mana"
-                                },
-                                {
-                                    "section": "Reserve",
-                                    "style": {
-                                        "width": "50vh",
-                                        "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
-                                    }
-                                },
-                                {
-                                    "section": "Landmark",
-                                    "style": {
-                                        "width": "30vh",
-                                        "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                "categoriesAlreadyOnBoard": [
-                    "Hero"
-                ],
-                "autoPlayFromHand": {
-                    "Mana": "Mana",
-                    "Landmark Permanent": "Landmark"
-                },
-                "autoPlayFromStack": {
-                    "Mana": "Mana",
-                    "Landmark Permanent": "Landmark",
-                    "Spell": "Discard"
-                },
-                "sectionsDict": {
-                    "Hero": {
-                        "isHidden": "no",
-                        "height": "16",
-                        "alignment": "CENTER",
-                        "isHorizontalAllowed": true,
-                        "noQuickActions": true
-                    },
-                    "HeroExpedition": {
-                        "isHidden": "no",
-                        "height": "18",
-                        "alignment": "CENTER",
-                        "isHorizontalAllowed": true,
-                        "displayedTitle": "Hero Expedition"
-                    },
-                    "CompanionExpedition": {
-                        "isHidden": "no",
-                        "height": "18",
-                        "alignment": "CENTER",
-                        "isHorizontalAllowed": true,
-                        "displayedTitle": "Companion Expedition"
-                    },
-                    "Mana": {
-                        "isHidden": "yes",
-                        "height": "SMALL",
-                        "alignment": "START",
-                        "opponentAlignment": "END",
-                        "noAutoPayTo": "true"
-                    },
-                    "Reserve": {
-                        "isHidden": "no",
-                        "height": "SMALL",
-                        "alignment": "CENTER",
-                        "isHorizontalAllowed": true,
-                        "cardActionShortcut": {
-                            "action": "MOVE",
-                            "actionData": {
-                                "destination": "Discard"
-                            },
-                            "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/support.png"
-                        }
-                    },
-                    "Landmark": {
-                        "isHidden": "no",
-                        "height": "SMALL",
-                        "alignment": "START",
-                        "isHorizontalAllowed": true
-                    },
-                    "Tumulte": {
-                        "type": "custom",
-                        "isShared": true,
-                        "blueprint": {
-                            "type": "div",
-                            "props": {
-                                "className": "position-fixed top-50 start-0 w-100 d-flex justify-content-center align-items-center",
-                                "style": {
-                                    "height": "10vh",
-                                    "translate": "0 -50%",
-                                    "paddingRight": "32vh",
-                                    "paddingLeft": "4rem",
-                                    "gap": "0.5vh"
-                                }
-                            },
-                            "children": [
-                                {
-                                    "type": "IMG",
-                                    "props": {
-                                        "className": "w-auto h-100",
-                                        "style": {
-                                            "borderRadius": "0.5vh"
-                                        },
-                                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Companion.jpg"
-                                    }
-                                },
-                                {
-                                    "type": "div",
-                                    "props": {
-                                        "className": "h-100 position-relative",
-                                        "style": {
-                                            "aspectRatio": 1.39
-                                        }
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "IMG",
-                                            "props": {
-                                                "className": "w-auto h-100 position-absolute top-0 start-0",
-                                                "style": {
-                                                    "borderRadius": "0.5vh",
-                                                    "backfaceVisibility": "hidden",
-                                                    "scale": "{{ game.data.Tumulte.cards[0].flip ? '-1' : '1' }} 1",
-                                                    "transition": "transform {{game.data.Tumulte.cards[0].revealed ? '0.5s' : '0s'}} ease-in-out",
-                                                    "transform": "rotateX({{ game.data.Tumulte.cards[0].revealed ? '0deg' : '180deg' }})"
-                                                },
-                                                "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Tumult-{{game.data.Tumulte.cards[0].biome}}.jpg"
-                                            }
-                                        },
-                                        {
-                                            "type": "IMG",
-                                            "props": {
-                                                "className": "w-auto h-100 position-absolute top-0 start-0",
-                                                "style": {
-                                                    "borderRadius": "0.5vh",
-                                                    "backfaceVisibility": "hidden",
-                                                    "transition": "transform {{game.data.Tumulte.cards[0].revealed ? '0.5s' : '0s'}} ease-in-out",
-                                                    "transform": "rotateX({{ game.data.Tumulte.cards[0].revealed ? '180deg' : '0deg' }})"
-                                                },
-                                                "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/tumulte-back.jpg"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "div",
-                                    "props": {
-                                        "className": "h-100 position-relative",
-                                        "style": {
-                                            "aspectRatio": 1.39
-                                        }
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "IMG",
-                                            "props": {
-                                                "className": "w-auto h-100 position-absolute top-0 start-0",
-                                                "style": {
-                                                    "borderRadius": "0.5vh",
-                                                    "backfaceVisibility": "hidden",
-                                                    "scale": "{{ game.data.Tumulte.cards[1].flip ? '-1' : '1' }} 1",
-                                                    "transition": "transform {{game.data.Tumulte.cards[1].revealed ? '0.5s' : '0s'}} ease-in-out",
-                                                    "transform": "rotateX({{ game.data.Tumulte.cards[1].revealed ? '0deg' : '180deg' }})"
-                                                },
-                                                "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Tumult-{{game.data.Tumulte.cards[1].biome}}.jpg"
-                                            }
-                                        },
-                                        {
-                                            "type": "IMG",
-                                            "props": {
-                                                "className": "w-auto h-100 position-absolute top-0 start-0",
-                                                "style": {
-                                                    "borderRadius": "0.5vh",
-                                                    "backfaceVisibility": "hidden",
-                                                    "transition": "transform {{game.data.Tumulte.cards[1].revealed ? '0.5s' : '0s'}} ease-in-out",
-                                                    "transform": "rotateX({{ game.data.Tumulte.cards[1].revealed ? '180deg' : '0deg' }})"
-                                                },
-                                                "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/tumulte-back.jpg"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "div",
-                                    "props": {
-                                        "className": "h-100 position-relative",
-                                        "style": {
-                                            "aspectRatio": 1.39
-                                        }
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "IMG",
-                                            "props": {
-                                                "className": "w-auto h-100 position-absolute top-0 start-0",
-                                                "style": {
-                                                    "borderRadius": "0.5vh",
-                                                    "backfaceVisibility": "hidden",
-                                                    "scale": "{{ game.data.Tumulte.cards[2].flip ? '-1' : '1' }} 1",
-                                                    "transition": "transform {{game.data.Tumulte.cards[2].revealed ? '0.5s' : '0s'}} ease-in-out",
-                                                    "transform": "rotateX({{ game.data.Tumulte.cards[2].revealed ? '0deg' : '180deg' }})"
-                                                },
-                                                "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Tumult-{{game.data.Tumulte.cards[2].biome}}.jpg"
-                                            }
-                                        },
-                                        {
-                                            "type": "IMG",
-                                            "props": {
-                                                "className": "w-auto h-100 position-absolute top-0 start-0",
-                                                "style": {
-                                                    "borderRadius": "0.5vh",
-                                                    "backfaceVisibility": "hidden",
-                                                    "transition": "transform {{game.data.Tumulte.cards[2].revealed ? '0.5s' : '0s'}} ease-in-out",
-                                                    "transform": "rotateX({{ game.data.Tumulte.cards[2].revealed ? '180deg' : '0deg' }})"
-                                                },
-                                                "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/tumulte-back.jpg"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "IMG",
-                                    "props": {
-                                        "className": "w-auto h-100",
-                                        "style": {
-                                            "borderRadius": "0.5vh"
-                                        },
-                                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Hero.jpg"
-                                    }
-                                },
-                                {
-                                    "type": "IMG",
-                                    "props": {
-                                        "className": "position-absolute shadow top-50",
-                                        "style": {
-                                            "borderRadius": "50%",
-                                            "width": "4vh",
-                                            "height": "4vh",
-                                            "left": "calc(50% - 7.232vh * 5.5)",
-                                            "translate": "calc({{game.data.Tumulte.tokens[game.turn.orderPosition].hero}} * 7.232vh - 30%) 0%",
-                                            "transition": "all 0.3s ease-in-out"
-                                        },
-                                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Hero-0.png"
-                                    }
-                                },
-                                {
-                                    "type": "IMG",
-                                    "props": {
-                                        "className": "position-absolute shadow top-50",
-                                        "style": {
-                                            "borderRadius": "50%",
-                                            "width": "4vh",
-                                            "height": "4vh",
-                                            "left": "calc(50% - 7.232vh * 5.5)",
-                                            "translate": "calc({{game.data.Tumulte.tokens[game.turn.orderPosition].companion}} * 7.232vh + 30%) 0%",
-                                            "transition": "all 0.3s ease-in-out"
-                                        },
-                                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Companion-0.png"
-                                    }
-                                },
-                                {
-                                    "type": "IMG",
-                                    "props": {
-                                        "className": "position-absolute shadow top-50",
-                                        "style": {
-                                            "borderRadius": "50%",
-                                            "width": "4vh",
-                                            "height": "4vh",
-                                            "left": "calc(50% - 7.232vh * 5.5)",
-                                            "translate": "calc({{game.data.Tumulte.tokens[game.data.TumulteData.info.opponentHero].hero}} * 7.232vh - 30%) -100%",
-                                            "transition": "all 0.3s ease-in-out"
-                                        },
-                                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Hero-1.png"
-                                    }
-                                },
-                                {
-                                    "type": "IMG",
-                                    "props": {
-                                        "className": "position-absolute shadow top-50",
-                                        "style": {
-                                            "borderRadius": "50%",
-                                            "width": "4vh",
-                                            "height": "4vh",
-                                            "left": "calc(50% - 7.232vh * 5.5)",
-                                            "translate": "calc({{game.data.Tumulte.tokens[game.data.TumulteData.info.opponentHero].companion}} * 7.232vh + 30%) -100%",
-                                            "transition": "all 0.3s ease-in-out"
-                                        },
-                                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Companion-1.png"
-                                    }
-                                }
-                            ]
-                        },
-                        "defaultValue": {
-                            "cards": [
-                                {
-                                    "biome": "Ocean",
-                                    "flip": true,
-                                    "revealed": false
-                                },
-                                {
-                                    "biome": "Ocean",
-                                    "flip": false,
-                                    "revealed": false
-                                },
-                                {
-                                    "biome": "Ocean",
-                                    "flip": true,
-                                    "revealed": false
-                                }
-                            ],
-                            "tokens": [
-                                {
-                                    "hero": 0,
-                                    "companion": 7
-                                },
-                                {
-                                    "hero": 0,
-                                    "companion": 7
-                                }
-                            ]
-                        },
-                        "events": {
-                            "onStart": "const types = ['Ocean', 'Mountain', 'Forest']; for (let i = types.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [types[i], types[j]] = [types[j], types[i]]; } if (game.data.Tumulte.cards) { game.data.Tumulte.cards.forEach((card, index) => { if (types[index]) card.biome = types[index]; card.flip = Math.random() < 0.5; }); }"
-                        }
-                    },
-                    "TumulteData": {
-                        "type": "custom",
-                        "playerRenderOnly": true,
-                        "blueprint": {
-                            "type": "div",
-                            "props": {
-                                "className": "position-fixed pe-none top-50 start-0 w-100 d-flex justify-content-center align-items-center",
-                                "style": {
-                                    "height": "10vh",
-                                    "translate": "0 -50%",
-                                    "marginLeft": "var(--left-offset-centered)",
-                                    "gap": "80vh"
-                                }
-                            },
-                            "children": [
-                                {
-                                    "type": "div",
-                                    "props": {
-                                        "className": "d-flex gap-1 me-3 pe-auto"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "button",
-                                            "props": {
-                                                "variant": "blurry"
-                                            },
-                                            "onClick": "game.data.TumulteData.tokens.hero = (game.data.TumulteData.tokens.hero || 0) - (game.data.TumulteData.tokens.hero > 0 ? 1 : 0); chatLog('moved backward his hero expedition')",
-                                            "children": "<"
-                                        },
-                                        {
-                                            "type": "button",
-                                            "props": {
-                                                "variant": "blurry"
-                                            },
-                                            "onClick": "game.data.TumulteData.tokens.hero = (game.data.TumulteData.tokens.hero || 0) + (game.data.TumulteData.tokens.hero < 7 ? 1 : 0); chatLog('moved forward his hero expedition')",
-                                            "children": ">"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "div",
-                                    "props": {
-                                        "className": "d-flex gap-1 ms-3 pe-auto"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "button",
-                                            "props": {
-                                                "variant": "blurry"
-                                            },
-                                            "onClick": "game.data.TumulteData.tokens.companion = (game.data.TumulteData.tokens.companion || 0) - (game.data.TumulteData.tokens.companion > 0 ? 1 : 0); chatLog('moved forward his companion expedition')",
-                                            "children": "<"
-                                        },
-                                        {
-                                            "type": "button",
-                                            "props": {
-                                                "variant": "blurry"
-                                            },
-                                            "onClick": "game.data.TumulteData.tokens.companion = (game.data.TumulteData.tokens.companion || 0) + (game.data.TumulteData.tokens.companion < 7 ? 1 : 0); chatLog('moved backward his companion expedition')",
-                                            "children": ">"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        "defaultValue": {
-                            "tokens": {
-                                "hero": 0,
-                                "companion": 7
-                            },
-                            "info": {
-                                "opponentHero": 0,
-                                "opponentCompanion": 0
-                            }
-                        },
-                        "events": {
-                            "onUpdate": "const t = game.data.TumulteData.tokens; const c = game.data.Tumulte.cards; game.data.Tumulte.tokens[game.turn.orderPosition] = t; if (t.hero === 1 || t.hero === 2 || t.companion === 1 || t.companion === 2) c[0].revealed = true; if (t.hero === 3 || t.hero === 4 || t.companion === 3 || t.companion === 4) c[1].revealed = true; if (t.hero === 5 || t.hero === 6 || t.companion === 5 || t.companion === 6) c[2].revealed = true;",
-                            "onOpponentUpdate": "const ot = opponentGame.data.TumulteData.tokens; const c = game.data.Tumulte.cards; game.data.Tumulte.tokens[opponentGame.turn.orderPosition] = ot; if (ot.hero === 1 || ot.hero === 2 || ot.companion === 1 || ot.companion === 2) c[0].revealed = true; if (ot.hero === 3 || ot.hero === 4 || ot.companion === 3 || ot.companion === 4) c[1].revealed = true; if (ot.hero === 5 || ot.hero === 6 || ot.companion === 5 || ot.companion === 6) c[2].revealed = true;",
-                            "onStart": "game.data.TumulteData.info = { opponentHero: game.turn.orderPosition + 1) % 2, opponentCompanion: (game.turn.orderPosition + 1) % 2 }"
-                        }
-                    },
-                    "OppTerrainMarkers": {
-                        "type": "custom",
-                        "defaultValue": {
-                            "markers": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
-                            ]
-                        }
-                    },
-                    "TerrainMarkers": {
-                        "type": "custom",
-                        "playerRenderOnly": true,
-                        "defaultValue": {
-                            "markers": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
-                            ]
-                        },
-                        "blueprint": {
-                            "type": "div",
-                            "props": {
-                                "className": "position-fixed top-50 start-50 translate-middle d-flex",
-                                "style": {
-                                    "--region-width": "6.75vh",
-                                    "--mountain-color": "#BD8049",
-                                    "--ocean-color": "#5871A6",
-                                    "--forest-color": "#9EB042",
-                                    "marginLeft": "var(--left-offset-centered)",
-                                    "gap": "0.5vh"
-                                }
-                            },
-                            "children": [
-                                {
-                                    "type": "loop",
-                                    "iterable": "game.data.TerrainMarkers.markers",
-                                    "template": {
-                                        "type": "div",
-                                        "props": {
-                                            "className": "shadow d-flex align-items-center justify-content-center position-relative",
-                                            "style": {
-                                                "height": "10vh",
-                                                "width": "var(--region-width)",
-                                                "borderRadius": "4px"
-                                            }
-                                        },
-                                        "children": [
-                                            {
-                                                "type": "div",
-                                                "props": {
-                                                    "className": "position-absolute bottom-0 start-0 w-100 d-flex align-items-center justify-content-center gap-1",
-                                                    "style": {
-                                                        "height": "2vh",
-                                                        "translate": "0 50%"
-                                                    }
-                                                },
-                                                "children": [
-                                                    {
-                                                        "type": "div",
-                                                        "props": {
-                                                            "className": "rounded-circle align-items-center justify-content-center",
-                                                            "style": {
-                                                                "width": "2vh",
-                                                                "height": "2vh",
-                                                                "backgroundColor": "var(--forest-color)",
-                                                                "display": "{{item.Forest || game.data.OppTerrainMarkers.markers[index].Forest ? 'flex' : 'none'}}"
-                                                            }
-                                                        },
-                                                        "children": [
-                                                            {
-                                                                "type": "img",
-                                                                "props": {
-                                                                    "style": {
-                                                                        "height": "60%"
-                                                                    },
-                                                                    "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Forest.png"
-                                                                }
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        "type": "div",
-                                                        "props": {
-                                                            "className": "rounded-circle align-items-center justify-content-center",
-                                                            "style": {
-                                                                "width": "2vh",
-                                                                "height": "2vh",
-                                                                "backgroundColor": "var(--mountain-color)",
-                                                                "display": "{{item.Mountain || game.data.OppTerrainMarkers.markers[index].Mountain ? 'flex' : 'none'}}"
-                                                            }
-                                                        },
-                                                        "children": [
-                                                            {
-                                                                "type": "img",
-                                                                "props": {
-                                                                    "style": {
-                                                                        "height": "60%"
-                                                                    },
-                                                                    "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Mountain.png"
-                                                                }
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        "type": "div",
-                                                        "props": {
-                                                            "className": "rounded-circle align-items-center justify-content-center",
-                                                            "style": {
-                                                                "width": "2vh",
-                                                                "height": "2vh",
-                                                                "backgroundColor": "var(--ocean-color)",
-                                                                "display": "{{item.Ocean || game.data.OppTerrainMarkers.markers[index].Ocean ? 'flex' : 'none'}}"
-                                                            }
-                                                        },
-                                                        "children": [
-                                                            {
-                                                                "type": "img",
-                                                                "props": {
-                                                                    "style": {
-                                                                        "height": "60%"
-                                                                    },
-                                                                    "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Ocean.png"
-                                                                }
-                                                            }
-                                                        ]
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "type": "div",
-                                                "props": {
-                                                    "className": "position-absolute top-0 start-0 w-100 h-100 d-flex flex-column on-section-hovered"
-                                                },
-                                                "children": [
-                                                    {
-                                                        "type": "button",
-                                                        "props": {
-                                                            "className": "hovered-reveal",
-                                                            "variant": "{{item.Forest ? 'primary' : 'blurry'}}",
-                                                            "style": {
-                                                                "fontSize": "1vh"
-                                                            }
-                                                        },
-                                                        "children": "Forest",
-                                                        "onClick": "game.data.TerrainMarkers.markers[index].Forest = !item.Forest; chatLog('toggled a forest terrain marker')"
-                                                    },
-                                                    {
-                                                        "type": "button",
-                                                        "props": {
-                                                            "className": "hovered-reveal",
-                                                            "variant": "{{item.Mountain ? 'primary' : 'blurry'}}",
-                                                            "style": {
-                                                                "fontSize": "1vh"
-                                                            }
-                                                        },
-                                                        "children": "Mountain",
-                                                        "onClick": "game.data.TerrainMarkers.markers[index].Mountain = !item.Mountain; chatLog('toggled a mountain terrain marker')"
-                                                    },
-                                                    {
-                                                        "type": "button",
-                                                        "props": {
-                                                            "className": "hovered-reveal",
-                                                            "variant": "{{item.Ocean ? 'primary' : 'blurry'}}",
-                                                            "style": {
-                                                                "fontSize": "1vh"
-                                                            }
-                                                        },
-                                                        "children": "Ocean",
-                                                        "onClick": "game.data.TerrainMarkers.markers[index].Ocean = !item.Ocean; chatLog('toggled an ocean terrain marker')"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                }
-                            ]
-                        },
-                        "events": {
-                            "onOpponentUpdate": "for(let i=0; i<8; i++) { game.data.OppTerrainMarkers.markers[i] = opponentGame.data.TerrainMarkers.markers[i]; }"
-                        }
-                    },
-                    "FirstPlayer": {
-                        "type": "custom",
-                        "blueprint": {
-                            "type": "div",
-                            "props": {
-                                "className": "position-absolute top-0 start-50 shadow on-section-hovered",
-                                "style": {
-                                    "height": "4vh",
-                                    "width": "4vh",
-                                    "translate": "-50%",
-                                    "borderRadius": "50%",
-                                    "zIndex": 1000
-                                }
-                            },
-                            "children": [
-                                {
-                                    "type": "img",
-                                    "props": {
-                                        "className": "h-100 w-100",
-                                        "style": {
-                                            "opacity": "{{game.data.FirstPlayer.enabled ? '1' : '0'}}"
-                                        },
-                                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/first-player.png"
-                                    }
-                                },
-                                {
-                                    "type": "button",
-                                    "props": {
-                                        "className": "hovered-reveal position-absolute top-50 start-50 translate-middle opp-hidden",
-                                        "style": {
-                                            "display": "{{game.data.FirstPlayer.enabled ? 'none' : 'flex'}}"
-                                        }
-                                    },
-                                    "onClick": "game.data.FirstPlayer.enabled = true; game.data.FirstPlayer.lastOwnerOrderPosition = game.turn.orderPosition; chatLog('has taken the first player token')",
-                                    "children": "Take"
-                                }
-                            ]
-                        },
-                        "defaultValue": {
-                            "enabled": false,
-                            "lastOwnerOrderPosition": -1
-                        },
-                        "events": {
-                            "onStart": "if (game.turn.isMyTurn) { game.data.FirstPlayer = { enabled: true, lastOwnerOrderPosition: game.turn.orderPosition } }",
-                            "onOpponentUpdate": "if (opponentGame.data.FirstPlayer.enabled) { game.data.FirstPlayer = { enabled: false, lastOwnerOrderPosition: opponentGame.turn.orderPosition } }",
-                            "onNewTurn": "const newFirstPlayer = (game.data.FirstPlayer.lastOwnerOrderPosition + 1) % game.turn.totalPlayers; game.data.FirstPlayer = { enabled: newFirstPlayer === game.turn.orderPosition, lastOwnerOrderPosition: newFirstPlayer }"
-                        }
-                    }
-                }
-            }
+  "name": "Altered - Test",
+  "menuBackgroundImage": "https://valcur.github.io/TCG-Arena-Altered/Images/background.jpeg",
+  "deckBuilding": {
+    "mainFilters": [
+      "type",
+      "faction",
+      "rarity"
+    ],
+    "formats": [
+      {
+        "title": "Classic",
+        "gameplay": "Classic"
+      },
+      {
+        "title": "f.mp_4",
+        "gameplay": "mp_4"
+      }
+    ]
+  },
+  "gameplay": {
+    "Classic": {
+      "mulligan": {
+        "startingHandSize": 6
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": true,
+        "firstPlayerTokenName": "First player",
+        "drawPerTurn": 2
+      },
+      "countersStartingValues": [],
+      "draggableTokens": [
+        {
+          "id": "Anchored",
+          "name": "Anchored",
+          "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/anchored.png"
         },
-        "mp_4": {
-            "mulligan": {
-                "startingHandSize": 0
+        {
+          "id": "Asleep",
+          "name": "Asleep",
+          "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/asleep.png"
+        },
+        {
+          "id": "Fleeting",
+          "name": "Fleeting",
+          "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/fleeting.png"
+        }
+      ],
+      "sections": {
+        "layout": {
+          "direction": "column",
+          "content": [
+            {
+              "section": "Tumulte"
             },
-            "newTurn": {
-                "drawOnStart": false,
-                "sharedTurn": true,
-                "firstPlayerTokenName": "First player",
-                "drawPerTurn": 2
+            {
+              "section": "TumulteData"
             },
-            "countersStartingValues": [],
-            "draggableTokens": [
+            {
+              "section": "FirstPlayer"
+            },
+            {
+              "direction": "row",
+              "isSymetricalForOpponents": true,
+              "style": {
+                "marginTop": "5vh"
+              },
+              "content": [
                 {
-                    "id": "Anchored",
-                    "name": "Anchored",
-                    "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/anchored.png"
+                  "section": "HeroExpedition",
+                  "style": {
+                    "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
+                  }
                 },
                 {
-                    "id": "Asleep",
-                    "name": "Asleep",
-                    "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/asleep.png"
+                  "section": "Hero",
+                  "style": {
+                    "background": "no-repeat url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/HeroBackground.png')",
+                    "backgroundSize": "98% 98%",
+                    "backgroundPosition": "center",
+                    "marginTop": "auto",
+                    "marginBottom": "auto",
+                    "width": "12.8vh",
+                    "marginRight": "2vh",
+                    "marginLeft": "2vh"
+                  }
                 },
                 {
-                    "id": "Fleeting",
-                    "name": "Fleeting",
-                    "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/fleeting.png"
+                  "section": "CompanionExpedition",
+                  "style": {
+                    "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
+                  }
                 }
-            ],
-            "sections": {
-                "layout": {
-                    "direction": "column",
-                    "content": [
-                        {
-                            "section": "TumulteRender"
-                        },
-                        {
-                            "section": "TumulteData"
-                        },
-                        {
-                            "section": "TerrainMarkers"
-                        },
-                        {
-                            "direction": "row",
-                            "isSymetricalForOpponents": true,
-                            "style": {
-                                "marginTop": "8vh"
-                            },
-                            "content": [
-                                {
-                                    "section": "HeroExpedition",
-                                    "style": {
-                                        "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
-                                    }
-                                },
-                                {
-                                    "direction": "column",
-                                    "style": {
-                                        "width": "13vh",
-                                        "marginRight": "2vh",
-                                        "marginLeft": "2vh"
-                                    },
-                                    "content": [
-                                        {
-                                            "section": "Hero",
-                                            "style": {
-                                                "background": "no-repeat url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/HeroBackground.png')",
-                                                "backgroundSize": "98% 98%",
-                                                "backgroundPosition": "center",
-                                                "marginTop": "auto",
-                                                "marginBottom": "auto"
-                                            }
-                                        },
-                                        {
-                                            "section": "FirstPlayer"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "section": "CompanionExpedition",
-                                    "style": {
-                                        "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "direction": "row",
-                            "isSymetricalForOpponents": true,
-                            "content": [
-                                {
-                                    "section": "Mana"
-                                },
-                                {
-                                    "section": "Reserve",
-                                    "style": {
-                                        "width": "50vh",
-                                        "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
-                                    }
-                                },
-                                {
-                                    "section": "Landmark",
-                                    "style": {
-                                        "width": "30vh",
-                                        "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
-                                    }
-                                }
-                            ]
-                        }
-                    ]
+              ]
+            },
+            {
+              "direction": "row",
+              "content": [
+                {
+                  "section": "Mana"
                 },
-                "categoriesAlreadyOnBoard": [
-                    "Hero"
-                ],
-                "autoPlayFromHand": {
-                    "Mana": "Mana",
-                    "Landmark Permanent": "Landmark"
+                {
+                  "section": "Reserve",
+                  "style": {
+                    "width": "50vh",
+                    "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
+                  }
                 },
-                "autoPlayFromStack": {
-                    "Mana": "Mana",
-                    "Landmark Permanent": "Landmark",
-                    "Spell": "Discard"
+                {
+                  "section": "Landmark",
+                  "style": {
+                    "width": "30vh",
+                    "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [
+          "Hero"
+        ],
+        "autoPlayFromHand": {
+          "Mana": "Mana",
+          "Landmark Permanent": "Landmark"
+        },
+        "autoPlayFromStack": {
+          "Mana": "Mana",
+          "Landmark Permanent": "Landmark",
+          "Spell": "Discard"
+        },
+        "sectionsDict": {
+          "Hero": {
+            "isHidden": "no",
+            "height": "16",
+            "alignment": "CENTER",
+            "isHorizontalAllowed": true,
+            "noQuickActions": true
+          },
+          "HeroExpedition": {
+            "isHidden": "no",
+            "height": "18",
+            "alignment": "CENTER",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Hero Expedition"
+          },
+          "CompanionExpedition": {
+            "isHidden": "no",
+            "height": "18",
+            "alignment": "CENTER",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Companion Expedition"
+          },
+          "Mana": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "START",
+            "noAutoPayTo": "true"
+          },
+          "Reserve": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "isHorizontalAllowed": true,
+            "cardActionShortcut": {
+              "action": "MOVE",
+              "actionData": {
+                "destination": "Discard"
+              },
+              "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/support.png"
+            }
+          },
+          "Landmark": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "START",
+            "isHorizontalAllowed": true
+          },
+          "Tumulte": {
+            "type": "custom",
+            "isShared": true,
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "position-fixed top-50 start-0 w-100 d-flex justify-content-center align-items-center",
+                "style": {
+                  "height": "10vh",
+                  "translate": "0 -50%",
+                  "marginLeft": "var(--left-offset-centered)",
+                  "gap": "0.5vh"
+                }
+              },
+              "children": [
+                {
+                  "type": "IMG",
+                  "props": {
+                    "className": "w-auto h-100",
+                    "style": {
+                      "borderRadius": "0.5vh"
+                    },
+                    "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Companion.jpg"
+                  }
                 },
-                "sectionsDict": {
-                    "Hero": {
-                        "isHidden": "no",
-                        "height": "16",
-                        "alignment": "CENTER",
-                        "isHorizontalAllowed": true,
-                        "noQuickActions": true
-                    },
-                    "HeroExpedition": {
-                        "isHidden": "no",
-                        "height": "18",
-                        "alignment": "CENTER",
-                        "isHorizontalAllowed": true,
-                        "displayedTitle": "Hero Expedition"
-                    },
-                    "CompanionExpedition": {
-                        "isHidden": "no",
-                        "height": "18",
-                        "alignment": "CENTER",
-                        "isHorizontalAllowed": true,
-                        "displayedTitle": "Companion Expedition"
-                    },
-                    "Mana": {
-                        "isHidden": "yes",
-                        "height": "10",
-                        "alignment": "START",
-                        "opponentAlignment": "END",
-                        "noAutoPayTo": "true"
-                    },
-                    "Reserve": {
-                        "isHidden": "no",
-                        "height": "10",
-                        "alignment": "CENTER",
-                        "isHorizontalAllowed": true,
-                        "cardActionShortcut": {
-                            "action": "MOVE",
-                            "actionData": {
-                                "destination": "Discard"
-                            },
-                            "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/support.png"
-                        }
-                    },
-                    "Landmark": {
-                        "isHidden": "no",
-                        "height": "10",
-                        "alignment": "START",
-                        "isHorizontalAllowed": true
-                    },
-                    "Tumulte": {
-                        "type": "custom",
-                        "isShared": true,
-                        "defaultValue": {
-                            "cards": [
-                                {
-                                    "biome": "Ocean",
-                                    "flip": true,
-                                    "revealed": false
-                                },
-                                {
-                                    "biome": "Ocean",
-                                    "flip": false,
-                                    "revealed": false
-                                },
-                                {
-                                    "biome": "Ocean",
-                                    "flip": true,
-                                    "revealed": false
-                                }
-                            ],
-                            "tokens": [
-                                {
-                                    "hero": 0,
-                                    "companion": 7
-                                },
-                                {
-                                    "hero": 0,
-                                    "companion": 7
-                                },
-                                {
-                                    "hero": 0,
-                                    "companion": 7
-                                },
-                                {
-                                    "hero": 0,
-                                    "companion": 7
-                                }
-                            ]
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "h-100 position-relative",
+                    "style": {
+                      "aspectRatio": 1.39
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "IMG",
+                      "props": {
+                        "className": "w-auto h-100 position-absolute top-0 start-0",
+                        "style": {
+                          "borderRadius": "0.5vh",
+                          "backfaceVisibility": "hidden",
+                          "scale": "{{ game.data.Tumulte.cards[0].flip ? '-1' : '1' }} 1",
+                          "transition": "transform {{game.data.Tumulte.cards[0].revealed ? '0.5s' : '0s'}} ease-in-out",
+                          "transform": "rotateX({{ game.data.Tumulte.cards[0].revealed ? '0deg' : '180deg' }})"
                         },
-                        "events": {
-                            "onStart": "const types = ['Ocean', 'Mountain', 'Forest']; for (let i = types.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [types[i], types[j]] = [types[j], types[i]]; } if (game.data.Tumulte.cards) { game.data.Tumulte.cards.forEach((card, index) => { if (types[index]) card.biome = types[index]; card.flip = Math.random() < 0.5; }); }"
-                        }
+                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Tumult-{{game.data.Tumulte.cards[0].biome}}.jpg"
+                      }
                     },
-                    "TumulteRender": {
-                        "type": "custom",
-                        "blueprint": {
+                    {
+                      "type": "IMG",
+                      "props": {
+                        "className": "w-auto h-100 position-absolute top-0 start-0",
+                        "style": {
+                          "borderRadius": "0.5vh",
+                          "backfaceVisibility": "hidden",
+                          "transition": "transform {{game.data.Tumulte.cards[0].revealed ? '0.5s' : '0s'}} ease-in-out",
+                          "transform": "rotateX({{ game.data.Tumulte.cards[0].revealed ? '180deg' : '0deg' }})"
+                        },
+                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/tumulte-back.jpg"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "h-100 position-relative",
+                    "style": {
+                      "aspectRatio": 1.39
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "IMG",
+                      "props": {
+                        "className": "w-auto h-100 position-absolute top-0 start-0",
+                        "style": {
+                          "borderRadius": "0.5vh",
+                          "backfaceVisibility": "hidden",
+                          "scale": "{{ game.data.Tumulte.cards[1].flip ? '-1' : '1' }} 1",
+                          "transition": "transform {{game.data.Tumulte.cards[1].revealed ? '0.5s' : '0s'}} ease-in-out",
+                          "transform": "rotateX({{ game.data.Tumulte.cards[1].revealed ? '0deg' : '180deg' }})"
+                        },
+                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Tumult-{{game.data.Tumulte.cards[1].biome}}.jpg"
+                      }
+                    },
+                    {
+                      "type": "IMG",
+                      "props": {
+                        "className": "w-auto h-100 position-absolute top-0 start-0",
+                        "style": {
+                          "borderRadius": "0.5vh",
+                          "backfaceVisibility": "hidden",
+                          "transition": "transform {{game.data.Tumulte.cards[1].revealed ? '0.5s' : '0s'}} ease-in-out",
+                          "transform": "rotateX({{ game.data.Tumulte.cards[1].revealed ? '180deg' : '0deg' }})"
+                        },
+                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/tumulte-back.jpg"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "h-100 position-relative",
+                    "style": {
+                      "aspectRatio": 1.39
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "IMG",
+                      "props": {
+                        "className": "w-auto h-100 position-absolute top-0 start-0",
+                        "style": {
+                          "borderRadius": "0.5vh",
+                          "backfaceVisibility": "hidden",
+                          "scale": "{{ game.data.Tumulte.cards[2].flip ? '-1' : '1' }} 1",
+                          "transition": "transform {{game.data.Tumulte.cards[2].revealed ? '0.5s' : '0s'}} ease-in-out",
+                          "transform": "rotateX({{ game.data.Tumulte.cards[2].revealed ? '0deg' : '180deg' }})"
+                        },
+                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Tumult-{{game.data.Tumulte.cards[2].biome}}.jpg"
+                      }
+                    },
+                    {
+                      "type": "IMG",
+                      "props": {
+                        "className": "w-auto h-100 position-absolute top-0 start-0",
+                        "style": {
+                          "borderRadius": "0.5vh",
+                          "backfaceVisibility": "hidden",
+                          "transition": "transform {{game.data.Tumulte.cards[2].revealed ? '0.5s' : '0s'}} ease-in-out",
+                          "transform": "rotateX({{ game.data.Tumulte.cards[2].revealed ? '180deg' : '0deg' }})"
+                        },
+                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/tumulte-back.jpg"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "IMG",
+                  "props": {
+                    "className": "w-auto h-100",
+                    "style": {
+                      "borderRadius": "0.5vh"
+                    },
+                    "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Hero.jpg"
+                  }
+                },
+                {
+                  "type": "IMG",
+                  "props": {
+                    "className": "position-absolute shadow top-50",
+                    "style": {
+                      "borderRadius": "50%",
+                      "width": "4vh",
+                      "height": "4vh",
+                      "left": "calc(50% - 7.232vh * 3.5)",
+                      "translate": "calc({{game.data.Tumulte.tokens[game.turn.orderPosition].hero}} * 7.232vh - 80%) 0%",
+                      "transition": "all 0.3s ease-in-out"
+                    },
+                    "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Hero-0.png"
+                  }
+                },
+                {
+                  "type": "IMG",
+                  "props": {
+                    "className": "position-absolute shadow top-50",
+                    "style": {
+                      "borderRadius": "50%",
+                      "width": "4vh",
+                      "height": "4vh",
+                      "left": "calc(50% - 7.232vh * 3.5)",
+                      "translate": "calc({{game.data.Tumulte.tokens[game.turn.orderPosition].companion}} * 7.232vh - 20%) 0%",
+                      "transition": "all 0.3s ease-in-out"
+                    },
+                    "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Companion-0.png"
+                  }
+                },
+                {
+                  "type": "IMG",
+                  "props": {
+                    "className": "position-absolute shadow top-50",
+                    "style": {
+                      "borderRadius": "50%",
+                      "width": "4vh",
+                      "height": "4vh",
+                      "left": "calc(50% - 7.232vh * 3.5)",
+                      "translate": "calc({{game.data.Tumulte.tokens[game.data.TumulteData.info.opponentHero].hero}} * 7.232vh - 80%) -100%",
+                      "transition": "all 0.3s ease-in-out"
+                    },
+                    "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Hero-1.png"
+                  }
+                },
+                {
+                  "type": "IMG",
+                  "props": {
+                    "className": "position-absolute shadow top-50",
+                    "style": {
+                      "borderRadius": "50%",
+                      "width": "4vh",
+                      "height": "4vh",
+                      "left": "calc(50% - 7.232vh * 3.5)",
+                      "translate": "calc({{game.data.Tumulte.tokens[game.data.TumulteData.info.opponentHero].companion}} * 7.232vh - 20%) -100%",
+                      "transition": "all 0.3s ease-in-out"
+                    },
+                    "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Companion-1.png"
+                  }
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "position-absolute top-50 start-50 translate-middle d-flex",
+                    "style": {
+                      "--region-width": "6.75vh",
+                      "--mountain-color": "#BD8049",
+                      "--ocean-color": "#5871A6",
+                      "--forest-color": "#9EB042",
+                      "gap": "0.5vh"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "loop",
+                      "iterable": "game.data.TerrainMarkers.markers",
+                      "template": {
+                        "type": "div",
+                        "props": {
+                          "className": "shadow d-flex align-items-center justify-content-center position-relative",
+                          "style": {
+                            "height": "10vh",
+                            "width": "var(--region-width)",
+                            "borderRadius": "4px"
+                          }
+                        },
+                        "children": [
+                          {
                             "type": "div",
                             "props": {
-                                "className": "position-absolute top-0 start-0 w-100 d-flex justify-content-center align-items-center opp-mirror-x",
-                                "style": {
-                                    "marginTop": "2vh",
-                                    "height": "10vh",
-                                    "translate": "0 -50%",
-                                    "gap": "0.5vh",
-                                    "maskImage": "linear-gradient(to bottom, transparent 0%, transparent 20%, black 30%, black 100%)"
-                                }
+                              "className": "position-absolute bottom-0 start-0 w-100 d-flex align-items-center justify-content-center gap-1",
+                              "style": {
+                                "height": "2vh",
+                                "translate": "0 50%"
+                              }
                             },
                             "children": [
-                                {
-                                    "type": "IMG",
-                                    "props": {
-                                        "className": "w-auto h-100",
-                                        "style": {
-                                            "borderRadius": "0.5vh"
-                                        },
-                                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Companion.jpg"
-                                    }
+                              {
+                                "type": "div",
+                                "props": {
+                                  "className": "rounded-circle align-items-center justify-content-center",
+                                  "style": {
+                                    "width": "2vh",
+                                    "height": "2vh",
+                                    "backgroundColor": "var(--forest-color)",
+                                    "display": "{{item.Forest || game.data.OppTerrainMarkers.markers[index].Forest ? 'flex' : 'none'}}"
+                                  }
                                 },
-                                {
-                                    "type": "div",
-                                    "props": {
-                                        "className": "h-100 position-relative",
-                                        "style": {
-                                            "aspectRatio": 1.39
-                                        }
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "IMG",
-                                            "props": {
-                                                "className": "w-auto h-100 position-absolute top-0 start-0",
-                                                "style": {
-                                                    "borderRadius": "0.5vh",
-                                                    "backfaceVisibility": "hidden",
-                                                    "scale": "{{ game.data.Tumulte.cards[0].flip ? '-1' : '1' }} 1",
-                                                    "transition": "transform {{game.data.Tumulte.cards[0].revealed ? '0.5s' : '0s'}} ease-in-out",
-                                                    "transform": "rotateX({{ game.data.Tumulte.cards[0].revealed ? '0deg' : '180deg' }})"
-                                                },
-                                                "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Tumult-{{game.data.Tumulte.cards[0].biome}}.jpg"
-                                            }
-                                        },
-                                        {
-                                            "type": "IMG",
-                                            "props": {
-                                                "className": "w-auto h-100 position-absolute top-0 start-0",
-                                                "style": {
-                                                    "borderRadius": "0.5vh",
-                                                    "backfaceVisibility": "hidden",
-                                                    "transition": "transform {{game.data.Tumulte.cards[0].revealed ? '0.5s' : '0s'}} ease-in-out",
-                                                    "transform": "rotateX({{ game.data.Tumulte.cards[0].revealed ? '180deg' : '0deg' }})"
-                                                },
-                                                "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/tumulte-back.jpg"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "div",
-                                    "props": {
-                                        "className": "h-100 position-relative",
-                                        "style": {
-                                            "aspectRatio": 1.39
-                                        }
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "IMG",
-                                            "props": {
-                                                "className": "w-auto h-100 position-absolute top-0 start-0",
-                                                "style": {
-                                                    "borderRadius": "0.5vh",
-                                                    "backfaceVisibility": "hidden",
-                                                    "scale": "{{ game.data.Tumulte.cards[1].flip ? '-1' : '1' }} 1",
-                                                    "transition": "transform {{game.data.Tumulte.cards[1].revealed ? '0.5s' : '0s'}} ease-in-out",
-                                                    "transform": "rotateX({{ game.data.Tumulte.cards[1].revealed ? '0deg' : '180deg' }})"
-                                                },
-                                                "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Tumult-{{game.data.Tumulte.cards[1].biome}}.jpg"
-                                            }
-                                        },
-                                        {
-                                            "type": "IMG",
-                                            "props": {
-                                                "className": "w-auto h-100 position-absolute top-0 start-0",
-                                                "style": {
-                                                    "borderRadius": "0.5vh",
-                                                    "backfaceVisibility": "hidden",
-                                                    "transition": "transform {{game.data.Tumulte.cards[1].revealed ? '0.5s' : '0s'}} ease-in-out",
-                                                    "transform": "rotateX({{ game.data.Tumulte.cards[1].revealed ? '180deg' : '0deg' }})"
-                                                },
-                                                "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/tumulte-back.jpg"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "div",
-                                    "props": {
-                                        "className": "h-100 position-relative",
-                                        "style": {
-                                            "aspectRatio": 1.39
-                                        }
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "IMG",
-                                            "props": {
-                                                "className": "w-auto h-100 position-absolute top-0 start-0",
-                                                "style": {
-                                                    "borderRadius": "0.5vh",
-                                                    "backfaceVisibility": "hidden",
-                                                    "scale": "{{ game.data.Tumulte.cards[2].flip ? '-1' : '1' }} 1",
-                                                    "transition": "transform {{game.data.Tumulte.cards[2].revealed ? '0.5s' : '0s'}} ease-in-out",
-                                                    "transform": "rotateX({{ game.data.Tumulte.cards[2].revealed ? '0deg' : '180deg' }})"
-                                                },
-                                                "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Tumult-{{game.data.Tumulte.cards[2].biome}}.jpg"
-                                            }
-                                        },
-                                        {
-                                            "type": "IMG",
-                                            "props": {
-                                                "className": "w-auto h-100 position-absolute top-0 start-0",
-                                                "style": {
-                                                    "borderRadius": "0.5vh",
-                                                    "backfaceVisibility": "hidden",
-                                                    "transition": "transform {{game.data.Tumulte.cards[2].revealed ? '0.5s' : '0s'}} ease-in-out",
-                                                    "transform": "rotateX({{ game.data.Tumulte.cards[2].revealed ? '180deg' : '0deg' }})"
-                                                },
-                                                "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/tumulte-back.jpg"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "IMG",
-                                    "props": {
-                                        "className": "w-auto h-100",
-                                        "style": {
-                                            "borderRadius": "0.5vh"
-                                        },
-                                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Hero.jpg"
-                                    }
-                                },
-                                {
-                                    "type": "IMG",
-                                    "props": {
-                                        "className": "position-absolute shadow top-50",
-                                        "style": {
-                                            "borderRadius": "50%",
-                                            "width": "4vh",
-                                            "height": "4vh",
-                                            "left": "calc(50% - 7.232vh * 3.75)",
-                                            "translate": "calc({{game.data.Tumulte.tokens[game.turn.orderPosition].hero}} * 7.232vh - 30%) 0%",
-                                            "transition": "all 0.3s ease-in-out"
-                                        },
-                                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Hero-{{game.turn.orderPosition}}.png"
-                                    }
-                                },
-                                {
-                                    "type": "IMG",
-                                    "props": {
-                                        "className": "position-absolute shadow top-50",
-                                        "style": {
-                                            "borderRadius": "50%",
-                                            "width": "4vh",
-                                            "height": "4vh",
-                                            "left": "calc(50% - 7.232vh * 3.75)",
-                                            "translate": "calc({{game.data.Tumulte.tokens[game.turn.orderPosition].companion}} * 7.232vh + 30%) 0%",
-                                            "transition": "all 0.3s ease-in-out"
-                                        },
-                                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Companion-{{game.turn.orderPosition}}.png"
-                                    }
-                                },
-                                {
-                                    "type": "IMG",
-                                    "props": {
-                                        "className": "position-absolute shadow top-50",
-                                        "style": {
-                                            "borderRadius": "50%",
-                                            "width": "4vh",
-                                            "height": "4vh",
-                                            "left": "calc(50% - 7.232vh * 3.75)",
-                                            "translate": "calc({{game.data.Tumulte.tokens[game.data.TumulteData.info.opponentHero].hero}} * 7.232vh - 30%) -100%",
-                                            "transition": "all 0.3s ease-in-out"
-                                        },
-                                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Hero-{{game.data.TumulteData.info.opponentHero}}.png"
-                                    }
-                                },
-                                {
-                                    "type": "IMG",
-                                    "props": {
-                                        "className": "position-absolute shadow top-50",
-                                        "style": {
-                                            "borderRadius": "50%",
-                                            "width": "4vh",
-                                            "height": "4vh",
-                                            "left": "calc(50% - 7.232vh * 3.75)",
-                                            "translate": "calc({{game.data.Tumulte.tokens[game.data.TumulteData.info.opponentCompanion].companion}} * 7.232vh + 30%) -100%",
-                                            "transition": "all 0.3s ease-in-out"
-                                        },
-                                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Companion-{{game.data.TumulteData.info.opponentCompanion}}.png"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    "TumulteData": {
-                        "type": "custom",
-                        "playerRenderOnly": true,
-                        "blueprint": {
-                            "type": "div",
-                            "props": {
-                                "className": "position-absolute pe-none top-0 start-0 w-100 d-flex justify-content-center align-items-center",
-                                "style": {
-                                    "marginTop": "2vh",
-                                    "height": "10vh",
-                                    "translate": "0 -50%",
-                                    "gap": "80vh"
-                                }
-                            },
-                            "children": [
-                                {
-                                    "type": "div",
-                                    "props": {
-                                        "className": "d-flex gap-1 me-3 pe-auto"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "button",
-                                            "props": {
-                                                "variant": "blurry"
-                                            },
-                                            "onClick": "game.data.TumulteData.tokens.hero = (game.data.TumulteData.tokens.hero || 0) - (game.data.TumulteData.tokens.hero > 0 ? 1 : 0); chatLog('moved backward his hero expedition')",
-                                            "children": "<"
-                                        },
-                                        {
-                                            "type": "button",
-                                            "props": {
-                                                "variant": "blurry"
-                                            },
-                                            "onClick": "game.data.TumulteData.tokens.hero = (game.data.TumulteData.tokens.hero || 0) + (game.data.TumulteData.tokens.hero < 7 ? 1 : 0); chatLog('moved forward his hero expedition')",
-                                            "children": ">"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "div",
-                                    "props": {
-                                        "className": "d-flex gap-1 ms-3 pe-auto"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "button",
-                                            "props": {
-                                                "variant": "blurry"
-                                            },
-                                            "onClick": "game.data.TumulteData.tokens.companion = (game.data.TumulteData.tokens.companion || 0) - (game.data.TumulteData.tokens.companion > 0 ? 1 : 0); chatLog('moved forward his companion expedition')",
-                                            "children": "<"
-                                        },
-                                        {
-                                            "type": "button",
-                                            "props": {
-                                                "variant": "blurry"
-                                            },
-                                            "onClick": "game.data.TumulteData.tokens.companion = (game.data.TumulteData.tokens.companion || 0) + (game.data.TumulteData.tokens.companion < 7 ? 1 : 0); chatLog('moved backward his companion expedition')",
-                                            "children": ">"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        "defaultValue": {
-                            "tokens": {
-                                "hero": 0,
-                                "companion": 7
-                            },
-                            "info": {
-                                "opponentHero": 0,
-                                "opponentCompanion": 0
-                            }
-                        },
-                        "events": {
-                            "onUpdate": "const t = game.data.TumulteData.tokens; const c = game.data.Tumulte.cards; game.data.Tumulte.tokens[game.turn.orderPosition] = t; if (t.hero === 1 || t.hero === 2 || t.companion === 1 || t.companion === 2) c[0].revealed = true; if (t.hero === 3 || t.hero === 4 || t.companion === 3 || t.companion === 4) c[1].revealed = true; if (t.hero === 5 || t.hero === 6 || t.companion === 5 || t.companion === 6) c[2].revealed = true;",
-                            "onOpponentUpdate": "const ot = opponentGame.data.TumulteData.tokens; const c = game.data.Tumulte.cards; game.data.Tumulte.tokens[opponentGame.turn.orderPosition] = ot; if (ot.hero === 1 || ot.hero === 2 || ot.companion === 1 || ot.companion === 2) c[0].revealed = true; if (ot.hero === 3 || ot.hero === 4 || ot.companion === 3 || ot.companion === 4) c[1].revealed = true; if (ot.hero === 5 || ot.hero === 6 || ot.companion === 5 || ot.companion === 6) c[2].revealed = true;",
-                            "onStart": "game.data.TumulteData.info = { opponentHero: game.turn.orderPosition % 2 === 0 ? ((game.turn.orderPosition + game.turn.totalPlayers + 1) % game.turn.totalPlayers) : ((game.turn.orderPosition + game.turn.totalPlayers - 1) % game.turn.totalPlayers), opponentCompanion: game.turn.orderPosition % 2 === 0 ? ((game.turn.orderPosition + game.turn.totalPlayers - 1) % game.turn.totalPlayers) : ((game.turn.orderPosition + game.turn.totalPlayers + 1) % game.turn.totalPlayers) }"
-                        }
-                    },
-                    "OppTerrainMarkers": {
-                        "type": "custom",
-                        "defaultValue": {
-                            "markers": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
-                            ]
-                        }
-                    },
-                    "TerrainMarkers": {
-                        "type": "custom",
-                        "defaultValue": {
-                            "markers": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
-                            ]
-                        },
-                        "blueprint": {
-                            "type": "div",
-                            "props": {
-                                "className": "position-absolute top-0 start-50 translate-middle",
-                                "style": {
-                                    "--region-width": "6.75vh",
-                                    "--mountain-color": "#BD8049",
-                                    "--ocean-color": "#5871A6",
-                                    "--forest-color": "#9EB042",
-                                    "marginTop": "2vh",
-                                    "gap": "0.5vh"
-                                }
-                            },
-                            "children": [
-                                {
-                                    "type": "div",
-                                    "props": {
-                                        "className": "opp-mirror-x d-flex"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "loop",
-                                            "iterable": "game.data.TerrainMarkers.markers",
-                                            "template": {
-                                                "type": "div",
-                                                "props": {
-                                                    "className": "shadow d-flex align-items-center justify-content-center position-relative",
-                                                    "style": {
-                                                        "height": "10vh",
-                                                        "width": "var(--region-width)",
-                                                        "borderRadius": "4px"
-                                                    }
-                                                },
-                                                "children": [
-                                                    {
-                                                        "type": "div",
-                                                        "props": {
-                                                            "className": "position-absolute bottom-0 start-0 w-100 d-flex align-items-center justify-content-center gap-1",
-                                                            "style": {
-                                                                "height": "2vh",
-                                                                "translate": "0 50%"
-                                                            }
-                                                        },
-                                                        "children": [
-                                                            {
-                                                                "type": "div",
-                                                                "props": {
-                                                                    "className": "rounded-circle align-items-center justify-content-center",
-                                                                    "style": {
-                                                                        "width": "2vh",
-                                                                        "height": "2vh",
-                                                                        "backgroundColor": "var(--forest-color)",
-                                                                        "display": "{{item.Forest || game.data.OppTerrainMarkers.markers[index].Forest ? 'flex' : 'none'}}"
-                                                                    }
-                                                                },
-                                                                "children": [
-                                                                    {
-                                                                        "type": "img",
-                                                                        "props": {
-                                                                            "style": {
-                                                                                "height": "60%"
-                                                                            },
-                                                                            "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Forest.png"
-                                                                        }
-                                                                    }
-                                                                ]
-                                                            },
-                                                            {
-                                                                "type": "div",
-                                                                "props": {
-                                                                    "className": "rounded-circle align-items-center justify-content-center",
-                                                                    "style": {
-                                                                        "width": "2vh",
-                                                                        "height": "2vh",
-                                                                        "backgroundColor": "var(--mountain-color)",
-                                                                        "display": "{{item.Mountain || game.data.OppTerrainMarkers.markers[index].Mountain ? 'flex' : 'none'}}"
-                                                                    }
-                                                                },
-                                                                "children": [
-                                                                    {
-                                                                        "type": "img",
-                                                                        "props": {
-                                                                            "style": {
-                                                                                "height": "60%"
-                                                                            },
-                                                                            "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Mountain.png"
-                                                                        }
-                                                                    }
-                                                                ]
-                                                            },
-                                                            {
-                                                                "type": "div",
-                                                                "props": {
-                                                                    "className": "rounded-circle align-items-center justify-content-center",
-                                                                    "style": {
-                                                                        "width": "2vh",
-                                                                        "height": "2vh",
-                                                                        "backgroundColor": "var(--ocean-color)",
-                                                                        "display": "{{item.Ocean || game.data.OppTerrainMarkers.markers[index].Ocean ? 'flex' : 'none'}}"
-                                                                    }
-                                                                },
-                                                                "children": [
-                                                                    {
-                                                                        "type": "img",
-                                                                        "props": {
-                                                                            "style": {
-                                                                                "height": "60%"
-                                                                            },
-                                                                            "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Ocean.png"
-                                                                        }
-                                                                    }
-                                                                ]
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        "type": "div",
-                                                        "props": {
-                                                            "className": "position-absolute top-0 start-0 w-100 d-flex flex-column on-section-hovered opp-hidden"
-                                                        },
-                                                        "children": [
-                                                            {
-                                                                "type": "button",
-                                                                "props": {
-                                                                    "className": "hovered-reveal",
-                                                                    "variant": "{{item.Forest ? 'primary' : 'blurry'}}",
-                                                                    "style": {
-                                                                        "fontSize": "1vh"
-                                                                    }
-                                                                },
-                                                                "children": "Forest",
-                                                                "onClick": "game.data.TerrainMarkers.markers[index].Forest = !item.Forest; chatLog('toggled a forest terrain marker')"
-                                                            },
-                                                            {
-                                                                "type": "button",
-                                                                "props": {
-                                                                    "className": "hovered-reveal",
-                                                                    "variant": "{{item.Mountain ? 'primary' : 'blurry'}}",
-                                                                    "style": {
-                                                                        "fontSize": "1vh"
-                                                                    }
-                                                                },
-                                                                "children": "Mountain",
-                                                                "onClick": "game.data.TerrainMarkers.markers[index].Mountain = !item.Mountain; chatLog('toggled a mountain terrain marker')"
-                                                            },
-                                                            {
-                                                                "type": "button",
-                                                                "props": {
-                                                                    "className": "hovered-reveal",
-                                                                    "variant": "{{item.Ocean ? 'primary' : 'blurry'}}",
-                                                                    "style": {
-                                                                        "fontSize": "1vh"
-                                                                    }
-                                                                },
-                                                                "children": "Ocean",
-                                                                "onClick": "game.data.TerrainMarkers.markers[index].Ocean = !item.Ocean; chatLog('toggled an ocean terrain marker')"
-                                                            }
-                                                        ]
-                                                    }
-                                                ]
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        "events": {
-                            "onOpponentUpdate": "for(let i=0; i<8; i++) { if ((i < 4 && opponentGame.turn.orderPosition === game.data.TumulteData.info.opponentHero) || (i >= 4 && opponentGame.turn.orderPosition === game.data.TumulteData.info.opponentCompanion)) { game.data.OppTerrainMarkers.markers[i] = opponentGame.data.TerrainMarkers.markers[i]; } }"
-                        }
-                    },
-                    "FirstPlayer": {
-                        "type": "custom",
-                        "blueprint": {
-                            "type": "div",
-                            "props": {
-                                "className": "position-absolute top-0 start-50 shadow on-section-hovered",
-                                "style": {
-                                    "height": "4vh",
-                                    "width": "4vh",
-                                    "translate": "-50%",
-                                    "borderRadius": "50%",
-                                    "zIndex": 1000
-                                }
-                            },
-                            "children": [
-                                {
+                                "children": [
+                                  {
                                     "type": "img",
                                     "props": {
-                                        "className": "h-100 w-100",
-                                        "style": {
-                                            "opacity": "{{game.data.FirstPlayer.enabled ? '1' : '0'}}"
-                                        },
-                                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/first-player.png"
+                                      "style": {
+                                        "height": "60%"
+                                      },
+                                      "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Forest.png"
                                     }
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "div",
+                                "props": {
+                                  "className": "rounded-circle align-items-center justify-content-center",
+                                  "style": {
+                                    "width": "2vh",
+                                    "height": "2vh",
+                                    "backgroundColor": "var(--mountain-color)",
+                                    "display": "{{item.Mountain || game.data.OppTerrainMarkers.markers[index].Mountain ? 'flex' : 'none'}}"
+                                  }
                                 },
-                                {
-                                    "type": "button",
+                                "children": [
+                                  {
+                                    "type": "img",
                                     "props": {
-                                        "className": "hovered-reveal position-absolute top-50 start-50 translate-middle opp-hidden",
-                                        "style": {
-                                            "display": "{{game.data.FirstPlayer.enabled ? 'none' : 'flex'}}"
-                                        }
-                                    },
-                                    "onClick": "game.data.FirstPlayer.enabled = true; game.data.FirstPlayer.lastOwnerOrderPosition = game.turn.orderPosition; chatLog('has taken the first player token')",
-                                    "children": "Take"
-                                }
+                                      "style": {
+                                        "height": "60%"
+                                      },
+                                      "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Mountain.png"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "div",
+                                "props": {
+                                  "className": "rounded-circle align-items-center justify-content-center",
+                                  "style": {
+                                    "width": "2vh",
+                                    "height": "2vh",
+                                    "backgroundColor": "var(--ocean-color)",
+                                    "display": "{{item.Ocean || game.data.OppTerrainMarkers.markers[index].Ocean ? 'flex' : 'none'}}"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "type": "img",
+                                    "props": {
+                                      "style": {
+                                        "height": "60%"
+                                      },
+                                      "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Ocean.png"
+                                    }
+                                  }
+                                ]
+                              }
                             ]
-                        },
-                        "defaultValue": {
-                            "enabled": false,
-                            "lastOwnerOrderPosition": -1
-                        },
-                        "events": {
-                            "onStart": "if (game.turn.isMyTurn) { game.data.FirstPlayer = { enabled: true, lastOwnerOrderPosition: game.turn.orderPosition } }",
-                            "onOpponentUpdate": "if (opponentGame.data.FirstPlayer.enabled) { game.data.FirstPlayer = { enabled: false, lastOwnerOrderPosition: opponentGame.turn.orderPosition } }",
-                            "onNewTurn": "const newFirstPlayer = (game.data.FirstPlayer.lastOwnerOrderPosition + 1) % game.turn.totalPlayers; game.data.FirstPlayer = { enabled: newFirstPlayer === game.turn.orderPosition, lastOwnerOrderPosition: newFirstPlayer }"
-                        }
+                          },
+                          {
+                            "type": "div",
+                            "props": {
+                              "className": "position-absolute top-0 start-0 w-100 h-100 d-flex flex-column on-section-hovered"
+                            },
+                            "children": [
+                              {
+                                "type": "button",
+                                "props": {
+                                  "className": "hovered-reveal",
+                                  "variant": "{{item.Forest ? 'primary' : 'blurry'}}",
+                                  "style": {
+                                    "fontSize": "1vh"
+                                  }
+                                },
+                                "children": "Forest",
+                                "onClick": "game.data.TerrainMarkers.markers[index].Forest = !item.Forest; chatLog('toggled a forest terrain marker')"
+                              },
+                              {
+                                "type": "button",
+                                "props": {
+                                  "className": "hovered-reveal",
+                                  "variant": "{{item.Mountain ? 'primary' : 'blurry'}}",
+                                  "style": {
+                                    "fontSize": "1vh"
+                                  }
+                                },
+                                "children": "Mountain",
+                                "onClick": "game.data.TerrainMarkers.markers[index].Mountain = !item.Mountain; chatLog('toggled a mountain terrain marker')"
+                              },
+                              {
+                                "type": "button",
+                                "props": {
+                                  "className": "hovered-reveal",
+                                  "variant": "{{item.Ocean ? 'primary' : 'blurry'}}",
+                                  "style": {
+                                    "fontSize": "1vh"
+                                  }
+                                },
+                                "children": "Ocean",
+                                "onClick": "game.data.TerrainMarkers.markers[index].Ocean = !item.Ocean; chatLog('toggled an ocean terrain marker')"
+                              }
+                            ]
+                          }
+                        ]
+                      }
                     }
+                  ]
                 }
+              ]
+            },
+            "defaultValue": {
+              "cards": [
+                {
+                  "biome": "Ocean",
+                  "flip": true,
+                  "revealed": false
+                },
+                {
+                  "biome": "Ocean",
+                  "flip": false,
+                  "revealed": false
+                },
+                {
+                  "biome": "Ocean",
+                  "flip": true,
+                  "revealed": false
+                }
+              ],
+              "tokens": [
+                {
+                  "hero": 0,
+                  "companion": 7
+                },
+                {
+                  "hero": 0,
+                  "companion": 7
+                }
+              ]
+            },
+            "events": {
+              "onStart": "const types = ['Ocean', 'Mountain', 'Forest']; for (let i = types.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [types[i], types[j]] = [types[j], types[i]]; } if (game.data.Tumulte.cards) { game.data.Tumulte.cards.forEach((card, index) => { if (types[index]) card.biome = types[index]; card.flip = Math.random() < 0.5; }); }"
             }
+          },
+          "TumulteData": {
+            "type": "custom",
+            "playerRenderOnly": true,
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "position-fixed pe-none top-50 start-0 w-100 d-flex justify-content-center align-items-center",
+                "style": {
+                  "height": "10vh",
+                  "translate": "0 -50%",
+                  "marginLeft": "var(--left-offset-centered)",
+                  "gap": "80vh"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "d-flex gap-1 me-3 pe-auto"
+                  },
+                  "children": [
+                    {
+                      "type": "button",
+                      "props": {
+                        "variant": "blurry"
+                      },
+                      "onClick": "game.data.TumulteData.tokens.hero = (game.data.TumulteData.tokens.hero || 0) - (game.data.TumulteData.tokens.hero > 0 ? 1 : 0); chatLog('moved backward its hero expedition')",
+                      "children": "<"
+                    },
+                    {
+                      "type": "button",
+                      "props": {
+                        "variant": "blurry"
+                      },
+                      "onClick": "game.data.TumulteData.tokens.hero = (game.data.TumulteData.tokens.hero || 0) + (game.data.TumulteData.tokens.hero < 7 ? 1 : 0); chatLog('moved forward its hero expedition')",
+                      "children": ">"
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "d-flex gap-1 ms-3 pe-auto"
+                  },
+                  "children": [
+                    {
+                      "type": "button",
+                      "props": {
+                        "variant": "blurry"
+                      },
+                      "onClick": "game.data.TumulteData.tokens.companion = (game.data.TumulteData.tokens.companion || 0) - (game.data.TumulteData.tokens.companion > 0 ? 1 : 0); chatLog('moved forward its companion expedition')",
+                      "children": "<"
+                    },
+                    {
+                      "type": "button",
+                      "props": {
+                        "variant": "blurry"
+                      },
+                      "onClick": "game.data.TumulteData.tokens.companion = (game.data.TumulteData.tokens.companion || 0) + (game.data.TumulteData.tokens.companion < 7 ? 1 : 0); chatLog('moved backward its companion expedition')",
+                      "children": ">"
+                    }
+                  ]
+                }
+              ]
+            },
+            "defaultValue": {
+              "tokens": {
+                "hero": 0,
+                "companion": 7
+              },
+              "info": {
+                "opponentHero": 0,
+                "opponentCompanion": 0
+              }
+            },
+            "events": {
+              "onUpdate": "const t = game.data.TumulteData.tokens; const c = game.data.Tumulte.cards; game.data.Tumulte.tokens[game.turn.orderPosition] = t; if (t.hero === 1 || t.hero === 2 || t.companion === 1 || t.companion === 2) c[0].revealed = true; if (t.hero === 3 || t.hero === 4 || t.companion === 3 || t.companion === 4) c[1].revealed = true; if (t.hero === 5 || t.hero === 6 || t.companion === 5 || t.companion === 6) c[2].revealed = true;",
+              "onOpponentUpdate": "const ot = opponentGame.data.TumulteData.tokens; const c = game.data.Tumulte.cards; game.data.Tumulte.tokens[opponentGame.turn.orderPosition] = ot; if (ot.hero === 1 || ot.hero === 2 || ot.companion === 1 || ot.companion === 2) c[0].revealed = true; if (ot.hero === 3 || ot.hero === 4 || ot.companion === 3 || ot.companion === 4) c[1].revealed = true; if (ot.hero === 5 || ot.hero === 6 || ot.companion === 5 || ot.companion === 6) c[2].revealed = true;",
+              "onStart": "game.data.TumulteData.info = { opponentHero: (game.turn.orderPosition + 1) % 2, opponentCompanion: (game.turn.orderPosition + 1) % 2 }"
+            }
+          },
+          "OppTerrainMarkers": {
+            "type": "custom",
+            "defaultValue": {
+              "markers": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ]
+            }
+          },
+          "TerrainMarkers": {
+            "type": "custom",
+            "playerRenderOnly": true,
+            "defaultValue": {
+              "markers": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ]
+            },
+            "events": {
+              "onOpponentUpdate": "for(let i=0; i<8; i++) { game.data.OppTerrainMarkers.markers[i] = opponentGame.data.TerrainMarkers.markers[i]; }"
+            }
+          },
+          "FirstPlayer": {
+            "type": "custom",
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "position-absolute pe-none top-0 start-0 w-100",
+                "style": {
+                  "paddingLeft": "20vh",
+                  "marginTop": "-1vh"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "position-relative pe-auto shadow on-section-hovered",
+                    "style": {
+                      "height": "5vh",
+                      "width": "5vh",
+                      "translate": "-50%",
+                      "borderRadius": "50%",
+                      "backdropFilter": "blur(20px)"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "img",
+                      "props": {
+                        "className": "h-100 w-100",
+                        "style": {
+                          "opacity": "{{game.data.FirstPlayer.enabled ? '1' : '0'}}"
+                        },
+                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/first-player.png"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "hovered-reveal position-absolute top-50 start-50 translate-middle opp-hidden",
+                        "style": {
+                          "display": "{{game.data.FirstPlayer.enabled ? 'none' : 'flex'}}"
+                        }
+                      },
+                      "onClick": "game.data.FirstPlayer.enabled = true; game.data.FirstPlayer.lastOwnerOrderPosition = game.turn.orderPosition; chatLog('has taken the first player token')",
+                      "children": "Take"
+                    }
+                  ]
+                }
+              ]
+            },
+            "defaultValue": {
+              "enabled": false,
+              "lastOwnerOrderPosition": -1
+            },
+            "events": {
+              "onStart": "if (game.turn.isMyTurn) { game.data.FirstPlayer = { enabled: true, lastOwnerOrderPosition: game.turn.orderPosition } }",
+              "onOpponentUpdate": "if (opponentGame.data.FirstPlayer.enabled) { game.data.FirstPlayer = { enabled: false, lastOwnerOrderPosition: opponentGame.turn.orderPosition } }",
+              "onNewTurn": "const newFirstPlayer = (game.data.FirstPlayer.lastOwnerOrderPosition + 1) % game.turn.totalPlayers; game.data.FirstPlayer = { enabled: newFirstPlayer === game.turn.orderPosition, lastOwnerOrderPosition: newFirstPlayer }"
+            }
+          }
         }
+      }
     },
-    "defaultRessources": {
-        "backgrounds": [
-            "https://valcur.github.io/TCG-Arena-Altered/Images/Playmats/playmat-1.jpeg",
-            "https://valcur.github.io/TCG-Arena-Altered/Images/Playmats/playmat-2.jpeg",
-            "https://valcur.github.io/TCG-Arena-Altered/Images/Playmats/playmat-10.jpeg",
-            "https://valcur.github.io/TCG-Arena-Altered/Images/Playmats/playmat-11.jpeg",
-            "https://valcur.github.io/TCG-Arena-Altered/Images/Playmats/playmat-12.jpeg"
+    "mp_4": {
+      "mulligan": {
+        "startingHandSize": 0
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": true,
+        "firstPlayerTokenName": "First player",
+        "drawPerTurn": 2
+      },
+      "countersStartingValues": [],
+      "draggableTokens": [
+        {
+          "id": "Anchored",
+          "name": "Anchored",
+          "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/anchored.png"
+        },
+        {
+          "id": "Asleep",
+          "name": "Asleep",
+          "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/asleep.png"
+        },
+        {
+          "id": "Fleeting",
+          "name": "Fleeting",
+          "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/fleeting.png"
+        }
+      ],
+      "sections": {
+        "layout": {
+          "direction": "column",
+          "content": [
+            {
+              "section": "TumulteRender"
+            },
+            {
+              "section": "TumulteData"
+            },
+            {
+              "section": "TerrainMarkers"
+            },
+            {
+              "section": "FirstPlayer"
+            },
+            {
+              "direction": "row",
+              "isSymetricalForOpponents": true,
+              "style": {
+                "marginTop": "8vh"
+              },
+              "content": [
+                {
+                  "section": "HeroExpedition",
+                  "style": {
+                    "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
+                  }
+                },
+                {
+                  "section": "Hero",
+                  "style": {
+                    "background": "no-repeat url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/HeroBackground.png')",
+                    "backgroundSize": "98% 98%",
+                    "backgroundPosition": "center",
+                    "marginTop": "auto",
+                    "marginBottom": "auto",
+                    "width": "12.8vh",
+                    "marginRight": "2vh",
+                    "marginLeft": "2vh"
+                  }
+                },
+                {
+                  "section": "CompanionExpedition",
+                  "style": {
+                    "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
+                  }
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "content": [
+                {
+                  "section": "Mana"
+                },
+                {
+                  "section": "Reserve",
+                  "style": {
+                    "width": "50vh",
+                    "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
+                  }
+                },
+                {
+                  "section": "Landmark",
+                  "style": {
+                    "width": "30vh",
+                    "borderImage": "url('https://valcur.github.io/TCG-Arena-Altered/Images/Assets/BorderBackground.png') 20 / 1.5vh"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [
+          "Hero"
         ],
-        "decksUrl": "https://valcur.github.io/TCG-Arena-Altered/AlteredDecks.json"
-    },
-    "customHelp": "To manage the tumulte, open https://exalts-table.com/tumulte and join each other there.\n\nYou can grab the first player token in the bottom left by clicing the + button (it is automatically given to the first player when the game starts).",
-    "cards": {
-        "dataUrl": "https://valcur.github.io/TCG-Arena-Altered/AlteredCards.json",
-        "cardBack": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/card-back.png",
-        "cardBackColor": "#c8bdb3"
+        "autoPlayFromHand": {
+          "Mana": "Mana",
+          "Landmark Permanent": "Landmark"
+        },
+        "autoPlayFromStack": {
+          "Mana": "Mana",
+          "Landmark Permanent": "Landmark",
+          "Spell": "Discard"
+        },
+        "sectionsDict": {
+          "Hero": {
+            "isHidden": "no",
+            "height": "16",
+            "alignment": "CENTER",
+            "isHorizontalAllowed": true,
+            "noQuickActions": true
+          },
+          "HeroExpedition": {
+            "isHidden": "no",
+            "height": "18",
+            "alignment": "CENTER",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Hero Expedition"
+          },
+          "CompanionExpedition": {
+            "isHidden": "no",
+            "height": "18",
+            "alignment": "CENTER",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Companion Expedition"
+          },
+          "Mana": {
+            "isHidden": "yes",
+            "height": "10",
+            "alignment": "START",
+            "noAutoPayTo": "true"
+          },
+          "Reserve": {
+            "isHidden": "no",
+            "height": "10",
+            "alignment": "CENTER",
+            "isHorizontalAllowed": true,
+            "cardActionShortcut": {
+              "action": "MOVE",
+              "actionData": {
+                "destination": "Discard"
+              },
+              "image": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/support.png"
+            }
+          },
+          "Landmark": {
+            "isHidden": "no",
+            "height": "10",
+            "alignment": "START",
+            "isHorizontalAllowed": true
+          },
+          "Tumulte": {
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "cards": [
+                {
+                  "biome": "Ocean",
+                  "flip": true,
+                  "revealed": false
+                },
+                {
+                  "biome": "Ocean",
+                  "flip": false,
+                  "revealed": false
+                },
+                {
+                  "biome": "Ocean",
+                  "flip": true,
+                  "revealed": false
+                }
+              ],
+              "tokens": [
+                {
+                  "hero": 0,
+                  "companion": 7
+                },
+                {
+                  "hero": 0,
+                  "companion": 7
+                },
+                {
+                  "hero": 0,
+                  "companion": 7
+                },
+                {
+                  "hero": 0,
+                  "companion": 7
+                }
+              ]
+            },
+            "events": {
+              "onStart": "const types = ['Ocean', 'Mountain', 'Forest']; for (let i = types.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [types[i], types[j]] = [types[j], types[i]]; } if (game.data.Tumulte.cards) { game.data.Tumulte.cards.forEach((card, index) => { if (types[index]) card.biome = types[index]; card.flip = Math.random() < 0.5; }); }"
+            }
+          },
+          "TumulteRender": {
+            "type": "custom",
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "position-absolute opp-nomirror opp-mirror-x top-0 start-0 w-100 d-flex justify-content-center align-items-center",
+                "style": {
+                  "marginTop": "2vh",
+                  "height": "10vh",
+                  "translate": "0 -50%",
+                  "gap": "0.5vh",
+                  "maskImage": "linear-gradient(to bottom, transparent 0%, transparent 20%, black 30%, black 100%)"
+                }
+              },
+              "children": [
+                {
+                  "type": "IMG",
+                  "props": {
+                    "className": "w-auto h-100",
+                    "style": {
+                      "borderRadius": "0.5vh"
+                    },
+                    "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Companion.jpg"
+                  }
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "h-100 position-relative",
+                    "style": {
+                      "aspectRatio": 1.39
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "IMG",
+                      "props": {
+                        "className": "w-auto h-100 position-absolute top-0 start-0",
+                        "style": {
+                          "borderRadius": "0.5vh",
+                          "backfaceVisibility": "hidden",
+                          "scale": "{{ game.data.Tumulte.cards[0].flip ? '-1' : '1' }} 1",
+                          "transition": "transform {{game.data.Tumulte.cards[0].revealed ? '0.5s' : '0s'}} ease-in-out",
+                          "transform": "rotateX({{ game.data.Tumulte.cards[0].revealed ? '0deg' : '180deg' }})"
+                        },
+                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Tumult-{{game.data.Tumulte.cards[0].biome}}.jpg"
+                      }
+                    },
+                    {
+                      "type": "IMG",
+                      "props": {
+                        "className": "w-auto h-100 position-absolute top-0 start-0",
+                        "style": {
+                          "borderRadius": "0.5vh",
+                          "backfaceVisibility": "hidden",
+                          "transition": "transform {{game.data.Tumulte.cards[0].revealed ? '0.5s' : '0s'}} ease-in-out",
+                          "transform": "rotateX({{ game.data.Tumulte.cards[0].revealed ? '180deg' : '0deg' }})"
+                        },
+                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/tumulte-back.jpg"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "h-100 position-relative",
+                    "style": {
+                      "aspectRatio": 1.39
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "IMG",
+                      "props": {
+                        "className": "w-auto h-100 position-absolute top-0 start-0",
+                        "style": {
+                          "borderRadius": "0.5vh",
+                          "backfaceVisibility": "hidden",
+                          "scale": "{{ game.data.Tumulte.cards[1].flip ? '-1' : '1' }} 1",
+                          "transition": "transform {{game.data.Tumulte.cards[1].revealed ? '0.5s' : '0s'}} ease-in-out",
+                          "transform": "rotateX({{ game.data.Tumulte.cards[1].revealed ? '0deg' : '180deg' }})"
+                        },
+                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Tumult-{{game.data.Tumulte.cards[1].biome}}.jpg"
+                      }
+                    },
+                    {
+                      "type": "IMG",
+                      "props": {
+                        "className": "w-auto h-100 position-absolute top-0 start-0",
+                        "style": {
+                          "borderRadius": "0.5vh",
+                          "backfaceVisibility": "hidden",
+                          "transition": "transform {{game.data.Tumulte.cards[1].revealed ? '0.5s' : '0s'}} ease-in-out",
+                          "transform": "rotateX({{ game.data.Tumulte.cards[1].revealed ? '180deg' : '0deg' }})"
+                        },
+                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/tumulte-back.jpg"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "h-100 position-relative",
+                    "style": {
+                      "aspectRatio": 1.39
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "IMG",
+                      "props": {
+                        "className": "w-auto h-100 position-absolute top-0 start-0",
+                        "style": {
+                          "borderRadius": "0.5vh",
+                          "backfaceVisibility": "hidden",
+                          "scale": "{{ game.data.Tumulte.cards[2].flip ? '-1' : '1' }} 1",
+                          "transition": "transform {{game.data.Tumulte.cards[2].revealed ? '0.5s' : '0s'}} ease-in-out",
+                          "transform": "rotateX({{ game.data.Tumulte.cards[2].revealed ? '0deg' : '180deg' }})"
+                        },
+                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Tumult-{{game.data.Tumulte.cards[2].biome}}.jpg"
+                      }
+                    },
+                    {
+                      "type": "IMG",
+                      "props": {
+                        "className": "w-auto h-100 position-absolute top-0 start-0",
+                        "style": {
+                          "borderRadius": "0.5vh",
+                          "backfaceVisibility": "hidden",
+                          "transition": "transform {{game.data.Tumulte.cards[2].revealed ? '0.5s' : '0s'}} ease-in-out",
+                          "transform": "rotateX({{ game.data.Tumulte.cards[2].revealed ? '180deg' : '0deg' }})"
+                        },
+                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/tumulte-back.jpg"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "IMG",
+                  "props": {
+                    "className": "w-auto h-100",
+                    "style": {
+                      "borderRadius": "0.5vh"
+                    },
+                    "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Hero.jpg"
+                  }
+                },
+                {
+                  "type": "IMG",
+                  "props": {
+                    "className": "position-absolute shadow top-50",
+                    "style": {
+                      "borderRadius": "50%",
+                      "width": "4vh",
+                      "height": "4vh",
+                      "left": "calc(50% - 7.232vh * 3.75)",
+                      "translate": "calc({{game.data.Tumulte.tokens[game.turn.orderPosition].hero}} * 7.232vh - 30%) 0%",
+                      "transition": "all 0.3s ease-in-out"
+                    },
+                    "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Hero-{{game.turn.orderPosition}}.png"
+                  }
+                },
+                {
+                  "type": "IMG",
+                  "props": {
+                    "className": "position-absolute shadow top-50",
+                    "style": {
+                      "borderRadius": "50%",
+                      "width": "4vh",
+                      "height": "4vh",
+                      "left": "calc(50% - 7.232vh * 3.75)",
+                      "translate": "calc({{game.data.Tumulte.tokens[game.turn.orderPosition].companion}} * 7.232vh + 30%) 0%",
+                      "transition": "all 0.3s ease-in-out"
+                    },
+                    "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Companion-{{game.turn.orderPosition}}.png"
+                  }
+                },
+                {
+                  "type": "IMG",
+                  "props": {
+                    "className": "position-absolute shadow top-50",
+                    "style": {
+                      "borderRadius": "50%",
+                      "width": "4vh",
+                      "height": "4vh",
+                      "left": "calc(50% - 7.232vh * 3.75)",
+                      "translate": "calc({{game.data.Tumulte.tokens[game.data.TumulteData.info.opponentHero].hero}} * 7.232vh - 30%) -100%",
+                      "transition": "all 0.3s ease-in-out"
+                    },
+                    "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Hero-{{game.data.TumulteData.info.opponentHero}}.png"
+                  }
+                },
+                {
+                  "type": "IMG",
+                  "props": {
+                    "className": "position-absolute shadow top-50",
+                    "style": {
+                      "borderRadius": "50%",
+                      "width": "4vh",
+                      "height": "4vh",
+                      "left": "calc(50% - 7.232vh * 3.75)",
+                      "translate": "calc({{game.data.Tumulte.tokens[game.data.TumulteData.info.opponentCompanion].companion}} * 7.232vh + 30%) -100%",
+                      "transition": "all 0.3s ease-in-out"
+                    },
+                    "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Companion-{{game.data.TumulteData.info.opponentCompanion}}.png"
+                  }
+                }
+              ]
+            }
+          },
+          "TumulteData": {
+            "type": "custom",
+            "playerRenderOnly": true,
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "position-absolute pe-none top-0 start-0 w-100 d-flex justify-content-center align-items-center",
+                "style": {
+                  "marginTop": "2vh",
+                  "height": "10vh",
+                  "translate": "0 -50%",
+                  "gap": "80vh"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "d-flex gap-1 me-3 pe-auto"
+                  },
+                  "children": [
+                    {
+                      "type": "button",
+                      "props": {
+                        "variant": "blurry"
+                      },
+                      "onClick": "game.data.TumulteData.tokens.hero = (game.data.TumulteData.tokens.hero || 0) - (game.data.TumulteData.tokens.hero > 0 ? 1 : 0); chatLog('moved backward its hero expedition')",
+                      "children": "<"
+                    },
+                    {
+                      "type": "button",
+                      "props": {
+                        "variant": "blurry"
+                      },
+                      "onClick": "game.data.TumulteData.tokens.hero = (game.data.TumulteData.tokens.hero || 0) + (game.data.TumulteData.tokens.hero < 7 ? 1 : 0); chatLog('moved forward its hero expedition')",
+                      "children": ">"
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "d-flex gap-1 ms-3 pe-auto"
+                  },
+                  "children": [
+                    {
+                      "type": "button",
+                      "props": {
+                        "variant": "blurry"
+                      },
+                      "onClick": "game.data.TumulteData.tokens.companion = (game.data.TumulteData.tokens.companion || 0) - (game.data.TumulteData.tokens.companion > 0 ? 1 : 0); chatLog('moved forward its companion expedition')",
+                      "children": "<"
+                    },
+                    {
+                      "type": "button",
+                      "props": {
+                        "variant": "blurry"
+                      },
+                      "onClick": "game.data.TumulteData.tokens.companion = (game.data.TumulteData.tokens.companion || 0) + (game.data.TumulteData.tokens.companion < 7 ? 1 : 0); chatLog('moved backward its companion expedition')",
+                      "children": ">"
+                    }
+                  ]
+                }
+              ]
+            },
+            "defaultValue": {
+              "tokens": {
+                "hero": 0,
+                "companion": 7
+              },
+              "info": {
+                "opponentHero": 0,
+                "opponentCompanion": 0
+              }
+            },
+            "events": {
+              "onUpdate": "const t = game.data.TumulteData.tokens; const c = game.data.Tumulte.cards; game.data.Tumulte.tokens[game.turn.orderPosition] = t; if (t.hero === 1 || t.hero === 2 || t.companion === 1 || t.companion === 2) c[0].revealed = true; if (t.hero === 3 || t.hero === 4 || t.companion === 3 || t.companion === 4) c[1].revealed = true; if (t.hero === 5 || t.hero === 6 || t.companion === 5 || t.companion === 6) c[2].revealed = true;",
+              "onOpponentUpdate": "const ot = opponentGame.data.TumulteData.tokens; const c = game.data.Tumulte.cards; game.data.Tumulte.tokens[opponentGame.turn.orderPosition] = ot; if (ot.hero === 1 || ot.hero === 2 || ot.companion === 1 || ot.companion === 2) c[0].revealed = true; if (ot.hero === 3 || ot.hero === 4 || ot.companion === 3 || ot.companion === 4) c[1].revealed = true; if (ot.hero === 5 || ot.hero === 6 || ot.companion === 5 || ot.companion === 6) c[2].revealed = true;",
+              "onStart": "game.data.TumulteData.info = { opponentHero: game.turn.orderPosition % 2 === 0 ? ((game.turn.orderPosition + game.turn.totalPlayers + 1) % game.turn.totalPlayers) : ((game.turn.orderPosition + game.turn.totalPlayers - 1) % game.turn.totalPlayers), opponentCompanion: game.turn.orderPosition % 2 === 0 ? ((game.turn.orderPosition + game.turn.totalPlayers - 1) % game.turn.totalPlayers) : ((game.turn.orderPosition + game.turn.totalPlayers + 1) % game.turn.totalPlayers) }"
+            }
+          },
+          "OppTerrainMarkers": {
+            "type": "custom",
+            "defaultValue": {
+              "markers": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ]
+            }
+          },
+          "TerrainMarkers": {
+            "type": "custom",
+            "defaultValue": {
+              "markers": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ]
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "position-absolute opp-nomirror top-0 start-50 translate-middle",
+                "style": {
+                  "--region-width": "6.75vh",
+                  "--mountain-color": "#BD8049",
+                  "--ocean-color": "#5871A6",
+                  "--forest-color": "#9EB042",
+                  "marginTop": "2vh"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "d-flex",
+                    "style": {
+                      "gap": "0.5vh"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "loop",
+                      "iterable": "game.data.TerrainMarkers.markers",
+                      "template": {
+                        "type": "div",
+                        "props": {
+                          "className": "shadow d-flex align-items-center justify-content-center position-relative",
+                          "style": {
+                            "height": "10vh",
+                            "width": "var(--region-width)",
+                            "borderRadius": "4px"
+                          }
+                        },
+                        "children": [
+                          {
+                            "type": "div",
+                            "props": {
+                              "className": "position-absolute bottom-0 start-0 w-100 d-flex align-items-center justify-content-center gap-1",
+                              "style": {
+                                "height": "2vh",
+                                "translate": "0 50%"
+                              }
+                            },
+                            "children": [
+                              {
+                                "type": "div",
+                                "props": {
+                                  "className": "rounded-circle align-items-center justify-content-center",
+                                  "style": {
+                                    "width": "2vh",
+                                    "height": "2vh",
+                                    "backgroundColor": "var(--forest-color)",
+                                    "display": "{{item.Forest || game.data.OppTerrainMarkers.markers[index].Forest ? 'flex' : 'none'}}"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "type": "img",
+                                    "props": {
+                                      "style": {
+                                        "height": "60%"
+                                      },
+                                      "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Forest.png"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "div",
+                                "props": {
+                                  "className": "rounded-circle align-items-center justify-content-center",
+                                  "style": {
+                                    "width": "2vh",
+                                    "height": "2vh",
+                                    "backgroundColor": "var(--mountain-color)",
+                                    "display": "{{item.Mountain || game.data.OppTerrainMarkers.markers[index].Mountain ? 'flex' : 'none'}}"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "type": "img",
+                                    "props": {
+                                      "style": {
+                                        "height": "60%"
+                                      },
+                                      "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Mountain.png"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "div",
+                                "props": {
+                                  "className": "rounded-circle align-items-center justify-content-center",
+                                  "style": {
+                                    "width": "2vh",
+                                    "height": "2vh",
+                                    "backgroundColor": "var(--ocean-color)",
+                                    "display": "{{item.Ocean || game.data.OppTerrainMarkers.markers[index].Ocean ? 'flex' : 'none'}}"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "type": "img",
+                                    "props": {
+                                      "style": {
+                                        "height": "60%"
+                                      },
+                                      "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Tumulte/Ocean.png"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "div",
+                            "props": {
+                              "className": "position-absolute top-0 start-0 w-100 d-flex flex-column on-section-hovered opp-hidden"
+                            },
+                            "children": [
+                              {
+                                "type": "button",
+                                "props": {
+                                  "className": "hovered-reveal",
+                                  "variant": "{{item.Forest ? 'primary' : 'blurry'}}",
+                                  "style": {
+                                    "fontSize": "1vh"
+                                  }
+                                },
+                                "children": "Forest",
+                                "onClick": "game.data.TerrainMarkers.markers[index].Forest = !item.Forest; chatLog('toggled a forest terrain marker')"
+                              },
+                              {
+                                "type": "button",
+                                "props": {
+                                  "className": "hovered-reveal",
+                                  "variant": "{{item.Mountain ? 'primary' : 'blurry'}}",
+                                  "style": {
+                                    "fontSize": "1vh"
+                                  }
+                                },
+                                "children": "Mountain",
+                                "onClick": "game.data.TerrainMarkers.markers[index].Mountain = !item.Mountain; chatLog('toggled a mountain terrain marker')"
+                              },
+                              {
+                                "type": "button",
+                                "props": {
+                                  "className": "hovered-reveal",
+                                  "variant": "{{item.Ocean ? 'primary' : 'blurry'}}",
+                                  "style": {
+                                    "fontSize": "1vh"
+                                  }
+                                },
+                                "children": "Ocean",
+                                "onClick": "game.data.TerrainMarkers.markers[index].Ocean = !item.Ocean; chatLog('toggled an ocean terrain marker')"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "events": {
+              "onOpponentUpdate": "for(let i=0; i<8; i++) { if ((i < 4 && opponentGame.turn.orderPosition === game.data.TumulteData.info.opponentHero) || (i >= 4 && opponentGame.turn.orderPosition === game.data.TumulteData.info.opponentCompanion)) { game.data.OppTerrainMarkers.markers[i] = opponentGame.data.TerrainMarkers.markers[i]; } }"
+            }
+          },
+          "FirstPlayer": {
+            "type": "custom",
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "position-absolute pe-none top-0 start-0 w-100",
+                "style": {
+                  "paddingLeft": "20vh",
+                  "marginTop": "-1vh"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "position-relative pe-auto shadow on-section-hovered",
+                    "style": {
+                      "height": "5vh",
+                      "width": "5vh",
+                      "translate": "-50%",
+                      "borderRadius": "50%",
+                      "backdropFilter": "blur(20px)"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "img",
+                      "props": {
+                        "className": "h-100 w-100",
+                        "style": {
+                          "opacity": "{{game.data.FirstPlayer.enabled ? '1' : '0'}}"
+                        },
+                        "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/first-player.png"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "hovered-reveal position-absolute top-50 start-50 translate-middle opp-hidden",
+                        "style": {
+                          "display": "{{game.data.FirstPlayer.enabled ? 'none' : 'flex'}}"
+                        }
+                      },
+                      "onClick": "game.data.FirstPlayer.enabled = true; game.data.FirstPlayer.lastOwnerOrderPosition = game.turn.orderPosition; chatLog('has taken the first player token')",
+                      "children": "Take"
+                    }
+                  ]
+                }
+              ]
+            },
+            "defaultValue": {
+              "enabled": false,
+              "lastOwnerOrderPosition": -1
+            },
+            "events": {
+              "onStart": "if (game.turn.isMyTurn) { game.data.FirstPlayer = { enabled: true, lastOwnerOrderPosition: game.turn.orderPosition } }",
+              "onOpponentUpdate": "if (opponentGame.data.FirstPlayer.enabled) { game.data.FirstPlayer = { enabled: false, lastOwnerOrderPosition: opponentGame.turn.orderPosition } }",
+              "onNewTurn": "const newFirstPlayer = (game.data.FirstPlayer.lastOwnerOrderPosition + 1) % game.turn.totalPlayers; game.data.FirstPlayer = { enabled: newFirstPlayer === game.turn.orderPosition, lastOwnerOrderPosition: newFirstPlayer }"
+            }
+          }
+        }
+      }
     }
+  },
+  "defaultRessources": {
+    "backgrounds": [
+      "https://valcur.github.io/TCG-Arena-Altered/Images/Playmats/playmat-1.jpeg",
+      "https://valcur.github.io/TCG-Arena-Altered/Images/Playmats/playmat-2.jpeg",
+      "https://valcur.github.io/TCG-Arena-Altered/Images/Playmats/playmat-10.jpeg",
+      "https://valcur.github.io/TCG-Arena-Altered/Images/Playmats/playmat-11.jpeg",
+      "https://valcur.github.io/TCG-Arena-Altered/Images/Playmats/playmat-12.jpeg"
+    ],
+    "decksUrl": "https://valcur.github.io/TCG-Arena-Altered/AlteredDecks.json"
+  },
+  "customHelp": "The first player is chosen accordingly to your game options. You can take it if you want a different player to start.\n\nAutopay only works with cards played from hand.",
+  "cards": {
+    "dataUrl": "https://valcur.github.io/TCG-Arena-Altered/AlteredCards.json",
+    "cardBack": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/card-back.png",
+    "cardBackColor": "#c8bdb3"
+  },
+  "translationsUrl": "https://valcur.github.io/TCG-Arena-Altered/Translations.json"
 }
