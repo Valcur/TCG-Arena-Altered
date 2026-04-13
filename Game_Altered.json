@@ -14,7 +14,7 @@
         },
         {
           "title": "f.mp_4",
-          "gameplay": "mp_4"
+          "gameplay": "f.mp_4"
         }
       ]
     },
@@ -756,7 +756,7 @@
           }
         }
       },
-      "mp_4": {
+      "f.mp_4": {
         "mulligan": {
           "startingHandSize": 0
         },
