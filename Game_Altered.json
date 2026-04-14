@@ -698,7 +698,7 @@
               "blueprint": {
                 "type": "div",
                 "props": {
-                  "className": "position-absolute ms-none top-0 end-0 w-100",
+                  "className": "position-absolute pe-none top-0 end-0 w-100",
                   "style": {
                     "paddingRight": "10vh",
                     "marginTop": "-1vh"
@@ -708,7 +708,7 @@
                   {
                     "type": "div",
                     "props": {
-                      "className": "position-relative pe-auto shadow on-section-hovered",
+                      "className": "position-relative ms-auto pe-auto shadow on-section-hovered",
                       "style": {
                         "height": "5vh",
                         "width": "5vh",
@@ -1470,7 +1470,7 @@
                   {
                     "type": "div",
                     "props": {
-                      "className": "position-relative ms-auto shadow on-section-hovered",
+                      "className": "position-relative ms-auto pe-auto shadow on-section-hovered",
                       "style": {
                         "height": "5vh",
                         "width": "5vh",
