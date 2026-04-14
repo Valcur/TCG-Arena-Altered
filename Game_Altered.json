@@ -698,9 +698,9 @@
               "blueprint": {
                 "type": "div",
                 "props": {
-                  "className": "position-absolute pe-none top-0 start-0 w-100",
+                  "className": "position-absolute pe-none top-0 end-0 w-100",
                   "style": {
-                    "paddingLeft": "20vh",
+                    "paddingRight": "10vh",
                     "marginTop": "-1vh"
                   }
                 },
@@ -1460,9 +1460,9 @@
               "blueprint": {
                 "type": "div",
                 "props": {
-                  "className": "position-absolute pe-none top-0 start-0 w-100",
+                  "className": "position-absolute pe-none top-0 end-0 w-100",
                   "style": {
-                    "paddingLeft": "20vh",
+                    "paddingRight": "10vh",
                     "marginTop": "-1vh"
                   }
                 },
