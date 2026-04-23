@@ -21,7 +21,10 @@
     "gameplay": {
       "Classic": {
         "mulligan": {
-          "startingHandSize": 6
+          "startingHandSize": 6,
+          "mulliganCount": {
+            "max": 0
+          }
         },
         "newTurn": {
           "drawOnStart": false,
@@ -758,7 +761,10 @@
       },
       "mp_4": {
         "mulligan": {
-          "startingHandSize": 0
+          "startingHandSize": 6,
+          "mulliganCount": {
+            "max": 0
+          }
         },
         "newTurn": {
           "drawOnStart": false,
