@@ -20,7 +20,6 @@ async function modifyJsonFile(inputFilePath, outputFilePath, result, tokens, isL
         jsonObject.forEach((c) => {
             const cardId = c.reference;
             const cardType = c.cardType.name
-            const image = c.imagePath
             const cost = Number(c.elements.MAIN_COST.replace(/\D/g, ""));
             const cardName = c.name + (c.rarity.reference === "RARE" ? " - " + c.mainFaction.reference : "");
             const isToken = c.cardType.reference.includes("TOKEN")
@@ -32,7 +31,10 @@ async function modifyJsonFile(inputFilePath, outputFilePath, result, tokens, isL
                         name: cardName,
                         type: cardType,
                         cost: cost,
-                        image: image
+                        image: {
+                            en: `https://cdn.alteredcore.org/cards/en/${c.cardSet.reference}/${c.reference}.webp`,
+                            fr:`https://cdn.alteredcore.org/cards/fr/${c.cardSet.reference}/${c.reference}.webp`
+                        }
                     }
                 },
                 name: cardName,

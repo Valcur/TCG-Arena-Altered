@@ -1,4 +1,5 @@
 {
+    "additionalLanguages": ["fr"],
     "en": {
         "Gameplay": {
             "f.mp_4": "Multiplayer - 4 players",
