@@ -5,128 +5,134 @@ const extractTokenNames = (text) => {
     if (!text) return [];
     const matches = text.match(/\[([^\]]+)\]/g) || [];
     return matches
-        .map((m) => m.replace(/\[|\]/g, "")) // remove brackets
-        .map((m) => m.replace(/\s*\d+\/\d+\/\d+\s*/g, "").trim()) // remove stats like 1/1/1
+        .map((m) => m.replace(/\[|\]/g, ""))
+        .map((m) => m.replace(/\s*\d+\/\d+\/\d+\s*/g, "").trim())
         .filter((t) => t.length > 0);
 };
 
-// Fonction pour lire et modifier le fichier JSON
-async function modifyJsonFile(inputFilePath, outputFilePath, result, tokens, isLast) {
-    try {
-        const isGeneratingTokenStep = result === false
-        const data = await fs.readFile("Sets/" + inputFilePath, 'utf8');
-        const jsonObject = JSON.parse(data);
+const extractNumberValue = (text) => {
+    return text
+    return text ? Number(text.replace(/\D/g, "")) : undefined
+}
 
-        jsonObject.forEach((c) => {
+async function run() {
+    // Note : on récupère tout, y compris les tokens via l'API
+    const baseUrl = "https://cards.alteredcore.org/api/cards?set.reference[]=CORE&set.reference[]=COREKS&set.reference[]=PROMO_GENCON_2023&set.reference[]=PROMO_2024&set.reference[]=JUDGE&set.reference[]=MUSUBI&set.reference[]=FUGUE&set.reference[]=EOLE&set.reference[]=DUSTER&set.reference[]=DUSTERTOP&set.reference[]=DUSTEROP&set.reference[]=CYCLONE&set.reference[]=ALIZE&set.reference[]=TCS3&set.reference[]=BISE&set.reference[]=WCF25&set.reference[]=WCQ25&set.reference[]=WCS25&set.reference[]=WCS26&rarity[]=RARE&rarity[]=COMMON&rarity[]=EXALTED&itemsPerPage=1000";
+    const outputFilePath = 'AlteredCards.json';
+
+    let allApiCards = [];
+    let currentPage = 1;
+    let lastPage = 1;
+
+    try {
+        console.log("🚀 Démarrage de la récupération des données...");
+        
+        // --- ÉTAPE 1 : Pagination ---
+        while (currentPage <= lastPage) {
+            console.log(`📥 Récupération de la page ${currentPage}/${lastPage}...`);
+            const response = await fetch(`${baseUrl}&page=${currentPage}`);
+            const data = await response.json();
+
+            allApiCards.push(...data.member);
+            if (currentPage === 1) lastPage = data.lastPage;
+            currentPage++;
+        }
+
+        console.log(`✅ ${allApiCards.length} cartes récupérées.`);
+
+        let result = {};
+        let tokensLookup = {};
+
+        // --- ÉTAPE 2 : Création d'un dictionnaire de référence pour le matching des tokens ---
+        allApiCards.forEach(c => {
+            if (c.cardType && c.cardType.reference.includes("TOKEN")) {
+                tokensLookup[c.name.en.toLowerCase()] = c.reference;
+            }
+        });
+
+        // --- ÉTAPE 3 : Transformation des données ---
+        allApiCards.forEach((c) => {
             const cardId = c.reference;
-            const cardType = c.cardType.name
-            const cost = Number(c.elements.MAIN_COST.replace(/\D/g, ""));
-            const cardName = c.name + (c.rarity.reference === "RARE" ? " - " + c.mainFaction.reference : "");
-            const isToken = c.cardType.reference.includes("TOKEN")
+            const cardSet = c.set?.reference ?? "Unknown Set";
+            const isToken = c.cardType.reference.includes("TOKEN");
+            
+            if (!c.set) {
+                console.log(c)
+            }
+
+            // Construction du nom multilingue
+            // On ajoute la faction dans le nom uniquement si c'est une Rare (selon ta logique)
+            const suffix = c.rarity?.reference === "RARE" ? ` - ${c.faction.code}` : "";
+
+            const cardNameObj = {
+                en: c.name.en + suffix,
+                fr: (c.name.fr || c.name.en) + suffix
+            };
 
             let newCard = {
                 id: cardId,
                 face: {
                     front: {
-                        name: cardName,
-                        type: cardType,
-                        cost: cost,
+                        name: cardNameObj,
+                        type: c.cardType.name.en, // Ou un objet fr/en si tu préfères
+                        cost: c.mainCost || 0,
                         image: {
-                            en: `https://cdn.alteredcore.org/cards/en/${c.cardSet.reference}/${c.reference}.webp`,
-                            fr:`https://cdn.alteredcore.org/cards/fr/${c.cardSet.reference}/${c.reference}.webp`
+                            en: `https://cdn.alteredcore.org/cards/en/${cardSet}/${cardId}.webp`,
+                            fr: `https://cdn.alteredcore.org/cards/fr/${cardSet}/${cardId}.webp`
                         }
                     }
                 },
-                name: cardName,
-                type: cardType,
-                cost: cost,
-                isToken: isToken,
-                faction: c.mainFaction.name,
-                rarity: c.rarity.name,
-                "Main Cost": c.elements.MAIN_COST ? Number(c.elements.MAIN_COST.replace(/\D/g, "")) : undefined,
-                "Recall Cost": c.elements.RECALL_COST ? Number(c.elements.RECALL_COST.replace(/\D/g, "")) : undefined,
-                "Ocean Power": c.elements.OCEAN_POWER ? Number(c.elements.OCEAN_POWER.replace(/\D/g, "")) : undefined,
-                "Forest Power": c.elements.FOREST_POWER ? Number(c.elements.FOREST_POWER.replace(/\D/g, "")) : undefined,
-                "Mountain Power": c.elements.MOUNTAIN_POWER ? Number(c.elements.MOUNTAIN_POWER.replace(/\D/g, "")) : undefined,
+                name: cardNameObj,
+                type: c.cardType.name.en,
+                cost: c.mainCost || 0,
+                faction: c.faction.name,
+                rarity: c.rarity.reference,
+                set: c.set?.name ?? "Unknown Set",
+                "Main Cost": extractNumberValue(c.mainCost),
+                "Recall Cost": extractNumberValue(c.recallCost),
+                "Ocean Power": extractNumberValue(c.oceanPower),
+                "Forest Power": extractNumberValue(c.forestPower),
+                "Mountain Power": extractNumberValue(c.mountainPower)
             };
 
-            if (!isGeneratingTokenStep) {
-                const possibleFields = [
-                    c.elements?.MAIN_EFFECT,
-                    c.elements?.SECONDARY_EFFECT,
-                    c.elements?.ADDITIONAL_EFFECT,
-                    c.elements?.EFFECT,
-                ].filter(Boolean);
-            
-                const foundTokenNames = new Set();
-
-                for (const fieldText of possibleFields) {
-                    const extracted = extractTokenNames(fieldText);
-                    for (const name of extracted) {
-                        foundTokenNames.add(name); // ✅ évite les doublons automatiquement
-                    }
-                }
-            
-                // --- Chercher dans le dictionnaire global des tokens ---
-                let foundTokens = [];
-
-                // --- Pour chaque nom détecté, on cherche le premier token correspondant ---
-                for (const tokenName of foundTokenNames) {
-                    const foundToken = Object.values(tokens || {}).find(
-                        (token) => token.name.toLowerCase() === tokenName.toLowerCase()
-                    );
-                    if (foundToken) {
-                        foundTokens.push(foundToken);
-                    }
-                }
-           
-
-                if (foundTokens.length > 0) {
-                    newCard.tokens = foundTokens.map((t) => t.id);
-                    //console.log(`🧩 ${cardName} → Tokens trouvés :`, newCard.tokens);
-                }
-
-                result[cardId] = newCard;
+            if (isToken) {
+                newCard.isToken = true
             }
 
-            if (isGeneratingTokenStep && isToken) {
-                tokens[cardId] = newCard;
-                return
+            // --- ÉTAPE 4 : Extraction et liaison des Tokens ---
+            const possibleFields = [c.mainEffect?.en, c.echoEffect?.en].filter(Boolean);
+            const foundTokenNames = new Set();
+
+            for (const fieldText of possibleFields) {
+                const extracted = extractTokenNames(fieldText);
+                extracted.forEach(name => foundTokenNames.add(name.toLowerCase()));
             }
+
+            let foundTokensIds = [];
+            for (const tokenName of foundTokenNames) {
+                const tokenId = tokensLookup[tokenName];
+                if (tokenId) {
+                    foundTokensIds.push(tokenId);
+                }
+            }
+
+            if (foundTokensIds.length > 0) {
+                newCard.tokens = foundTokensIds;
+            }
+
+            // On ajoute tout au résultat (Cartes ET Tokens)
+            result[cardId] = newCard;
         });
 
-        console.log("File now has " + Object.keys(result).length + " cards");
+        // --- ÉTAPE 5 : Sauvegarde ---
+        await fs.writeFile(outputFilePath, JSON.stringify(result, null, 2), 'utf8');
+        
+        console.log("---");
+        console.log(`💾 Fichier sauvegardé : ${outputFilePath}`);
+        console.log(`📊 Total dans le JSON : ${Object.keys(result).length} entrées.`);
 
-        if (isLast) {
-            await fs.writeFile(outputFilePath, JSON.stringify(result, null, 2), 'utf8');
-            console.log('✅ Le fichier JSON final a été sauvegardé sous', outputFilePath);
-            console.log("Cards total: " + Object.keys(result).length);
-        }
     } catch (err) {
-        console.error("Erreur :", err);
-    }
-}
-
-async function run() {
-    const outputFilePath = 'AlteredCards.json';
-
-    // Add tokens manually as they are not in the .json
-    let res = {}
-    let tokens = {}
-
-    const files = ["COREKS_EN.json", "CORE_EN.json", "BISE_EN.json", "ALIZE_EN.json", "CYCLONE_EN.json", "DUSTER_EN.json", "EOLE_EN.json"];
-
-    // Exécution séquentielle
-
-    // Tokens
-    for (let i = 0; i < files.length; i++) {
-        await modifyJsonFile(files[i], outputFilePath, false, tokens);
-    }
-
-    // Regular cards
-    for (let i = 0; i < files.length; i++) {
-        const isLast = i === files.length - 1;
-        await modifyJsonFile(files[i], outputFilePath, res, tokens, isLast);
+        console.error("❌ Erreur :", err);
     }
 }
 
